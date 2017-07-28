@@ -1,0 +1,537 @@
+// Navigation
+
+.usa-banner {
+  background-color: $color-gray-lightest;
+  padding-bottom: 0.7rem;
+
+  @include grid-media($SM) {
+    font-size: $h6-font-size;
+    padding-bottom: 0;
+  }
+}
+
+.usa-banner-header {
+  font-size: 1.2rem;
+  font-weight: $font-normal;
+
+  p {
+    display: inline-block;
+    @include margin(2px null);
+    overflow: hidden;
+    vertical-align: middle;
+  }
+
+  &__img {
+    float: left;
+    margin-right: 0.7rem;
+    margin-top: 1px;
+  }
+}
+
+.usa-banner-inner {
+  @include padding(null $site-margins-mobile);
+  max-width: $site-max-width-L;
+  // would prefer to avoid this but the amp-img is doing something odd to the height
+  height: 2.2rem;
+
+  @include grid-media($L) {
+    @include padding(null $site-margins);
+  }
+}
+
+$logo_img_height-S: 36px;
+$logo_img_height-L: 45px;
+$logo_height-S: $logo_img_height-S + 15px + 10px;
+$logo_height-L: $logo_img_height-L + 15px + 10px;
+$nav_item_height: 17px + 26.5px;
+
+@mixin activeNavElement() {
+  position: relative;
+  color: $color-primary-darker;
+  font-weight: bold;
+  background-color: $color-gray-lightest;
+}
+
+.usajobs-nav {
+  position: relative;
+  background-color: $color-white;
+
+  ul {
+    // The default is a table which ruins animating the height
+    display: block;
+  }
+
+  &__body {
+    // @include outer-container();
+    max-width: $site-max-width-L;
+    border-bottom: 1px solid $color-gray-lighter;
+
+    a {
+      // An override of the base styles just to be certain we don't have
+      // underlined links in the nav
+      text-decoration: none;
+    }
+  }
+
+  &__header,
+  &__header-container {
+    @include clearfix();
+  }
+
+  &__banner-inner {
+    @include grid-media($ML) {
+      padding-left: $size-M;
+    }
+  }
+
+  &__brand-container {
+    display: block;
+    float: left;
+    margin-right: $size-S;
+
+    @include grid-media($M) {
+      margin-right: $size-M;
+    }
+  }
+
+  &__brand {
+    display: block;
+    padding: $size-default 0 $size-S $size-default;
+    line-height: 1;
+
+    @include grid-media($ML) {
+      padding-left: $size-M;
+    }
+
+    .logo {
+      display: inline-block;
+      height: rem(36px);
+      width: rem(150px);
+      background-image: url('#{$image-path}/logo/png/red-2x.png');
+      background-image: url('#{$image-path}/logo/svg/red-2x.svg');
+      background-repeat: no-repeat;
+      vertical-align: middle;
+
+      @include grid-media($ML) {
+        height: rem(45px);
+        width: rem(188px);
+      }
+    }
+  }
+
+  &__sub-brand {
+    @include h3();
+    display: block;
+    font-style: italic;
+    font-weight: normal;
+    color: $color-base;
+    margin-top: 0;
+
+    @include grid-media($M) {
+      display: inline-block;
+      padding-left: $size-S;
+    }
+
+    &:visited {
+      color: $color-base;
+    }
+  }
+
+  &__menu {
+    display: block;
+    float: right;
+    height: rem($logo_height-S);
+
+    @include grid-media($L) {
+      height: rem($logo_height-L);
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      text-align: right;
+    }
+  }
+
+  &__first_name {
+    display: none;
+
+    @include grid-media($SM) {
+      display: inherit;
+      max-width: rem(140px);
+    }
+  }
+
+  &__account_name {
+    @include grid-media($SM) {
+      display: none;
+    }
+  }
+
+  &__menu-container {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+    &::before,
+    &::after {
+      content: none;
+    }
+
+    &[data-state="is-open"] {
+      @include transition(all $duration-fast linear);
+
+      .usajobs-nav__section-link {
+        color: $color-white;
+        background-color: $color-primary-darker;
+        // @include boxShadow(2);
+      }
+
+      ul.usajobs-nav__secondary-menu {
+        display: block !important;
+      }
+    }
+  }
+
+  &__section-link {
+    display: block;
+    padding: (($logo_height-S - 44px) / 2) $size-S;
+    line-height: 1;
+    text-align: center;
+    @include transition(all $duration-fast linear);
+    color: $color-primary;
+
+    @include grid-media($SM) {
+      padding-left: $size-default;
+      padding-right: $size-default;
+    }
+
+    @include grid-media($ML) {
+      padding: rem(($logo_height-L - 44px) / 2) $size-M;
+    }
+
+    &:visited {
+      color: $color-primary;
+    }
+
+    &:hover {
+      color: $color-primary-darker;
+      text-decoration: none;
+    }
+
+    &.is-active {
+      @include activeNavElement();
+    }
+
+    .fa {
+      display: block;
+      font-size: $h3-font-size;
+      padding-bottom: $size-XS;
+    }
+  }
+
+  ul.usajobs-nav__secondary-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: $size-base 0;
+    background-color: $color-gray-lightest;
+    // @include boxShadow(2);
+    z-index: 99999;
+    text-align: left;
+
+    @include grid-media($M) {
+      left: auto;
+      right: auto;
+    }
+
+    li {
+      display: block;
+      width: 100%;
+
+      @include grid-media($L) {
+        margin: 0;
+      }
+
+      &::before,
+      &::after {
+        content: none;
+        margin: 0;
+      }
+
+      &:last-child {
+        border-bottom: 0;
+      }
+
+      a {
+        display: block;
+        width: 100%;
+        clear: both;
+        padding: $size-S $size-M;
+        white-space: nowrap;
+      }
+    }
+  }
+
+  &__help {
+    display: none;
+
+    @include grid-media($M) {
+      display: inline-block;
+    }
+  }
+
+  &__search {
+    padding: 0 $size-default $size-M;
+    background-color: $color-primary-darker;
+
+    @include grid-media($M) {
+      padding-bottom: $size-S;
+    }
+
+    @include grid-media($ML) {
+      padding-left: $size-M;
+      padding-right: $size-M;
+    }
+
+    &[aria-expanded="false"] {
+      display: none;
+    }
+
+    form {
+      max-width: inherit;
+    }
+
+    label {
+      max-width: inherit;
+      color: $color-white;
+    }
+  }
+
+/*
+  &__search-keywords-container {
+    @include grid-media($M) {
+      @include grid-column(3, 6);
+    }
+
+    @include grid-media($L) {
+      @include grid-column(6, 12);
+    }
+  }
+
+  &__search-location-container {
+    @include grid-media($M) {
+      @include grid-column(3, 6);
+      @include omega();
+    }
+
+    @include grid-media($L) {
+      @include grid-column(4, 12);
+    }
+  }
+*/
+
+  &__search-map-view,
+  &__search-map-view:visited {
+    display: inline-block;
+    float: right;
+    color: $color-white;
+    font-size: $small-font-size;
+    text-decoration: underline;
+
+    &:hover {
+      color: $color-white;
+    }
+  }
+
+  &__search-button-container {
+    text-align: right;
+
+    @include grid-media($SM) {
+      // override of standards
+      text-align: right;
+    }
+
+    @include grid-media($M) {
+      // @include grid-column(6, 6);
+    }
+
+    @include grid-media($L) {
+      // @include grid-column(2, 12);
+      // @include omega();
+      margin-top: $size-L;
+      text-align: left;
+    }
+  }
+
+  &__search-keywords-input[type="text"],
+  &__search-location-input[type="text"] {
+    position: relative;
+    max-width: inherit;
+  }
+
+  &__search-keywords-icon,
+  &__search-location-icon {
+    color: $color-primary-alt-dark;
+  }
+
+  &__search-button {
+    margin-top: $size-M;
+    margin-right: 0;
+    padding: ($size-default - 0.2rem) $size-M;
+    font-size: $h4-font-size;
+
+    @include grid-media($M) {
+      margin-top: $size-S;
+    }
+  }
+
+  &__create-account {
+    @include default-text();
+    margin: 0;
+    padding: $size-base $size-default;
+    border: 1px solid $color-gray-lighter;
+    border-bottom-width: 0;
+    background-color: $color-gray-lightest;
+  }
+
+  &__create-account-link,
+  &__create-account-link:visited {
+    color: $color-primary;
+  }
+}
+
+.usajobs-nav--full_bleed {
+  &__body {
+    max-width: inherit;
+  }
+
+  &__banner-inner,
+  &__header,
+  &__search-body,
+  &__create-account-container {
+    max-width: $site-max-width-L;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__banner-inner {
+    @include grid-media($ML) {
+      padding-left: $size-M;
+    }
+
+    @include grid-media($XXXXL) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  &__create-account {
+    @include grid-media($ML) {
+      padding-left: $size-M;
+    }
+  }
+
+  &__brand {
+    @include grid-media($XXXXL) {
+      padding-left: 0;
+    }
+  }
+}
+
+.usajobs-nav--vATP {
+  &__body {
+    max-width: inherit;
+  }
+
+  &__banner-inner,
+  &__header,
+  &__search-body {
+    max-width: $site-max-width-L;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__banner-inner {
+    @include grid-media($ML) {
+      padding-left: $size-M;
+    }
+
+    @include grid-media($XXXXL) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  &__brand {
+    @include grid-media($XXXXL) {
+      padding-left: 0;
+    }
+  }
+
+  &__search-button-container {
+    text-align: left;
+  }
+
+  &__menu {
+    float: left;
+    width: 100%;
+
+    @include grid-media($ML) {
+      float: right;
+      width: auto;
+    }
+
+    ul {
+      width: 100%;
+      text-align: left;
+
+      @include grid-media($ML) {
+        text-align: right;
+      }
+    }
+  }
+
+  &__account &__section-link {
+    padding-left: $size-default;
+    padding-right: $size-M;
+
+    @include grid-media($ML) {
+      padding-right: $size-default;
+    }
+  }
+
+  &__section-link {
+    @include grid-media($ML) {
+      padding-left: $size-default;
+      padding-right: $size-default;
+    }
+    @include grid-media($L) {
+      padding-left: $size-M;
+      padding-right: $size-M;
+    }
+  }
+
+  &__search-keywords-container {
+    @include grid-media($L) {
+      // @include grid-column(5, 12);
+    }
+  }
+
+  &__search-location-container {
+    @include grid-media($L) {
+      // @include grid-column(4, 12);
+    }
+  }
+
+  &__search-button-container {
+    text-align: right;
+
+    @include grid-media($L) {
+      // @include grid-column(3, 12);
+      text-align: left;
+    }
+  }
+}

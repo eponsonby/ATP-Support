@@ -1,0 +1,121 @@
+
+// Animation
+$duration-fast:   0.3s;
+$duration-slow:   0.8s;
+
+// Mixins
+@mixin respond-to($breakpoint) {
+  @media only screen and (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin font-smoothing {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+@mixin font-feature-settings {
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -ms-font-feature-settings: "liga", "dlig";
+  -webkit-font-feature-settings: "liga", "dlig";
+  -o-font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga", "dlig";
+}
+
+@mixin header {
+  font-family: $font-serif;
+  font-weight: $font-bold;
+  line-height: $heading-line-height;
+  margin-bottom: $size-base;
+  margin-top: 0;
+}
+
+@mixin h1 {
+  @include header();
+  font-size: $h1-font-size;
+  font-size: rem($h1-font-size);
+  color: $color-primary-darkest;
+}
+
+@mixin h2 {
+  @include header();
+  font-size: $h2-font-size;
+  font-size: rem($h2-font-size);
+  color: $color-primary-darkest;
+}
+
+@mixin h3 {
+  @include header();
+  font-family: $font-sans;
+  font-size: $h3-font-size;
+  font-size: rem($h3-font-size);
+}
+
+@mixin h4 {
+  @include header();
+  font-family: $font-sans;
+  font-size: $h4-font-size;
+  font-size: rem($h4-font-size);
+}
+
+@mixin default-text {
+  font-size: $base-font-size-px;
+  font-size: $base-font-size;
+  font-weight: $font-normal;
+  line-height: 1.5;
+  margin: $size-S 0;
+}
+
+@mixin unstyledList() {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  > li {
+    display: list-item;
+    margin: 0;
+
+    &:before {
+      display: none;
+    }
+
+    &:after {
+      display: none;
+    }
+  }
+}
+
+@mixin makeCircle($size, $border: none, $bg-color: inherit, $color: $color-white) {
+  display: inline-block;
+  width: $size;
+  height: $size;
+  line-height: $size;
+  border-radius: 50%;
+  color: $color;
+  background-color: $bg-color;
+  box-shadow: 0 0 0 2px $border inset;
+}
+
+@mixin bulletList() {
+  list-style: none;
+  padding-left: 0;
+  display: table;
+
+  > li {
+    display: table-row;
+
+    &:before {
+      content: "•";
+      display: table-cell;
+      padding-right: 0.4em;
+    }
+
+    &:after {
+      content: "";
+      display: block;
+      margin-bottom: 0.5em;
+    }
+  }
+}
