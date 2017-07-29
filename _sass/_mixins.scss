@@ -119,3 +119,93 @@ $duration-slow:   0.8s;
     }
   }
 }
+
+@mixin usa-sidenav-list {
+  @include unstyledList();
+
+  > li {
+    background-color: transparent;
+    border-top: 1px solid $color-gray;
+    font-size: $h4-font-size;
+
+    &:first-child {
+      border-top: none;
+    }
+  }
+
+  a {
+    border: none;
+    color: $color-base;
+    display: block;
+    font-family: $font-sans;
+    line-height: 1.3;
+    padding: 0.85rem 1rem 0.85rem 1.8rem;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $color-gray-lightest;
+      color: $color-primary;
+      text-decoration: none;
+    }
+
+    &:focus {
+      position: relative;
+      z-index: 1;
+    }
+
+    &.usa-current { /* stylelint-disable-line selector-no-qualifying-type */
+      border-left: 0.4rem solid $color-primary;
+      color: $color-primary;
+      font-weight: $font-bold;
+      padding-left: 1.4rem;
+    }
+  }
+}
+
+@mixin usa-sidenav-sublist {
+  @include unstyledList();
+  margin: 0;
+  width: 100%;
+
+  li {
+    border: none;
+    font-size: $h5-font-size;
+  }
+
+  a {
+    padding-left: 2.8rem;
+    line-height: $heading-line-height;
+
+    &:hover,
+    &.usa-current { /* stylelint-disable-line selector-no-qualifying-type */
+      border: none;
+      padding-left: 2.8rem;
+    }
+  }
+
+  .usa-sidenav-sub_list {
+    a {
+      padding-left: 3.8rem;
+
+      &:hover {
+        padding-left: 3.8rem;
+      }
+    }
+  }
+}
+
+@mixin button-unstyled {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  font-weight: $font-normal;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  text-align: left;
+  -webkit-font-smoothing: auto;
+
+  &:hover {
+    background-color: transparent;
+  }
+}

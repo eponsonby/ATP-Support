@@ -2,14 +2,19 @@
 @import 'neat/neat';
 @import 'font-awesome/scss/font-awesome';
 
-$image-path: "../assets/images";
-
+@import 'variables';
 @import 'typography';
 @import 'breakpoints';
 @import 'colors';
 @import 'layout';
 @import 'mixins';
 @import 'base';
+
+// Components
 @import 'nav';
-@import 'home';
 @import 'footer';
+@import 'header-nav';
+
+// Layouts
+@import 'layouts/home';
+@import 'layouts/joa-playbook';

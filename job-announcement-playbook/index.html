@@ -2,19 +2,29 @@
 layout: joa-playbook
 ---
 
-<section class="usajobs-shell">
-  <main class="usajobs-content-well" role="main">
-    <div class="usajobs-recruitment-joa-playbook">
-      <h2 class="usajobs-recruitment-joa-playbook__title">
-        Welcome to the job announcement playbook
-      </h2>
-      <p class="usa-font-lead">
-        Here you can find the latest news and information about job announcements. Read our latest release notes, learn about the best practices of other agencies, and get guidance on creating an ideal job announcement.
-      </p>
-      <h2 class="usajobs-recruitment-joa-playbook__title">
-        Release notes
-      </h2>
+<main class="usajobs-content-well usajobs-recruitment-joa-playbook__main" role="main">
+    <h2 class="usajobs-recruitment-joa-playbook__title">
+      Welcome to the job announcement playbook
+    </h2>
+    <p class="usa-font-lead">
+      Here you can find the latest news and information about job announcements. Read our latest release notes, learn about the best practices of other agencies, and get guidance on creating an ideal job announcement.
+    </p>
+    <h2 class="usajobs-recruitment-joa-playbook__title">
+      Release notes
+    </h2>
+    <div class="usajobs-recruitment-release-notes">
       {% include release-notes/release-6.6.html %}
     </div>
-  </main>
-</section>
+  </div>
+</main>
+<aside class="usajobs-rightrail usajobs-recruitment-joa-playbook__aside">
+  <h4>Previous Releases</h4>
+  <ul class="usa-unstyled-list">
+    <li>
+      <a href="{{ site.baseurl }}/joa-announcement-playbook/release-notes/v6.6/">6.6</a>
+    </li>
+    <li>
+      <a href="{{ site.baseurl }}/joa-announcement-playbook/release-notes/v6.5/">6.5</a>
+    </li>
+  </ul>
+</aside>

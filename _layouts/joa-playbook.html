@@ -3,9 +3,16 @@
   {% include head.html %}
   <body class="amp-border-box">
     {% include header.html %}
+    {% include components/joa-playbook/header-nav.html %}
     {% include analytics.html %}
     <div class="usajobs-recruitment usajobs-recruitment-joa-playbook">
-      {{ content }}
+      <div class="usajobs-content-gutter">
+        <section class="usajobs-shell">
+          <div class="usajobs-recruitment-joa-playbook">
+            {{ content }}
+          </div>
+        </section>
+      </div>
     </div>
     {% include components/footer.html %}
   </body>
