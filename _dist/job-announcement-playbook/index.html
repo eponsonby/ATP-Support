@@ -40,8 +40,8 @@
   "@type": "WebPage",
   "mainEntityOfPage": "http://usajobs.github.io/ATP-Support//ATP-Support/job-announcement-playbook/",
   "headline": "Help for the USAJOBS Agency Talent Portal",
-  "datePublished": "2017-07-29T12:26:28-04:00",
-  "dateModified": "2017-07-29T12:26:28-04:00",
+  "datePublished": "2017-07-31T13:14:06-04:00",
+  "dateModified": "2017-07-31T13:14:06-04:00",
   "description": "Get help with strategic recruitment.",
   "author": {
     "@type": "Organization",
@@ -2664,6 +2664,12 @@ h4 {
   font-size: 19px;
   font-size: 1.9rem; }
 
+.usa-font-lead {
+  font-family: Merriweather, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 1.9rem;
+  line-height: 1.7;
+  max-width: 77rem; }
+
 .usa-button,
 .usa-button-primary,
 .usa-button:visited,
@@ -3113,22 +3119,12 @@ main {
   .usajobs-nav__brand {
     display: block;
     padding: 1.5rem 0 1rem 1.5rem;
-    line-height: 1; }
+    line-height: 1;
+    max-width: 16.5rem; }
     @media (min-width: 48em) {
       .usajobs-nav__brand {
-        padding-left: 3rem; } }
-    .usajobs-nav__brand .logo {
-      display: inline-block;
-      height: 3.6rem;
-      width: 15rem;
-      background-image: url("../assets/images/logo/png/red-2x.png");
-      background-image: url("../assets/images/logo/svg/red-2x.svg");
-      background-repeat: no-repeat;
-      vertical-align: middle; }
-      @media (min-width: 48em) {
-        .usajobs-nav__brand .logo {
-          height: 4.5rem;
-          width: 18.8rem; } }
+        padding-left: 3rem;
+        max-width: 21.8rem; } }
   .usajobs-nav__sub-brand {
     font-family: Merriweather, Georgia, Cambria, "Times New Roman", Times, serif;
     font-weight: 700;
@@ -3452,16 +3448,12 @@ li.usa-footer-primary-content {
     text-decoration: none;
     font-size: 24px; }
 .usajobs-footer--v2 .usa-footer-logo .logo {
-  display: inline-block;
-  height: 3.6rem;
-  width: 15rem;
-  background-image: url("../assets/images/logo/png/white-2x.png");
-  background-image: url("../assets/images/logo/svg/white-2x.svg");
-  background-repeat: no-repeat; }
+  display: inline-block; }
+.usajobs-footer--v2__logo {
+  max-width: 15rem; }
   @media (min-width: 48em) {
-    .usajobs-footer--v2 .usa-footer-logo .logo {
-      height: 4.5rem;
-      width: 18.8rem; } }
+    .usajobs-footer--v2__logo {
+      max-width: 18.8rem; } }
 .usajobs-footer--v2__note {
   color: #ffffff;
   font-size: 1.4rem; }
@@ -3786,7 +3778,13 @@ li.usa-footer-primary-content {
           <div class="usajobs-nav__header">
             <div class="usajobs-nav__brand-container">
               <a class="usajobs-nav__brand usajobs-nav--vATP__brand" href="/">
-                <span class="logo" title="USAJOBS logo"></span>
+                <amp-img src="/ATP-Support/assets/images/logo/png/red-2x.png"
+                  srcset="/ATP-Support/assets/images/logo/png/red-2x.png 768w,
+                  /ATP-Support/assets/images/logo/png/red-2x-narrow.png 100w"
+                  width="150"
+                  height="36"
+                  layout="responsive"
+                  alt="USAJOBS logo"></amp-img>
               </a>
             </div>
           </div>
@@ -3817,17 +3815,17 @@ li.usa-footer-primary-content {
     <div class="usa-nav-inner">
       <ul class="usa-nav-primary">
         <li>
-          <a class="usa-nav-link" href="/ATP-Support/job-announcement/details/">
+          <a class="usa-nav-link" href="/ATP-Support/job-announcement-playbook/details/">
             <span>Announcement details</span>
           </a>
         </li>
         <li>
-          <a class="usa-nav-link" href="/ATP-Support/job-announcement/case-studies/">
+          <a class="usa-nav-link" href="/ATP-Support/job-announcement-playbook/case-studies/">
             <span>Case studies</span>
           </a>
         </li>
         <li>
-          <a class="usa-nav-link" href="/ATP-Support/job-announcement/creating/">
+          <a class="usa-nav-link" href="/ATP-Support/job-announcement-playbook/creating/">
             <span>Creating an announcement</span>
           </a>
         </li>
@@ -3870,53 +3868,48 @@ li.usa-footer-primary-content {
       Release notes
     </h2>
     <div class="usajobs-recruitment-release-notes">
-      
-<main class="usajobs-content-well usajobs-recruitment-joa-playbook__main" role="main">
-  <div class="usajobs-recruitment-release-notes">
-    <h3>Release 6.6</h3>
-    <p>
-      This release introduces new layout and content guidelines for job announcements. The focus of the release is on the job announcement however, there a few other changes of note:
-    </p>
-    <h4>New hiring path: Internal to an agency</h4>
-    <p>
-      We heard your feedback and have added a new hiring path: Internal to agency. This option should be used to indicate that a job is only open to employees of the posting agency. Using the text “agency only” in the Who May Apply section will cause the job announcement to be tagged with this hiring path.
-    </p>
-    <p>
-      There is also a new page in our Help Center for this hiring path:
-      <a href="https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/federal-employees/internal/">
-        https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/federal-employees/internal/
-      </a>
-    </p>
-    <h4>Land management hiring path demoted</h4>
-    <p>
-      The Land Management hiring path was removed from search filtering, job announcements (section “This job is open to…”), and the landing page. A page remains in the Help Center dedicated to explaining this hiring path to applicants. It is now found at this URL:
-    </p>
-    <p>
-      <a href=" https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/federal-employees/land-management/">
-        https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/federal-employees/land-management/
-      </a>
-    </p>
-    <p>
-      This was done because a land management eligible applicant can actually apply to the same positions as any other merit promotion eligible federal employee. Thus there was no need to have a distinct filter for search which is a main criteria for creating and maintaining a hiring path.
-    </p>
+  <h3>Release 6.6</h3>
+  <p>
+    This release introduces new layout and content guidelines for job announcements. The focus of the release is on the job announcement however, there a few other changes of note:
+  </p>
+  <h4>New hiring path: Internal to an agency</h4>
+  <p>
+    We heard your feedback and have added a new hiring path: Internal to agency. This option should be used to indicate that a job is only open to employees of the posting agency. Using the text “agency only” in the Who May Apply section will cause the job announcement to be tagged with this hiring path.
+  </p>
+  <p>
+    There is also a new page in our Help Center for this hiring path:
+    <a href="https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/federal-employees/internal/">
+      https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/federal-employees/internal/
+    </a>
+  </p>
+  <h4>Land management hiring path demoted</h4>
+  <p>
+    The Land Management hiring path was removed from search filtering, job announcements (section “This job is open to…”), and the landing page. A page remains in the Help Center dedicated to explaining this hiring path to applicants. It is now found at this URL:
+  </p>
+  <p>
+    <a href=" https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/federal-employees/land-management/">
+      https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/federal-employees/land-management/
+    </a>
+  </p>
+  <p>
+    This was done because a land management eligible applicant can actually apply to the same positions as any other merit promotion eligible federal employee. Thus there was no need to have a distinct filter for search which is a main criteria for creating and maintaining a hiring path.
+  </p>
 
-    <h4>Base management hiring path sub-page created</h4>
-    <p>
-      While we nested the Land Management hiring path page under Federal employees we also added a page to highlight a similar eligibility for employees of the  Defense Industrial Base Facility or the Major Range and Test Facilities Base. That new page can be found here:
-    </p>
-    <p>
-      <a href="https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/federal-employees/base-management/">
-        https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/federal-employees/base-management/
-      </a>
-    </p>
-    <h4>Travel options</h4>
-    <p>
-      We are updating the options for the question “What percentage of duty time will you travel?” that the user can set in their Profile > Preferences (https://www.usajobs.gov/Applicant/ProfileDashboard/Preferences) to the following options:
-    </p>
-  </div>
-</main>
+  <h4>Base management hiring path sub-page created</h4>
+  <p>
+    While we nested the Land Management hiring path page under Federal employees we also added a page to highlight a similar eligibility for employees of the  Defense Industrial Base Facility or the Major Range and Test Facilities Base. That new page can be found here:
+  </p>
+  <p>
+    <a href="https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/federal-employees/base-management/">
+      https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/federal-employees/base-management/
+    </a>
+  </p>
+  <h4>Travel options</h4>
+  <p>
+    We are updating the options for the question “What percentage of duty time will you travel?” that the user can set in their Profile > Preferences (https://www.usajobs.gov/Applicant/ProfileDashboard/Preferences) to the following options:
+  </p>
+</div>
 
-    </div>
   </div>
 </main>
 <aside class="usajobs-rightrail usajobs-recruitment-joa-playbook__aside">
@@ -3969,7 +3962,14 @@ li.usa-footer-primary-content {
   <div class="usa-footer-secondary_section usa-footer-big-secondary-section">
     <div class="usajobs-grid">
       <div class="usa-footer-logo usajobs-width-one-half usajobs-footer--v2__logo">
-        <span class="logo"></span>
+        <amp-img src="/ATP-Support/assets/images/logo/png/white-2x.png"
+          srcset="/ATP-Support/assets/images/logo/png/white-2x.png 768w,
+          /ATP-Support/assets/images/logo/png/white-2x-narrow.png 100w"
+          width="150"
+          height="36"
+          layout="responsive"
+          alt="USAJOBS logo"></amp-img>
+
         <p class="usajobs-footer--v2__note">
           USAJOBS Agency Talent Portal Support is a <a href="https://www.opm.gov">United States Office of Personnel Management</a> website.
         </p>

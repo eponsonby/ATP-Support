@@ -175,6 +175,13 @@ h4 {
   @include h4();
 }
 
+.usa-font-lead {
+  font-family: $font-serif;
+  font-size: $lead-font-size;
+  line-height: $lead-line-height;
+  max-width: $lead-max-width;
+}
+
 // BUTTONS
 $button-stroke: inset 0 0 0 2px;
 // scss-lint:disable PropertyCount
