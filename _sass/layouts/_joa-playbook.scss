@@ -1,7 +1,59 @@
 
 .usajobs-recruitment-joa-playbook {
+  @include grid-container();
+
   &__main,
   &__aside {
     padding: $size-M 0;
+  }
+
+  &__sidenav {
+    @include grid-media($ML) {
+      @include grid-column(2);
+      margin-left: 0;
+      padding-top: $size-M;
+    }
+  }
+
+  &__main {
+    @include grid-media($ML) {
+      @include grid-column(4);
+    }
+  }
+}
+
+.usajobs-recruitment-joa-playbook-details {
+  h3 {
+    margin-top: $size-L;
+    border-bottom: 1px solid $color-gray;
+  }
+
+  &__container {
+    @include grid-media($M) {
+      display: flex;
+      flex-wrap: none;
+    }
+  }
+
+  &__do,
+  &__do-not {
+    @include grid-media($M) {
+      flex: 1;
+      width: 50%;
+    }
+  }
+
+  &__do {
+    padding-right: $size-default;
+
+    h4 span {
+      color: $color-green;
+    }
+  }
+
+  &__do-not {
+    h4 span {
+      color: $color-secondary;
+    }
   }
 }

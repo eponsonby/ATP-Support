@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ⚡ lang="en">
+  {% include head.html %}
+  <body class="amp-border-box">
+    {% include header.html %}
+    {% include components/joa-playbook/header-nav.html %}
+    {% include analytics.html %}
+    <div class="usajobs-recruitment usajobs-recruitment-joa-playbook">
+      <div class="usajobs-content-gutter">
+        <section class="usajobs-shell">
+          <div class="usajobs-recruitment-joa-playbook">
+            <aside class="usajobs-leftrail usajobs-recruitment-joa-playbook__sidenav">
+              {% include components/joa-playbook/sidenav.html %}
+            </aside>
+            <main class="usajobs-content-well usajobs-recruitment-joa-playbook__main usajobs-recruitment-joa-playbook-details" role="main">
+              <h2 class="usajobs-recruitment-joa-playbook__title">
+                {{ page.title }}
+              </h2>
+              <p class="usa-font-lead">
+                {{ page.lead }}
+              </p>
+              {{ content }}
+            </main>
+          </div>
+        </section>
+      </div>
+    </div>
+    {% include components/footer.html %}
+  </body>
+</html>

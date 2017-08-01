@@ -10,11 +10,11 @@ $XXXL-screen:  100em;     // 1600px at 16px base font
 $XXXXL-screen: 120em;     // 1920px at 16px base font
 
 // min-width
-$SM:    (media: "(min-width: 30em)", columns: 2, gutter: 1.5rem);
+$SM:    (media: "(min-width: 30em)", columns: 2, gutter: 1rem);
 $M:     (media: "(min-width: 37.5em)", columns: 6, gutter: 1.5rem);
-$ML:    (media: "(min-width: 48em)", columns: 6, gutter: 1.5rem);
-$L:     (media: $L-screen, columns: 12, gutter: 1.5rem);
-$XL:    (media: $XL-screen, columns: 12);
-$XXL:   (media: $XXL-screen, columns: 12);
-$XXXL:  (media: $XXXL-screen, columns: 16);
-$XXXXL: (media: $XXXXL-screen, columns: 16);
+$ML:    (media: "(min-width: 48em)", columns: 6, gutter: 3rem);
+$L:     (media: $L-screen, columns: 12, gutter: 3rem);
+$XL:    (media: $XL-screen, columns: 12, gutter: 3rem);
+$XXL:   (media: $XXL-screen, columns: 12, gutter: 3rem);
+$XXXL:  (media: $XXXL-screen, columns: 16, gutter: 3rem);
+$XXXXL: (media: $XXXXL-screen, columns: 16, gutter: 3rem);

@@ -370,6 +370,22 @@ main {
   }
 }
 
+.usajobs-leftrail {
+  @include grid-media($L) {
+    @include grid-column(4);
+  }
+
+  @include grid-media($XL) {
+    @include grid-column(4);
+  }
+
+  .usajobs-content-gutter {
+    @include grid-media($L) {
+      padding-right: 0;
+    }
+  }
+}
+
 .usajobs-rightrail {
   @include grid-media($L) {
     @include grid-column(4);
