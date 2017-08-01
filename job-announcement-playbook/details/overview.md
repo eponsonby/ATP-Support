@@ -4,7 +4,7 @@ layout: joa-details
 category: details
 title: Overview
 sidenav: overview
-lead: The overview section gives an ‘at-a-glance’ view of the job. Some of this information appears on the search results card and entices a job seeker to open the job announcement.
+lead: The overview section gives an "at-a-glance" view of the job. Some of this information appears on the search results card and entices a job seeker to open the job announcement.
 current-fields: ["Job title", "Department name", "Agency name", "Open and closing dates", "Service", "Pay scale and grade", "Salary", "Appointment type", "Work schedule"]
 previous-fields: ["Announcement number", "Control number", "Series"]
 ---
@@ -75,5 +75,93 @@ Yes
   <h4><span class="fa fa-times"></span> Do Not</h4>
   * Do not include play plan, series, grade or any other information that is available elsewhere in the job announcement.
   * Do not include additional information in parenthesis.
+</div>
+</div>
+
+### Service
+
+Tells the applicant what service the job is in: Competitive, Excepted, or Senior Executive Service.
+
+#### Required
+Yes
+
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__do">
+  <h4><span class="fa fa-check"></span> Do</h4>
+  * Only include the service type.
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__do-not">
+  <h4><span class="fa fa-times"></span> Do Not</h4>
+  * Do not include the appointment type — this is captured in the appointment type field.
+  * Do not include the work schedule — this is captured in the work schedule field.
+</div>
+</div>
+
+
+### Pay scale and grade
+
+Describes the grade level and pay scale that the job falls under.
+
+#### Required
+Yes
+
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__do">
+  <h4><span class="fa fa-check"></span> Do</h4>
+  *	Only include the pay scale and grade.
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__do-not">
+  <h4><span class="fa fa-times"></span> Do Not</h4>
+  * Do not include the salary — this information is captured in the salary field.
+</div>
+</div>
+
+### Salary
+
+The salary range of the job. USAJOBS displays the starting salary in the search results and the full salary range in the job announcement.
+
+You can enter a “per year” or “hourly” salary.  
+
+If the salary is hourly, the value can’t exceed $220.00 per hour.
+
+#### Required
+Yes
+
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__do">
+  <h4><span class="fa fa-check"></span> Do</h4>
+  * You must include a salary with a numeric value other than “0”.
+  * Include a minimum and maximum salary.
+  * May include an hourly wage — the system will map hourly wages to a per year salary when using the pay filter in the USAJOBS search.
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__do-not">
+  <h4><span class="fa fa-times"></span> Do Not</h4>
+  * Do not leave the salary blank.
+  * Do not set the maximum salary to “$0”.
+  * Do not include the pay scale or grade.
+</div>
+</div>
+
+### Appointment type
+
+Tells the applicant the type of appointment.  Appointment types can be:
+
+*	Permanent
+*	Temporary
+*	Term
+*	Detail
+*	Intermittent
+*	Internships
+*	Recent graduates
+
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__do">
+  <h4><span class="fa fa-check"></span> Do</h4>
+  * Only include the appointment type.
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__do-not">
+  <h4><span class="fa fa-times"></span> Do Not</h4>
+  * Do not include the service type—this is captured in the Service field.
+  * Do not include the work schedule—this is captured in the work schedule field.
 </div>
 </div>

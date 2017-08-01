@@ -19,6 +19,30 @@
               <p class="usa-font-lead">
                 {{ page.lead }}
               </p>
+              <div class="usajobs-recruitment-joa-playbook-details__fields-container">
+                <div class="usajobs-recruitment-joa-playbook-details__current-fields">
+                  <h5 class="usajobs-recruitment-joa-playbook-details__fields-title">Current fields</h5>
+                  <p class="usajobs-recruitment-joa-playbook-details__fields-detail">
+                    This section may contain the following:
+                  </p>
+                  <ul class="usajobs-recruitment-joa-playbook-details__field-list">
+                    {% for field in page.current-fields %}
+                    <li><a href="#{{ field | slugify }}">{{ field }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </div>
+                <div class="usajobs-recruitment-joa-playbook-details__previous-fields">
+                  <h5 class="usajobs-recruitment-joa-playbook-details__fields-title">Previous fields</h5>
+                  <p class="usajobs-recruitment-joa-playbook-details__fields-detail">
+                    This section has contained this information in the past but has now been relocated:
+                  </p>
+                  <ul class="usajobs-recruitment-joa-playbook-details__field-list">
+                    {% for field in page.previous-fields %}
+                    <li><a href="#{{ field }}">{{ field }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
               {{ content }}
             </main>
           </div>

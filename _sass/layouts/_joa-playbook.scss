@@ -28,6 +28,7 @@
     border-bottom: 1px solid $color-gray;
   }
 
+  &__fields-container,
   &__container {
     @include grid-media($M) {
       display: flex;
@@ -35,6 +36,8 @@
     }
   }
 
+  &__current-fields,
+  &__previous-fields,
   &__do,
   &__do-not {
     @include grid-media($M) {
@@ -43,9 +46,30 @@
     }
   }
 
+  &__current-fields,
   &__do {
-    padding-right: $size-default;
+    @include grid-media($M) {
+      padding-right: $size-default;
+    }
+  }
 
+  &__fields-title {
+    text-transform: uppercase;
+  }
+
+  &__fields-detail {
+    margin-top: 0;
+    font-size: $small-font-size;
+  }
+
+  &__field-list {
+    a {
+      display: block;
+      padding: $size-base 0;
+    }
+  }
+
+  &__do {
     h4 span {
       color: $color-green;
     }

@@ -24,7 +24,7 @@ $duration-slow:   0.8s;
 }
 
 @mixin header {
-  font-family: $font-serif;
+  font-family: $font-sans;
   font-weight: $font-bold;
   line-height: $heading-line-height;
   margin-bottom: $size-base;
@@ -57,6 +57,20 @@ $duration-slow:   0.8s;
   font-family: $font-sans;
   font-size: $h4-font-size;
   font-size: rem($h4-font-size);
+}
+
+@mixin h5 {
+  @include header();
+  font-size: $h5-font-size;
+  font-size: rem($h5-font-size);
+}
+
+@mixin h6 {
+  @include header();
+  font-size: $h6-font-size;
+  font-size: rem($h6-font-size);
+  font-weight: $font-normal;
+  text-transform: uppercase;
 }
 
 @mixin default-text {
