@@ -6,10 +6,10 @@ title: Overview
 sidenav: overview
 lead: The overview section gives an "at-a-glance" view of the job. Some of this information appears on the search results card and entices a job seeker to open the job announcement.
 current-fields: ["Job title", "Department name", "Agency name", "Open and closing dates", "Service", "Pay scale and grade", "Salary", "Appointment type", "Work schedule"]
-previous-fields: ["Announcement number", "Control number", "Series"]
+previous-fields: ["Announcement number", "Control number", "Series", "Agency Marketing Message", "Marketing URL"]
 ---
 
-## Current fields
+## Title bar - Current fields
 
 ### Job title
 
@@ -50,6 +50,8 @@ The agency name will appear as a link. Clicking the link opens a modal that show
 
 #### Required
 Yes
+
+## Overview - Current fields
 
 ### Open and closing dates
 
@@ -219,6 +221,40 @@ As of the 6.6 release override text has now become supplemental text and will ap
 </div>
 </div>
 
+## Agency modal - Current fields
+
+The Agency modal opens when the user clicks on:
+
+* The agency name in the [title bar](#title-bar---current-fields)
+* The **Learn more about this agency** button in the [Duties](../duties/) section.
+* The **Learn more about this agency** link in the Agency contact information component of [How to apply](../how-to-apply)
+
+### Agency details
+
+This text appears in the lead paragraph of the agency modal and allows the agency to communicate what they do to the job seeker. This field was formerly known as "Agency Marketing Message".
+
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__do">
+  <h4><span class="fa fa-check"></span> Do</h4>
+  * Explain what the agency does.
+  * Explain what the specific unit does that this job will exist within.
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__do-not">
+  <h4><span class="fa fa-times"></span> Do Not</h4>
+  * Do not copy the mission statement of the agency. Job seekers can find that information on your web site and many will view your site if they are serious about applying. Also, mission statements often do not convey to an outsider what the agency does.
+  * Do not summarize the job. That should be done in the [Duties](../duties#summary) summary section.
+</div>
+</div>
+
+### Agency contact information
+
+This information holds the contact information and address where applicants can reach the agency. It includes phone, TDD, email, and address.
+
+### Agency Careers page URL
+
+Allows the agency to provide a URL to their careers page that will be included at the bottom of the modal. This field was formerly known as Marketing URL.
+
+
 ## Previous fields
 
 ### Announcement number
@@ -233,8 +269,16 @@ The control number has moved to the [actions section](../how-to-apply#actions) w
 
 The series has moved to a new section, [Similar jobs](../similar-jobs/), that lives between Duties and Requirements and contains the series and a list of similar occupations. We moved series after a card sort and a usability test with non-Federal employee job seekers where they discovered they did not know what a series referred to. We worked with this group to ensure that the label "Job family (Series)" was clear and provided more context.
 
-We also moved series because we have a problem we are trying to address: Over 50% of all traffic to USAJOBS comes from domains external to USAJOBS and our bounce rate our of job announcements is over 60%. In other words, over half of our users come from goggle or another outside source directly to a job announcement, view the announcement for an average of 106.5 seconds, and then leave the site entirely.
+We also moved series because we have a problem we are trying to address: Over 50% of all traffic to USAJOBS comes from domains external to USAJOBS and our bounce rate out of job announcements is quite high. In other words, over half of our users come from goggle or another outside source directly to a job announcement, view the announcement for an average of 106.5 seconds, and then a majority of those users leave the site entirely.
 
-We observed, over several usability tests, seekers evaluating the job announcement by reading the overview and duties section. By that point in reading the document seekers were making a decision to move on or not. Thus given our bounce rate we want to provide navigation to similar jobs in case this job is not an ideal fit for this applicant. Both the series and occupations take the users to search results that will provide them with other options.
+We observed, over several usability tests, seekers evaluating the job announcement by reading the overview and duties section. By that point in reading the document seekers were making a decision to move on or not. Thus given our bounce rate we want to provide navigation to similar jobs in case this job is not an ideal fit for this applicant. Both the series link and occupation buttons take the user to search results that will provide them with other options.
 
 As with all changes we'll monitor the impact of this change using analytics and continued testing with job seekers.
+
+### Agency Marketing Message
+
+This field was not shown unless the Agency Marketing URL was present. It has been renamed to [Agency Details](#agency-details) to indicate that the agency can control what details they want to present in this section and it will now appear in the Agency details modal.
+
+### Marketing URL
+
+This field was renamed to [Agency Careers page URL](#agency-careers-page-url) to better indicate the information we are hoping to obtain there. It is displayed in the Agency details modal.

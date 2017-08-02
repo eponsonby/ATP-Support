@@ -30,7 +30,7 @@ Yes
 </div>
 <div class="usajobs-recruitment-joa-playbook-details__do-not">
   <h4><span class="fa fa-times"></span> Do Not</h4>
-  * Do not use the job summary to discussion the mission statement of they agency. This is now captured in the [Agency details](../banner#agency-details).
+  * Do not use the job summary to discussion the mission statement of they agency. Agencies may now use the [Agency modal](../overview#agency-modal---current-fields) to convey details about the agency and a link to your careers page.
   * Don’t use dehumanizing terms like “incumbent” or “candidate”.
 </div>
 </div>
@@ -159,38 +159,79 @@ Yes
 
 #### Pre-requisites
 
-The Who May Apply section has contained eligibility information as well as a set of pre-requisites for employment that have found new homes in the job announcement. We've created a set of new fields in our API to collect this information elsewhere. The following is a table showing what information was conveyed in this section in the past and where it should be moved to:
+The Who May Apply section has contained eligibility information as well as a set of pre-requisites for employment that have found new homes in the job announcement.
 
-{: .table .table-striped}
-| Prerequisite  | Description | New location |
-| ------------- | ----------- | ------------ |
-| Location - commuting area | Defines the radius of the commuting area | New field in API |
-| Location - state | Common with National Guard, i.e. Virginia National Guard, but also some announcements where the applicant has to be within a specific state. | New field in API |
-| Cut-off number | When a JOA states it will only accept a certain number of applications | New field in API |
-| Second job announcement | When JOA is split between two announcements with different eligibility | New field in API |
-| Evergreen | Open-continuous | New field in API |
-| Evergreen with cut-off dates | Both open-continuous and having specific cut-off dates | New field in API |
-| Agency employees only | Internal posting.  This could be for any agency. | New field in API - New hiring path |
-| Reserves | This could be combined with National Guard - National Guard and Reserves | Expand National Guard label |
+##### New field in API
+
+All of the changes below warranted the creation of a new field in our API. Work with your Talent Acquisition System (TAS) to request access to these new fields.
+
+{: .usajobs-recruitment-joa-playbook-details__table}
+| Prerequisite  | Description |
+| ------------- | ----------- |
+| Cut-off number | When a JOA states it will only accept a certain number of applications |
+| Evergreen | Open-continuous |
+| Evergreen with cut-off dates | Both open-continuous and having specific cut-off dates |
+| Location - commuting area | Defines the radius of the commuting area |
+| Location - state | Common with National Guard, i.e. Virginia National Guard, but also some announcements where the applicant has to be within a specific state. |
+| Second job announcement | When JOA is split between two announcements with different eligibility |
+
+
+##### Hiring path changes
+
+This information required a change to an existing hiring path or the creation of a new path.
+
+{: .usajobs-recruitment-joa-playbook-details__table}
+| Prerequisite  | Description |
+| ------------- | ----------- |
+| Agency employees only | New hiring path "Internal to an agency" |
+| Reserves | Combined with National Guard - Hiring path changed to National Guard and Reserves |
 | In the 1st, 2nd, or 3rd areas of consideration | National Guard | National Guard & Reserves |
-| Current high school student | | Education |
-| Current graduate student | | 	Education |
-| Current graduate student in [field] | A graduate student in a specific field of study. | Education |
-| Current student | Is this needed?  Should we offer only specific types?  High school, undergrad, grad, recent grad? | Education |
-| Current undergraduate student in [field] | A current undergrad student in a specific field of study | Education |
-| Recent graduate only | | Education |
-| Recent graduate in [field] | A current graduate student in a specific field of study | Education |
-| Non-citizens | A few JOAs mention being open to non-citizens if there are no qualified U.S. citizens | Conditions of Employment |
-| Who can't apply | Current Postal service employees not eligible to apply | Conditions of Employment |
-| Division only | This is common in National Guard - within certain divisions. But also examples of divisions within an agency (GSA employees within federal acquisition service) | Conditions of Employment |
-| Active Military | Should these positions be on USAJOBS? | Conditions of Employment |
-| Dual status or non-dual status | This is also related to National Guard - serving on a permanent dual status appointment? Also saw 'non dual status' on some National Guard JOAs | Conditions of Employment |
-| PHS commissioned corp personnel | | Conditions of Employment |
-| Current intern at agency | Mapped to Federal employees | Conditions of Employment |
-| Must attend a recruitment event | | Conditions of Employment |
-| Current occupation/job | This comes up in the National Guard.  Looking for current 'technicians' or current 'physicians' | Qualifications |
-| Bilingual | Language | Qualifications |
-| Can't apply online | These might be excepted service JOAs where you can't apply via USAJOBS, but somewhere else. | The apply URI should point at a page that describes what the applicant needs to do next. |
+
+##### Education
+
+This information is related to educational qualification requirements. Indicating the level of eduction necessary should be moved to the [Education section of Requirements](../requirements#education).
+
+{: .usajobs-recruitment-joa-playbook-details__table}
+| Prerequisite  | Description |
+| ------------- | ----------- |
+| Current graduate student in [field] | A graduate student in a specific field of study. |
+| Current high school student | |
+| Current undergraduate student in [field] | A current undergrad student in a specific field of study |
+| Recent graduate in [field] | A current graduate student in a specific field of study |
+
+##### Conditions of Employment
+
+This information does not map to a hiring path, is not related to eligibility, and covers an assortment of cases best handled by the [Conditions of Employment](../requirements#conditions-of-employment) section.
+
+{: .usajobs-recruitment-joa-playbook-details__table}
+| Prerequisite  | Description |
+| ------------- | ----------- |
+| Current intern at agency | |
+| Division only | Common in National Guard announcements. Also examples of divisions within an agency (e.g. GSA employees within federal acquisition service) |
+| Dual status or non-dual status | Related to National Guard |
+| Must attend a recruitment event | |
+| Non-citizens | Jobs open to non-citizens if there are no qualified U.S. citizens. Repeat in Conditions of Employment |
+| PHS commissioned corp personnel | |
+| Who can't apply | Current Postal service employees not eligible to apply |
+
+##### Qualifications
+
+This information is not related to eligibility and should be under [Qualifications](../requirements#qualifications).
+
+{: .usajobs-recruitment-joa-playbook-details__table}
+| Prerequisite  | Description |
+| ------------- | ----------- |
+| Bilingual | Language |
+| Current occupation/job | Looking for current 'technicians' or current 'physicians' |
+
+##### No apply path
+
+Certain announcements don't provide a way to apply online. This information is not related to eligibility and should be under [How to apply](../how-to-apply). Please provide a clear path via URL for job seekers to click on to apply on our site or find additional instructions.
+
+{: .usajobs-recruitment-joa-playbook-details__table}
+| Prerequisite  | Description |
+| ------------- | ----------- |
+| Can't apply online | Announcements outside of the competitive service. |
 
 
 ## Previous fields

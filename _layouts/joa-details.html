@@ -32,15 +32,17 @@
                   </ul>
                 </div>
                 <div class="usajobs-recruitment-joa-playbook-details__previous-fields">
+                  {% if page.previous-fields.size > 0 %}
                   <h5 class="usajobs-recruitment-joa-playbook-details__fields-title">Previous fields</h5>
                   <p class="usajobs-recruitment-joa-playbook-details__fields-detail">
                     This section has contained this information in the past but has now been relocated:
                   </p>
                   <ul class="usajobs-recruitment-joa-playbook-details__field-list">
                     {% for field in page.previous-fields %}
-                    <li><a href="#{{ field }}">{{ field }}</a></li>
+                    <li><a href="#{{ field | slugify }}">{{ field }}</a></li>
                     {% endfor %}
                   </ul>
+                  {% endif %}
                 </div>
               </div>
               {{ content }}

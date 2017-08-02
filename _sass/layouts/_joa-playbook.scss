@@ -23,9 +23,18 @@
 }
 
 .usajobs-recruitment-joa-playbook-details {
+  h2 {
+    margin-top: $size-XL;
+  }
+
   h3 {
     margin-top: $size-L;
     border-bottom: 1px solid $color-gray;
+  }
+
+  h4,
+  h5 {
+    margin-top: $size-default;
   }
 
   &__fields-container,
@@ -78,6 +87,35 @@
   &__do-not {
     h4 span {
       color: $color-secondary;
+    }
+  }
+
+  &__table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    border-collapse: collapse;
+    margin-bottom: $size-M;
+
+    tr {
+      background-color: $color-white;
+      border-top: 1px solid $color-gray-light;
+
+      &:nth-child(2n) {
+        background-color: $color-gray-lightest;
+      }
+    }
+
+    th {
+      padding: $size-base $size-default;
+      border: 1px solid $color-gray-light;
+      font-weight: bold;
+    }
+
+    td {
+      padding: $size-base $size-default;
+      border: 1px solid $color-gray-light;
+      font-size: $small-font-size;
     }
   }
 }

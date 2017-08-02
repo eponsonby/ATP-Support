@@ -1,9 +1,20 @@
 <ul class="usa-sidenav-list">
   <li>
-    <a {% if page.sidenav == 'banner' %}class="usa-current" {% endif %} href="{{ site.baseurl }}/job-announcement-playbook/details/banner/">Banner</a>
-  </li>
-  <li>
     <a {% if page.sidenav == 'overview' %}class="usa-current" {% endif %} href="{{ site.baseurl }}/job-announcement-playbook/details/overview/">Overview</a>
+    {% if page.sidenav == 'overview' %}
+    <ul class="usa-sidenav-sub_list">
+      <li>
+        <a {% if page.url contains 'overview#title-bar---current-fields' %}class="usa-current" {% endif %} href="{{ site.baseurl }}/job-announcement-playbook/details/overview#title-bar---current-fields">
+          Title bar
+        </a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/job-announcement-playbook/details/overview#agency-modal---current-fields">
+          Agency modal
+        </a>
+      </li>
+    </ul>
+    {% endif %}
   </li>
   <li>
     <a {% if page.sidenav == 'this-job-is-open-to' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/job-announcement-playbook/details/this-job-is-open-to/">This job is open to</a>
