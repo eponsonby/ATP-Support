@@ -40,8 +40,8 @@
   "@type": "WebPage",
   "mainEntityOfPage": "http://usajobs.github.io/ATP-Support//ATP-Support/job-announcement-playbook/details/overview/",
   "headline": "Overview",
-  "datePublished": "2017-08-02T12:36:10-04:00",
-  "dateModified": "2017-08-02T12:36:10-04:00",
+  "datePublished": "2017-08-02T17:44:41-04:00",
+  "dateModified": "2017-08-02T17:44:41-04:00",
   "description": "Get help with strategic recruitment.",
   "author": {
     "@type": "Organization",
@@ -3864,9 +3864,14 @@ li.usa-footer-primary-content {
     float: left;
     margin-left: 3rem; } }
 
+.usajobs-recruitment-joa-playbook-details h2 {
+  margin-top: 6rem; }
 .usajobs-recruitment-joa-playbook-details h3 {
   margin-top: 4.5rem;
   border-bottom: 1px solid #5b616b; }
+.usajobs-recruitment-joa-playbook-details h4,
+.usajobs-recruitment-joa-playbook-details h5 {
+  margin-top: 1.5rem; }
 @media (min-width: 37.5em) {
   .usajobs-recruitment-joa-playbook-details__fields-container, .usajobs-recruitment-joa-playbook-details__container {
     display: flex;
@@ -3890,6 +3895,25 @@ li.usa-footer-primary-content {
   color: #2e8540; }
 .usajobs-recruitment-joa-playbook-details__do-not h4 span {
   color: #e31c3d; }
+.usajobs-recruitment-joa-playbook-details__table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  border-collapse: collapse;
+  margin-bottom: 3rem; }
+  .usajobs-recruitment-joa-playbook-details__table tr {
+    background-color: #ffffff;
+    border-top: 1px solid #aeb0b5; }
+    .usajobs-recruitment-joa-playbook-details__table tr:nth-child(2n) {
+      background-color: #f1f1f1; }
+  .usajobs-recruitment-joa-playbook-details__table th {
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #aeb0b5;
+    font-weight: bold; }
+  .usajobs-recruitment-joa-playbook-details__table td {
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #aeb0b5;
+    font-size: 1.4rem; }
 
   </style>
 
@@ -4004,10 +4028,21 @@ li.usa-footer-primary-content {
             <aside class="usajobs-leftrail usajobs-recruitment-joa-playbook__sidenav">
               <ul class="usa-sidenav-list">
   <li>
-    <a  href="/ATP-Support/job-announcement-playbook/details/banner/">Banner</a>
-  </li>
-  <li>
     <a class="usa-current"  href="/ATP-Support/job-announcement-playbook/details/overview/">Overview</a>
+    
+    <ul class="usa-sidenav-sub_list">
+      <li>
+        <a  href="/ATP-Support/job-announcement-playbook/details/overview#title-bar---current-fields">
+          Title bar
+        </a>
+      </li>
+      <li>
+        <a href="/ATP-Support/job-announcement-playbook/details/overview#agency-modal---current-fields">
+          Agency modal
+        </a>
+      </li>
+    </ul>
+    
   </li>
   <li>
     <a  href="/ATP-Support/job-announcement-playbook/details/this-job-is-open-to/">This job is open to</a>
@@ -4076,22 +4111,28 @@ li.usa-footer-primary-content {
                   </ul>
                 </div>
                 <div class="usajobs-recruitment-joa-playbook-details__previous-fields">
+                  
                   <h5 class="usajobs-recruitment-joa-playbook-details__fields-title">Previous fields</h5>
                   <p class="usajobs-recruitment-joa-playbook-details__fields-detail">
                     This section has contained this information in the past but has now been relocated:
                   </p>
                   <ul class="usajobs-recruitment-joa-playbook-details__field-list">
                     
-                    <li><a href="#Announcement number">Announcement number</a></li>
+                    <li><a href="#announcement-number">Announcement number</a></li>
                     
-                    <li><a href="#Control number">Control number</a></li>
+                    <li><a href="#control-number">Control number</a></li>
                     
-                    <li><a href="#Series">Series</a></li>
+                    <li><a href="#series">Series</a></li>
+                    
+                    <li><a href="#agency-marketing-message">Agency Marketing Message</a></li>
+                    
+                    <li><a href="#marketing-url">Marketing URL</a></li>
                     
                   </ul>
+                  
                 </div>
               </div>
-              <h2 id="current-fields">Current fields</h2>
+              <h2 id="title-bar---current-fields">Title bar - Current fields</h2>
 
 <h3 id="job-title">Job title</h3>
 
@@ -4136,6 +4177,8 @@ li.usa-footer-primary-content {
 
 <h4 id="required-2">Required</h4>
 <p>Yes</p>
+
+<h2 id="overview---current-fields">Overview - Current fields</h2>
 
 <h3 id="open-and-closing-dates">Open and closing dates</h3>
 
@@ -4338,6 +4381,45 @@ li.usa-footer-primary-content {
   </div>
 </div>
 
+<h2 id="agency-modal---current-fields">Agency modal - Current fields</h2>
+
+<p>The Agency modal opens when the user clicks on:</p>
+
+<ul>
+  <li>The agency name in the <a href="#title-bar---current-fields">title bar</a></li>
+  <li>The <strong>Learn more about this agency</strong> button in the <a href="../duties/">Duties</a> section.</li>
+  <li>The <strong>Learn more about this agency</strong> link in the Agency contact information component of <a href="../how-to-apply">How to apply</a></li>
+</ul>
+
+<h3 id="agency-details">Agency details</h3>
+
+<p>This text appears in the lead paragraph of the agency modal and allows the agency to communicate what they do to the job seeker. This field was formerly known as “Agency Marketing Message”.</p>
+
+<div class="usajobs-recruitment-joa-playbook-details__container">
+  <div class="usajobs-recruitment-joa-playbook-details__do">
+    <h4><span class="fa fa-check"></span> Do</h4>
+    <ul>
+      <li>Explain what the agency does.</li>
+      <li>Explain what the specific unit does that this job will exist within.</li>
+    </ul>
+  </div>
+  <div class="usajobs-recruitment-joa-playbook-details__do-not">
+    <h4><span class="fa fa-times"></span> Do Not</h4>
+    <ul>
+      <li>Do not copy the mission statement of the agency. Job seekers can find that information on your web site and many will view your site if they are serious about applying. Also, mission statements often do not convey to an outsider what the agency does.</li>
+      <li>Do not summarize the job. That should be done in the <a href="../duties#summary">Duties</a> summary section.</li>
+    </ul>
+  </div>
+</div>
+
+<h3 id="agency-contact-information">Agency contact information</h3>
+
+<p>This information holds the contact information and address where applicants can reach the agency. It includes phone, TDD, email, and address.</p>
+
+<h3 id="agency-careers-page-url">Agency Careers page URL</h3>
+
+<p>Allows the agency to provide a URL to their careers page that will be included at the bottom of the modal. This field was formerly known as Marketing URL.</p>
+
 <h2 id="previous-fields">Previous fields</h2>
 
 <h3 id="announcement-number">Announcement number</h3>
@@ -4352,11 +4434,19 @@ li.usa-footer-primary-content {
 
 <p>The series has moved to a new section, <a href="../similar-jobs/">Similar jobs</a>, that lives between Duties and Requirements and contains the series and a list of similar occupations. We moved series after a card sort and a usability test with non-Federal employee job seekers where they discovered they did not know what a series referred to. We worked with this group to ensure that the label “Job family (Series)” was clear and provided more context.</p>
 
-<p>We also moved series because we have a problem we are trying to address: Over 50% of all traffic to USAJOBS comes from domains external to USAJOBS and our bounce rate our of job announcements is over 60%. In other words, over half of our users come from goggle or another outside source directly to a job announcement, view the announcement for an average of 106.5 seconds, and then leave the site entirely.</p>
+<p>We also moved series because we have a problem we are trying to address: Over 50% of all traffic to USAJOBS comes from domains external to USAJOBS and our bounce rate out of job announcements is quite high. In other words, over half of our users come from goggle or another outside source directly to a job announcement, view the announcement for an average of 106.5 seconds, and then a majority of those users leave the site entirely.</p>
 
-<p>We observed, over several usability tests, seekers evaluating the job announcement by reading the overview and duties section. By that point in reading the document seekers were making a decision to move on or not. Thus given our bounce rate we want to provide navigation to similar jobs in case this job is not an ideal fit for this applicant. Both the series and occupations take the users to search results that will provide them with other options.</p>
+<p>We observed, over several usability tests, seekers evaluating the job announcement by reading the overview and duties section. By that point in reading the document seekers were making a decision to move on or not. Thus given our bounce rate we want to provide navigation to similar jobs in case this job is not an ideal fit for this applicant. Both the series link and occupation buttons take the user to search results that will provide them with other options.</p>
 
 <p>As with all changes we’ll monitor the impact of this change using analytics and continued testing with job seekers.</p>
+
+<h3 id="agency-marketing-message">Agency Marketing Message</h3>
+
+<p>This field was not shown unless the Agency Marketing URL was present. It has been renamed to <a href="#agency-details">Agency Details</a> to indicate that the agency can control what details they want to present in this section and it will now appear in the Agency details modal.</p>
+
+<h3 id="marketing-url">Marketing URL</h3>
+
+<p>This field was renamed to <a href="#agency-careers-page-url">Agency Careers page URL</a> to better indicate the information we are hoping to obtain there. It is displayed in the Agency details modal.</p>
 
             </main>
           </div>

@@ -40,8 +40,8 @@
   "@type": "WebPage",
   "mainEntityOfPage": "http://usajobs.github.io/ATP-Support//ATP-Support/job-announcement-playbook/details/duties/",
   "headline": "Duties",
-  "datePublished": "2017-08-02T12:36:10-04:00",
-  "dateModified": "2017-08-02T12:36:10-04:00",
+  "datePublished": "2017-08-02T17:44:41-04:00",
+  "dateModified": "2017-08-02T17:44:41-04:00",
   "description": "Get help with strategic recruitment.",
   "author": {
     "@type": "Organization",
@@ -3864,9 +3864,14 @@ li.usa-footer-primary-content {
     float: left;
     margin-left: 3rem; } }
 
+.usajobs-recruitment-joa-playbook-details h2 {
+  margin-top: 6rem; }
 .usajobs-recruitment-joa-playbook-details h3 {
   margin-top: 4.5rem;
   border-bottom: 1px solid #5b616b; }
+.usajobs-recruitment-joa-playbook-details h4,
+.usajobs-recruitment-joa-playbook-details h5 {
+  margin-top: 1.5rem; }
 @media (min-width: 37.5em) {
   .usajobs-recruitment-joa-playbook-details__fields-container, .usajobs-recruitment-joa-playbook-details__container {
     display: flex;
@@ -3890,6 +3895,25 @@ li.usa-footer-primary-content {
   color: #2e8540; }
 .usajobs-recruitment-joa-playbook-details__do-not h4 span {
   color: #e31c3d; }
+.usajobs-recruitment-joa-playbook-details__table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  border-collapse: collapse;
+  margin-bottom: 3rem; }
+  .usajobs-recruitment-joa-playbook-details__table tr {
+    background-color: #ffffff;
+    border-top: 1px solid #aeb0b5; }
+    .usajobs-recruitment-joa-playbook-details__table tr:nth-child(2n) {
+      background-color: #f1f1f1; }
+  .usajobs-recruitment-joa-playbook-details__table th {
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #aeb0b5;
+    font-weight: bold; }
+  .usajobs-recruitment-joa-playbook-details__table td {
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #aeb0b5;
+    font-size: 1.4rem; }
 
   </style>
 
@@ -4004,10 +4028,8 @@ li.usa-footer-primary-content {
             <aside class="usajobs-leftrail usajobs-recruitment-joa-playbook__sidenav">
               <ul class="usa-sidenav-list">
   <li>
-    <a  href="/ATP-Support/job-announcement-playbook/details/banner/">Banner</a>
-  </li>
-  <li>
     <a  href="/ATP-Support/job-announcement-playbook/details/overview/">Overview</a>
+    
   </li>
   <li>
     <a  href="/ATP-Support/job-announcement-playbook/details/this-job-is-open-to/">This job is open to</a>
@@ -4093,17 +4115,19 @@ li.usa-footer-primary-content {
                   </ul>
                 </div>
                 <div class="usajobs-recruitment-joa-playbook-details__previous-fields">
+                  
                   <h5 class="usajobs-recruitment-joa-playbook-details__fields-title">Previous fields</h5>
                   <p class="usajobs-recruitment-joa-playbook-details__fields-detail">
                     This section has contained this information in the past but has now been relocated:
                   </p>
                   <ul class="usajobs-recruitment-joa-playbook-details__field-list">
                     
-                    <li><a href="#Relocation Authorized">Relocation Authorized</a></li>
+                    <li><a href="#relocation-authorized">Relocation Authorized</a></li>
                     
-                    <li><a href="#Telework eligible">Telework eligible</a></li>
+                    <li><a href="#telework-eligible">Telework eligible</a></li>
                     
                   </ul>
+                  
                 </div>
               </div>
               <h2 id="current-fields">Current fields</h2>
@@ -4130,7 +4154,7 @@ li.usa-footer-primary-content {
   <div class="usajobs-recruitment-joa-playbook-details__do-not">
     <h4><span class="fa fa-times"></span> Do Not</h4>
     <ul>
-      <li>Do not use the job summary to discussion the mission statement of they agency. This is now captured in the <a href="../banner#agency-details">Agency details</a>.</li>
+      <li>Do not use the job summary to discussion the mission statement of they agency. Agencies may now use the <a href="../overview#agency-modal---current-fields">Agency modal</a> to convey details about the agency and a link to your careers page.</li>
       <li>Don’t use dehumanizing terms like “incumbent” or “candidate”.</li>
     </ul>
   </div>
@@ -4280,151 +4304,190 @@ li.usa-footer-primary-content {
 
 <h4 id="pre-requisites">Pre-requisites</h4>
 
-<p>The Who May Apply section has contained eligibility information as well as a set of pre-requisites for employment that have found new homes in the job announcement. We’ve created a set of new fields in our API to collect this information elsewhere. The following is a table showing what information was conveyed in this section in the past and where it should be moved to:</p>
+<p>The Who May Apply section has contained eligibility information as well as a set of pre-requisites for employment that have found new homes in the job announcement.</p>
 
-<table class="table table-striped">
+<h5 id="new-field-in-api">New field in API</h5>
+
+<p>All of the changes below warranted the creation of a new field in our API. Work with your Talent Acquisition System (TAS) to request access to these new fields.</p>
+
+<table class="usajobs-recruitment-joa-playbook-details__table">
   <thead>
     <tr>
       <th>Prerequisite</th>
       <th>Description</th>
-      <th>New location</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Location - commuting area</td>
-      <td>Defines the radius of the commuting area</td>
-      <td>New field in API</td>
-    </tr>
-    <tr>
-      <td>Location - state</td>
-      <td>Common with National Guard, i.e. Virginia National Guard, but also some announcements where the applicant has to be within a specific state.</td>
-      <td>New field in API</td>
-    </tr>
-    <tr>
       <td>Cut-off number</td>
       <td>When a JOA states it will only accept a certain number of applications</td>
-      <td>New field in API</td>
-    </tr>
-    <tr>
-      <td>Second job announcement</td>
-      <td>When JOA is split between two announcements with different eligibility</td>
-      <td>New field in API</td>
     </tr>
     <tr>
       <td>Evergreen</td>
       <td>Open-continuous</td>
-      <td>New field in API</td>
     </tr>
     <tr>
       <td>Evergreen with cut-off dates</td>
       <td>Both open-continuous and having specific cut-off dates</td>
-      <td>New field in API</td>
     </tr>
     <tr>
+      <td>Location - commuting area</td>
+      <td>Defines the radius of the commuting area</td>
+    </tr>
+    <tr>
+      <td>Location - state</td>
+      <td>Common with National Guard, i.e. Virginia National Guard, but also some announcements where the applicant has to be within a specific state.</td>
+    </tr>
+    <tr>
+      <td>Second job announcement</td>
+      <td>When JOA is split between two announcements with different eligibility</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="hiring-path-changes">Hiring path changes</h5>
+
+<p>This information required a change to an existing hiring path or the creation of a new path.</p>
+
+<table class="usajobs-recruitment-joa-playbook-details__table">
+  <thead>
+    <tr>
+      <th>Prerequisite</th>
+      <th>Description</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
       <td>Agency employees only</td>
-      <td>Internal posting.  This could be for any agency.</td>
-      <td>New field in API - New hiring path</td>
+      <td>New hiring path “Internal to an agency”</td>
+      <td> </td>
     </tr>
     <tr>
       <td>Reserves</td>
-      <td>This could be combined with National Guard - National Guard and Reserves</td>
-      <td>Expand National Guard label</td>
+      <td>Combined with National Guard - Hiring path changed to National Guard and Reserves</td>
+      <td> </td>
     </tr>
     <tr>
       <td>In the 1st, 2nd, or 3rd areas of consideration</td>
       <td>National Guard</td>
       <td>National Guard &amp; Reserves</td>
     </tr>
+  </tbody>
+</table>
+
+<h5 id="education">Education</h5>
+
+<p>This information is related to educational qualification requirements. Indicating the level of eduction necessary should be moved to the <a href="../requirements#education">Education section of Requirements</a>.</p>
+
+<table class="usajobs-recruitment-joa-playbook-details__table">
+  <thead>
     <tr>
-      <td>Current high school student</td>
-      <td> </td>
-      <td>Education</td>
+      <th>Prerequisite</th>
+      <th>Description</th>
     </tr>
-    <tr>
-      <td>Current graduate student</td>
-      <td> </td>
-      <td>Education</td>
-    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td>Current graduate student in [field]</td>
       <td>A graduate student in a specific field of study.</td>
-      <td>Education</td>
     </tr>
     <tr>
-      <td>Current student</td>
-      <td>Is this needed?  Should we offer only specific types?  High school, undergrad, grad, recent grad?</td>
-      <td>Education</td>
+      <td>Current high school student</td>
+      <td> </td>
     </tr>
     <tr>
       <td>Current undergraduate student in [field]</td>
       <td>A current undergrad student in a specific field of study</td>
-      <td>Education</td>
-    </tr>
-    <tr>
-      <td>Recent graduate only</td>
-      <td> </td>
-      <td>Education</td>
     </tr>
     <tr>
       <td>Recent graduate in [field]</td>
       <td>A current graduate student in a specific field of study</td>
-      <td>Education</td>
     </tr>
+  </tbody>
+</table>
+
+<h5 id="conditions-of-employment">Conditions of Employment</h5>
+
+<p>This information does not map to a hiring path, is not related to eligibility, and covers an assortment of cases best handled by the <a href="../requirements#conditions-of-employment">Conditions of Employment</a> section.</p>
+
+<table class="usajobs-recruitment-joa-playbook-details__table">
+  <thead>
     <tr>
-      <td>Non-citizens</td>
-      <td>A few JOAs mention being open to non-citizens if there are no qualified U.S. citizens</td>
-      <td>Conditions of Employment</td>
+      <th>Prerequisite</th>
+      <th>Description</th>
     </tr>
+  </thead>
+  <tbody>
     <tr>
-      <td>Who can’t apply</td>
-      <td>Current Postal service employees not eligible to apply</td>
-      <td>Conditions of Employment</td>
+      <td>Current intern at agency</td>
+      <td> </td>
     </tr>
     <tr>
       <td>Division only</td>
-      <td>This is common in National Guard - within certain divisions. But also examples of divisions within an agency (GSA employees within federal acquisition service)</td>
-      <td>Conditions of Employment</td>
-    </tr>
-    <tr>
-      <td>Active Military</td>
-      <td>Should these positions be on USAJOBS?</td>
-      <td>Conditions of Employment</td>
+      <td>Common in National Guard announcements. Also examples of divisions within an agency (e.g. GSA employees within federal acquisition service)</td>
     </tr>
     <tr>
       <td>Dual status or non-dual status</td>
-      <td>This is also related to National Guard - serving on a permanent dual status appointment? Also saw ‘non dual status’ on some National Guard JOAs</td>
-      <td>Conditions of Employment</td>
-    </tr>
-    <tr>
-      <td>PHS commissioned corp personnel</td>
-      <td> </td>
-      <td>Conditions of Employment</td>
-    </tr>
-    <tr>
-      <td>Current intern at agency</td>
-      <td>Mapped to Federal employees</td>
-      <td>Conditions of Employment</td>
+      <td>Related to National Guard</td>
     </tr>
     <tr>
       <td>Must attend a recruitment event</td>
       <td> </td>
-      <td>Conditions of Employment</td>
     </tr>
     <tr>
-      <td>Current occupation/job</td>
-      <td>This comes up in the National Guard.  Looking for current ‘technicians’ or current ‘physicians’</td>
-      <td>Qualifications</td>
+      <td>Non-citizens</td>
+      <td>Jobs open to non-citizens if there are no qualified U.S. citizens. Repeat in Conditions of Employment</td>
     </tr>
+    <tr>
+      <td>PHS commissioned corp personnel</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Who can’t apply</td>
+      <td>Current Postal service employees not eligible to apply</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="qualifications">Qualifications</h5>
+
+<p>This information is not related to eligibility and should be under <a href="../requirements#qualifications">Qualifications</a>.</p>
+
+<table class="usajobs-recruitment-joa-playbook-details__table">
+  <thead>
+    <tr>
+      <th>Prerequisite</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td>Bilingual</td>
       <td>Language</td>
-      <td>Qualifications</td>
     </tr>
     <tr>
+      <td>Current occupation/job</td>
+      <td>Looking for current ‘technicians’ or current ‘physicians’</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="no-apply-path">No apply path</h5>
+
+<p>Certain announcements don’t provide a way to apply online. This information is not related to eligibility and should be under <a href="../how-to-apply">How to apply</a>. Please provide a clear path via URL for job seekers to click on to apply on our site or find additional instructions.</p>
+
+<table class="usajobs-recruitment-joa-playbook-details__table">
+  <thead>
+    <tr>
+      <th>Prerequisite</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
       <td>Can’t apply online</td>
-      <td>These might be excepted service JOAs where you can’t apply via USAJOBS, but somewhere else.</td>
-      <td>The apply URI should point at a page that describes what the applicant needs to do next.</td>
+      <td>Announcements outside of the competitive service.</td>
     </tr>
   </tbody>
 </table>
