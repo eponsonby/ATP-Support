@@ -9,6 +9,8 @@ current-fields: ["Job title", "Department name", "Agency name", "Open and closin
 previous-fields: ["Announcement number", "Control number", "Series"]
 ---
 
+## Current fields
+
 ### Job title
 
 The name of the job.
@@ -144,15 +146,31 @@ Yes
 
 ### Appointment type
 
-Tells the applicant the type of appointment.  Appointment types can be:
+Tells the applicant the type of appointment. Appointment types can be:
 
+##### Multiple
+* Multiple
+
+##### Permanent
 *	Permanent
-*	Temporary
-*	Term
+
+##### Temporary
 *	Detail
 *	Intermittent
+* Seasonal
+*	Temporary
+*	Term
+
+##### Student
 *	Internships
-*	Recent graduates
+*	Recent graduate
+* Presidential Management Fellows
+
+[Definitions for appointment types](https://www.usajobs.gov/Help/working-in-government/pay-and-leave/appointment-types/) are maintained in the Help Center.
+
+#### Recent change
+
+As of the 6.6 release override text has now become supplemental text and will appear next to the value for appointment type. This is to ensure that the key information is conveyed and there is consistency across job announcements.
 
 <div class="usajobs-recruitment-joa-playbook-details__container">
 <div class="usajobs-recruitment-joa-playbook-details__do">
@@ -161,7 +179,62 @@ Tells the applicant the type of appointment.  Appointment types can be:
 </div>
 <div class="usajobs-recruitment-joa-playbook-details__do-not">
   <h4><span class="fa fa-times"></span> Do Not</h4>
-  * Do not include the service type—this is captured in the Service field.
-  * Do not include the work schedule—this is captured in the work schedule field.
+  * Do not include the service type — this is captured in the [Service field](#service).
+  * Do not include the work schedule — this is captured in the [Work schedule field](#work-schedule).
+  * Do not repeat the appointment types in supplemental (formerly override) text. The value of the appointment type field will appear next to the supplemental text you provide.
+  * Avoid Multiple whenever possible. Job seekers have difficulty understanding what this term means. When using Multiple use the supplemental text to explain which appointment types are possible for this job.
 </div>
 </div>
+
+### Work schedule
+
+Tells the applicant the work schedule they can expect for this job.  Work schedule can be:
+
+*	Full-time
+*	Part-time
+*	Shift work
+*	Intermittent
+*	Job sharing
+*	Multiple
+
+[Definitions for work schedules](https://www.usajobs.gov/Help/working-in-government/pay-and-leave/work-schedules/) are maintained in the Help Center.
+
+#### Recent change
+
+As of the 6.6 release override text has now become supplemental text and will appear next to the value for work schedule. This is to ensure that the key information is conveyed and there is consistency across job announcements.
+
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__do">
+  <h4><span class="fa fa-check"></span> Do</h4>
+  * Only include the work schedule.
+  * When using Multiple use the supplemental text to explain which work schedules are possible for this job.
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__do-not">
+  <h4><span class="fa fa-times"></span> Do Not</h4>
+  * Do not include the service type — this is captured in the [Service field](#service).
+  * Do not include the appointment type - this is captured in the [Appointment type field](#appointment-type).
+  * Do not repeat the work schedule in supplemental (formerly override) text. The value of the work schedule field will appear next to the supplemental text you provide.
+  * Do not define the work schedule hours in supplemental (formerly override) text. The definitions are maintained in the Help Center should applicants need them.
+  * Do not use Multiple whenever possible. Job seekers have difficulty understanding what this term means.
+</div>
+</div>
+
+## Previous fields
+
+### Announcement number
+
+The announcement number has moved to the [actions section](../how-to-apply#actions) which lives in the right-hand sidebar. We moved it to give it a consistent and relevant home, it is more relevant to the applicant once they have decided that this job may be worth applying to (thus the placement near the apply button), and to cull the number of items found in the Overview section.
+
+### Control number
+
+The control number has moved to the [actions section](../how-to-apply#actions) which lives in the right-hand sidebar. We moved it to give it a consistent and relevant home, it is more relevant to the applicant once they have decided that this job may be worth applying to (thus the placement near the apply button), and to cull the number of items found in the Overview section.
+
+### Series
+
+The series has moved to a new section, [Similar jobs](../similar-jobs/), that lives between Duties and Requirements and contains the series and a list of similar occupations. We moved series after a card sort and a usability test with non-Federal employee job seekers where they discovered they did not know what a series referred to. We worked with this group to ensure that the label "Job family (Series)" was clear and provided more context.
+
+We also moved series because we have a problem we are trying to address: Over 50% of all traffic to USAJOBS comes from domains external to USAJOBS and our bounce rate our of job announcements is over 60%. In other words, over half of our users come from goggle or another outside source directly to a job announcement, view the announcement for an average of 106.5 seconds, and then leave the site entirely.
+
+We observed, over several usability tests, seekers evaluating the job announcement by reading the overview and duties section. By that point in reading the document seekers were making a decision to move on or not. Thus given our bounce rate we want to provide navigation to similar jobs in case this job is not an ideal fit for this applicant. Both the series and occupations take the users to search results that will provide them with other options.
+
+As with all changes we'll monitor the impact of this change using analytics and continued testing with job seekers.

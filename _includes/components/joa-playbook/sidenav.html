@@ -3,10 +3,25 @@
     <a {% if page.sidenav == 'overview' %}class="usa-current" {% endif %} href="{{ site.baseurl }}/job-announcement-playbook/details/overview/">Overview</a>
   </li>
   <li>
+    <a {% if include.params == 'this-job-is-open-to' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/job-announcement-playbook/details/this-job-is-open-to/">This job is open to</a>
+    {% if include.param == 'requirements' %}
+    <ul class="usa-sidenav-sub_list">
+      <li>
+        <a href="{{ site.baseurl }}/job-announcement-playbook/details/this-job-is-open-to#second-announcement">
+          Second announcement
+        </a>
+      </li>
+    </ul>
+    {% endif %}
+  </li>
+  <li>
     <a href="{{ site.baseurl }}/job-announcement-playbook/details/locations/">Locations</a>
   </li>
   <li>
     <a href="{{ site.baseurl }}/job-announcement-playbook/details/duties/">Duties</a>
+  </li>
+  <li>
+    <a href="{{ site.baseurl }}/job-announcement-playbook/details/similar-jobs/">Similar jobs</a>
   </li>
   <li>
     <a {% if include.params == 'requirements' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/job-announcement-playbook/details/requirements/">Requirements</a>
@@ -42,6 +57,15 @@
     <a href="{{ site.baseurl }}/job-announcement-playbook/details/benefits/">Benefits</a>
   </li>
   <li>
-    <a href="{{ site.baseurl }}/job-announcement-playbook/details/how-to-apply/">How to apply</a>
+    <a {% if include.params == 'how-to-apply' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/job-announcement-playbook/details/how-to-apply/">How to apply</a>
+    {% if include.param == 'how-to-apply' %}
+    <ul class="usa-sidenav-sub_list">
+      <li>
+        <a href="{{ site.baseurl }}/job-announcement-playbook/details/how-to-apply#actions">
+          Actions (apply, print, share, save)
+        </a>
+      </li>
+    </ul>
+    {% endif %}
   </li>
 </ul>
