@@ -6,7 +6,7 @@ title: Conditions of Employment
 sidenav: conditions-of-employment
 lead: Conditions of employment lists pre-conditions or other requirements that the job seeker must have or agree to, either before or after accepting the job. Conditions of employment replaces the former "Key Requirements" section.
 current-fields: ["Bargaining unit position", "Direct deposit", "Driver’s license", "E-verify", "Financial disclosure report", "Financial interest regulation", "Firearm", "Government charge card", "Licensure", "Physical", "PIV process", "Proof of citizenship", "Recruitment incentive"]
-previous-fields: ["Annual leave for non-federal service authorized", "Declaration for federal employment", "Drug test", "Mobility agreement", "Student loan repayment incentive", "Security and background requirements"]
+previous-fields: ["Annual leave for non-federal service authorized", "Declaration for federal employment", "Drug test", "Student loan repayment incentive", "Security and background requirements"]
 ---
 
 This section will:
@@ -26,7 +26,7 @@ Yes
 </div>
 <div class="usajobs-recruitment-joa-playbook-details__do-not">
   <h4><span class="fa fa-times"></span> Do Not</h4>
-  * Do not add your own bullet style or additional HTML - the JOA will automatically apply the correct bullet style.
+  * Do not add your own bullet style or additional HTML - the job announcement will automatically apply the correct bullet style.
   * Do not use the "previous fields" listed below.
   * Do not add a separate "Key Requirements" section — the Conditions of employment replaces Key Requirements.
 </div>
@@ -257,6 +257,13 @@ Must have a full, current and unrestricted license to practice pharmacy in a Sta
 </div>
 </div>
 
+### Mobility agreement
+
+A program allows citizens to work overseas and retain their job when they return.
+
+#### Required
+No
+
 ### Physical
 
 Tells the job seeker if they will need to pass a physical exam before starting the job.
@@ -360,3 +367,25 @@ May be eligible for a recruitment incentive.
   * Do not include this text in Qualifications — it should only appear once and only in Conditions of Employment.
 </div>
 </div>
+
+## Previous fields
+
+### Annual leave for non-federal service authorized
+
+We recommend this move to the [Benefits](../benefits#agency-benefits) section.
+
+### Declaration for federal employment
+
+Agencies are prohibited from collection this Declaration at the time of application unless they have an exception for approval from OPM. There are approvals pending but at this time no agency has this exception. If you feel that your agency does have this exception please communication this to us via the recruiter help email address.
+
+### Drug test
+
+This information has moved to a standard location at the end of the Requirements section named [Background checks and security clearance](../background-checks/#drug-test-required).
+
+### Student loan repayment incentive
+
+We recommend that this information be given in the [Benefits](../benefits#agency-benefits) section.
+
+### Security and background requirements
+
+This information has moved to a standard location at the end of the Requirements section named [Background checks and security clearance](../background-checks/).
