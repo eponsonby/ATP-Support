@@ -4,7 +4,7 @@ layout: joa-details
 category: locations
 title: Locations
 sidenav: locations
-lead: The Locations section details the work locations for the job.
+lead: The Locations section lists the work locations and vacancies for the job.
 current-fields: ["Location", "Vacancies", "Relocation expenses reimbursed", "Telework eligible"]
 ---
 

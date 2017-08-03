@@ -18,7 +18,7 @@
   </li>
   <li>
     <a {% if page.sidenav == 'this-job-is-open-to' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/job-announcement-playbook/details/this-job-is-open-to/">This job is open to</a>
-    {% if page.sidenav == 'requirements' %}
+    {% if page.sidenav == 'this-job-is-open-to' %}
     <ul class="usa-sidenav-sub_list">
       <li>
         <a href="{{ site.baseurl }}/job-announcement-playbook/details/this-job-is-open-to#second-announcement">
@@ -62,26 +62,26 @@
     <a href="{{ site.baseurl }}/job-announcement-playbook/details/similar-jobs/">Similar jobs</a>
   </li>
   <li>
-    <a {% if page.sidenav == 'requirements' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/job-announcement-playbook/details/requirements/">Requirements</a>
-    {% if page.sidenav == 'requirements' %}
+    <a {% if page.category == 'requirements' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/job-announcement-playbook/details/requirements/">Requirements</a>
+    {% if page.category == 'requirements' %}
     <ul class="usa-sidenav-sub_list">
       <li>
-        <a href="{{ site.baseurl }}/job-announcement-playbook/details/requirements#conditions-of-employment">
+        <a {% if page.sidenav == 'conditions-of-employment' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/job-announcement-playbook/details/requirements/conditions-of-employment/">
           Conditions of Employment
         </a>
       </li>
       <li>
-        <a href="{{ site.baseurl }}/job-announcement-playbook/details/requirements#qualifications">
+        <a {% if page.sidenav == 'qualifications' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/job-announcement-playbook/details/requirements/qualifications/">
           Qualifications
         </a>
       </li>
       <li>
-        <a href="{{ site.baseurl }}/job-announcement-playbook/details/requirements#how-you-will-be-evaluated">
+        <a {% if page.sidenav == 'how-you-will-be-evaluated' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/job-announcement-playbook/details/requirements/how-you-will-be-evaluated/">
           How you will be evaluated
         </a>
       </li>
       <li>
-        <a href="{{ site.baseurl }}/job-announcement-playbook/details/requirements#background-checks">
+        <a {% if page.sidenav == 'background-checks' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/job-announcement-playbook/details/requirements/background-checks/">
           Background checks and security clearance
         </a>
       </li>

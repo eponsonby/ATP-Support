@@ -20,6 +20,7 @@
                 {{ page.lead }}
               </p>
               <div class="usajobs-recruitment-joa-playbook-details__fields-container">
+                {% if page.current-fields.size > 0 %}
                 <div class="usajobs-recruitment-joa-playbook-details__current-fields">
                   <h5 class="usajobs-recruitment-joa-playbook-details__fields-title">Current fields</h5>
                   <p class="usajobs-recruitment-joa-playbook-details__fields-detail">
@@ -31,6 +32,7 @@
                     {% endfor %}
                   </ul>
                 </div>
+                {% endif %}
                 <div class="usajobs-recruitment-joa-playbook-details__previous-fields">
                   {% if page.previous-fields.size > 0 %}
                   <h5 class="usajobs-recruitment-joa-playbook-details__fields-title">Previous fields</h5>

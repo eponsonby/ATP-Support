@@ -78,16 +78,19 @@
     }
   }
 
-  &__do {
-    h4 span {
-      color: $color-green;
-    }
+  span.fa.fa-times {
+    color: $color-secondary;
   }
 
-  &__do-not {
-    h4 span {
-      color: $color-secondary;
-    }
+  span.fa.fa-check {
+    color: $color-green;
+  }
+
+  &__suggested-text {
+    margin-bottom: $size-default;
+    padding: $size-base $size-default;
+    background-color: $color-gray-lightest;
+
   }
 
   &__table {
