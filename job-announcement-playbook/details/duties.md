@@ -137,7 +137,7 @@ With the 6.5 release we moved Promotion Potential out of the [Overview](../overv
 
 1. We conducted several rounds of card sorting with job seekers. Promotion Potential scored in the bottom half along with announcement and control number which also moved out of the Overview section.
 2. It allowed us to reduce the amount of information in the Overview section making the information that remains there more effective (readable and retainable).
-3. It allowed us to chunk the Promotion Potential with Supervisory status.
+3. It allowed us to group the Promotion Potential with Supervisory status.
 
 ### Who May Apply
 

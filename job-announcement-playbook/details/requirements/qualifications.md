@@ -38,7 +38,7 @@ This section will:
 * Use "must" instead of "shall" when qualifications are required. For example, "You must have at least one year of experience...".
 
 <h4><span class="fa fa-times"></span> Do Not</h4>
-* Don’t use dehumanizing terms like “incumbent” or “candidate”.
+* Don’t use dehumanizing terms like “incumbent”, "selectee", or “candidate”.
 
 #### Examples
 

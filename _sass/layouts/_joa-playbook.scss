@@ -121,4 +121,12 @@
       font-size: $small-font-size;
     }
   }
+
+  &__example-img {
+    max-width: 722px;
+
+    &.this-job-is-open-to {
+      max-width: 346px;
+    }
+  }
 }

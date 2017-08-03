@@ -6,7 +6,7 @@ title: Overview
 sidenav: overview
 lead: The overview section gives an "at-a-glance" view of the job. Some of this information appears on the search results card and entices a job seeker to open the job announcement.
 current-fields: ["Job title", "Department name", "Agency name", "Open and closing dates", "Service", "Pay scale and grade", "Salary", "Appointment type", "Work schedule"]
-previous-fields: ["Announcement number", "Control number", "Series", "Agency Marketing Message", "Marketing URL"]
+previous-fields: ["Announcement number", "Control number", "Series"]
 ---
 
 ## Title bar - Current fields
@@ -229,9 +229,11 @@ The Agency modal opens when the user clicks on:
 * The **Learn more about this agency** button in the [Duties](../duties/) section.
 * The **Learn more about this agency** link in the Agency contact information component of [How to apply](../how-to-apply)
 
-### Agency details
+### Agency Marketing Message
 
-This text appears in the lead paragraph of the agency modal and allows the agency to communicate what they do to the job seeker. This field was formerly known as "Agency Marketing Message".
+This text appears in the lead paragraph of the agency modal and allows the agency to communicate what the agency does to the job seeker.
+
+This field was not shown unless the Agency Marketing URL was also present. That is no longer the case.
 
 <div class="usajobs-recruitment-joa-playbook-details__container">
 <div class="usajobs-recruitment-joa-playbook-details__do">
@@ -250,9 +252,9 @@ This text appears in the lead paragraph of the agency modal and allows the agenc
 
 This information holds the contact information and address where applicants can reach the agency. It includes phone, TDD, email, and address.
 
-### Agency Careers page URL
+### Marketing URL
 
-Allows the agency to provide a URL to their careers page that will be included at the bottom of the modal. This field was formerly known as Marketing URL.
+Allows the agency to provide a URL to their careers page or other page that they deem appropriate that will be included at the bottom of the modal.
 
 
 ## Previous fields
@@ -274,11 +276,3 @@ We also moved series because we have a problem we are trying to address: Over 50
 We observed, over several usability tests, seekers evaluating the job announcement by reading the overview and duties section. By that point in reading the document seekers were making a decision to move on or not. Thus given our bounce rate we want to provide navigation to similar jobs in case this job is not an ideal fit for this applicant. Both the series link and occupation buttons take the user to search results that will provide them with other options.
 
 As with all changes we'll monitor the impact of this change using analytics and continued testing with job seekers.
-
-### Agency Marketing Message
-
-This field was not shown unless the Agency Marketing URL was present. It has been renamed to [Agency Details](#agency-details) to indicate that the agency can control what details they want to present in this section and it will now appear in the Agency details modal.
-
-### Marketing URL
-
-This field was renamed to [Agency Careers page URL](#agency-careers-page-url) to better indicate the information we are hoping to obtain there. It is displayed in the Agency details modal.
