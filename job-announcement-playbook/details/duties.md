@@ -48,17 +48,17 @@ Yes
   <h4><span class="fa fa-check"></span> Do</h4>
   * Use the position description and job analysis to help write the duties.
   * List each duty as a separate bullet.
-  * Describe the day-to-day responsibilities of the job—be specific and include typical projects, resources or technologies that the job will use.
+  * Describe the day-to-day responsibilities of the job — be specific and include typical projects, resources or technologies that the job will use.
   * Prioritize the duties — put the most important duties first.
-  * Use action verbs to start each bullet, such as “Lead”, “Manage”. Refer to the Plainlanguage.gov list of simple words and phrases.
+  * Use action verbs to start each bullet, such as “Lead”, “Manage”. Refer to the [Plainlanguage.gov](http://www.plainlanguage.gov/) list of simple words and phrases.
   * Capitalize the first word of each bulleted item.
   * Include punctuation at the end of each bulleted item.
-  * Use language the job seeker knows and be concise—simpler is better!
+  * Use language the job seeker knows and be concise — simpler is better!
   * Avoid internal jargon and acronyms—if an acronym is necessary, spell it out the first time it’s used.
 </div>
 <div class="usajobs-recruitment-joa-playbook-details__do-not">
   <h4><span class="fa fa-times"></span> Do Not</h4>
-  * Don’t make the duties section overwhelming—a list of 20 duties is too much. Instead prioritize the most important duties.
+  * Don’t make the duties section overwhelming — a list of 20 duties is too much. Instead prioritize the most important duties.
   * Don’t use dehumanizing terms like “incumbent” or “candidate”.
   * Don’t repeat duties.
 </div>
@@ -198,7 +198,7 @@ This information required a change to an existing hiring path or the creation of
 
 ##### Education
 
-This information is related to educational qualification requirements. Indicating the level of eduction necessary should be moved to the [Education section of Requirements](../requirements#education).
+This information is related to educational qualification requirements. Indicating the level of eduction necessary should be moved to the [Education section of Requirements](../requirements/qualifications/#education).
 
 {: .usajobs-recruitment-joa-playbook-details__table}
 | Prerequisite  | Description |
@@ -246,26 +246,6 @@ Certain announcements don't provide a way to apply online. This information is n
 ## Optional responsibilities
 
 There are some optional responsibilities that when added to your job announcement should appear in the Duties section.
-
-### Government Credit card
-
-Tells the applicant that they will need to obtain a government credit card.
-
-<div class="usajobs-recruitment-joa-playbook-details__suggested-text">
-<h5>Suggested text</h5>
-You will be required to complete training, obtain, and maintain a government credit card with travel and purchase authority.
-</div>
-
-<div class="usajobs-recruitment-joa-playbook-details__container">
-<div class="usajobs-recruitment-joa-playbook-details__do">
-  <h4><span class="fa fa-check"></span> Do</h4>
-  * Include this text if it is applicable to the job.
-</div>
-<div class="usajobs-recruitment-joa-playbook-details__do-not">
-  <h4><span class="fa fa-times"></span> Do Not</h4>
-  * Don’t include this text in **Other Requirements** or **Additional Information** or anywhere else other than Responsibilities.
-</div>
-</div>
 
 ### Hazardous conditions warning
 

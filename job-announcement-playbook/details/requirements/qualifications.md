@@ -5,7 +5,7 @@ category: requirements
 title: Qualifications
 sidenav: qualifications
 lead: Describes the experience and education that a job seeker needs to be qualified for the job. When hiring for multiple grade levels, you must explain the qualifications for each grade level.  
-current-fields: ["Specialized experience", "Qualifications", "Education", "Selective placement factor", "Time in grade"]
+current-fields: ["Specialized experience", "Education", "Selective placement factor", "Time in grade"]
 previous-fields: []
 ---
 
@@ -22,19 +22,19 @@ This section will:
 <h4><span class="fa fa-check"></span> Do</h4>
 <h5>Only include content that the job seeker needs</h5>
 * Only include information about qualifications - don’t include background checks, job locations, etc.
-* Use the qualifications from OPM’s Qualifications Standards Handbook as a guide when writing the job announcement, but make sure to use plain language.
+* Use the qualifications from [OPM’s Qualifications Standards Handbook](https://www.opm.gov/policy-data-oversight/classification-qualifications/classifying-general-schedule-positions/) as a guide when writing the job announcement, but make sure to use plain language.
 * Include education requirements, if there are any.
 * Include how to substitute education for experience, if needed.
 
 <h5>Organize the content logically</h5>
 * Use clear subheadings to separate qualifications that everyone needs vs. qualifications that are specific to each grade level (if hiring at different grade levels).
-* Keep sentences short—don’t list multiple qualifications in one sentence. Instead, break them up.
+* Keep sentences short — don’t list multiple qualifications in one sentence. Instead, break them up.
 
 <h5>Write like you’re speaking to the job seeker</h5>
 * Use language the job seeker knows—simpler is better!
 * Use the active voice—the active voice is concise, direct and makes it clear who is doing the action or who is supposed to be doing the action. Using the active voice makes the content easy to understand. An active voice sentence follows this order: Subject + Verb + Object
 * Use pronouns (i.e. address the audience as “you”, “your”) – this helps personalize the experience.
-* Avoid internal jargon and acronyms—if an acronym is necessary, spell it out the first time it’s used. Refer to the <a href="plainlanguage.gov">Plainlanguage.gov</a> list of simple words and phrases.
+* Avoid internal jargon and acronyms—if an acronym is necessary, spell it out the first time it’s used. Refer to the [Plainlanguage.gov](http://www.plainlanguage.gov/) list of simple words and phrases.
 * Use "must" instead of "shall" when qualifications are required. For example, "You must have at least one year of experience...".
 
 <h4><span class="fa fa-times"></span> Do Not</h4>

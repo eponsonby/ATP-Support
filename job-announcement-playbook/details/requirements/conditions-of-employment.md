@@ -5,7 +5,7 @@ category: requirements
 title: Conditions of Employment
 sidenav: conditions-of-employment
 lead: Conditions of employment lists pre-conditions or other requirements that the job seeker must have or agree to, either before or after accepting the job. Conditions of employment replaces the former "Key Requirements" section.
-current-fields: ["Bargaining unit position", "Direct deposit", "Driver’s license", "E-verify", "Financial disclosure report", "Financial interest regulation", "Firearm", "Government charge card", "Licensure", "Physical", "PIV process", "Proof of citizenship", "Recruitment incentive"]
+current-fields: ["Bargaining unit position", "Direct deposit", "Driver’s license", "E-verify", "Financial disclosure report", "Financial interest regulation", "Firearm", "Government charge card", "Licensure", "Mobility agreement", "Physical", "PIV process", "Proof of citizenship", "Recruitment incentive"]
 previous-fields: ["Annual leave for non-federal service authorized", "Declaration for federal employment", "Drug test", "Student loan repayment incentive", "Security and background requirements"]
 ---
 
@@ -218,6 +218,10 @@ No
 <div class="usajobs-recruitment-joa-playbook-details__suggested-text">
 <h5>Suggested text</h5>
 Obtain and use a government-issued charge card for business-related travel.
+
+<strong>OR</strong>
+
+You will be required to complete training, obtain, and maintain a government credit card with travel and purchase authority.
 </div>
 
 <div class="usajobs-recruitment-joa-playbook-details__container">
@@ -227,7 +231,7 @@ Obtain and use a government-issued charge card for business-related travel.
 </div>
 <div class="usajobs-recruitment-joa-playbook-details__do-not">
   <h4><span class="fa fa-times"></span> Do Not</h4>
-  * Do not include this text in Qualifications or any other section — it should only appear once and only in Conditions of Employment.
+  * Do not include this text in **Qualifications** or **Duties** or any other section — it should only appear once and only in Conditions of Employment.
 </div>
 </div>
 
@@ -277,10 +281,9 @@ There may be different texts depending on the type of physical required - whethe
 <div class="usajobs-recruitment-joa-playbook-details__suggested-text">
 <h5>Suggested text</h5>
 Must pass a physical examination.
-</div>
 
-<div class="usajobs-recruitment-joa-playbook-details__suggested-text">
-<h5>Suggested text</h5>
+<strong>OR</strong>
+
 May need to complete a statement regarding your physical ability.
 </div>
 
@@ -372,20 +375,20 @@ May be eligible for a recruitment incentive.
 
 ### Annual leave for non-federal service authorized
 
-We recommend this move to the [Benefits](../benefits#agency-benefits) section.
+We recommend this move to the [Benefits](../../benefits#agency-benefits) section.
 
 ### Declaration for federal employment
 
-Agencies are prohibited from collection this Declaration at the time of application unless they have an exception for approval from OPM. There are approvals pending but at this time no agency has this exception. If you feel that your agency does have this exception please communication this to us via the recruiter help email address.
+Agencies are prohibited from collection this Declaration at the time of application unless they have an exception for approval from OPM. There are approvals pending but at this time no agency has this exception. If you feel that your agency does have this exception please have your HR director reach out to OPM Policy.
 
 ### Drug test
 
-This information has moved to a standard location at the end of the Requirements section named [Background checks and security clearance](../background-checks/#drug-test-required).
+This information has moved to a standard location at the end of the Requirements section named [Background checks and security clearance](../background-check/#drug-test-required).
 
 ### Student loan repayment incentive
 
-We recommend that this information be given in the [Benefits](../benefits#agency-benefits) section.
+We recommend that this information be given in the [Benefits](../../benefits#agency-benefits) section.
 
 ### Security and background requirements
 
-This information has moved to a standard location at the end of the Requirements section named [Background checks and security clearance](../background-checks/).
+This information has moved to a standard location at the end of the Requirements section named [Background checks and security clearance](../background-check/).

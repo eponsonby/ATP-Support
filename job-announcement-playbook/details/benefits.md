@@ -54,6 +54,6 @@ Learn more about our benefits and careers: [Insert link to agency specific benef
   <h4><span class="fa fa-times"></span> Do Not</h4>
   * Do not repeat benefits information in any other section — it should only appear in the benefits section.
   * Do not repeat benefits information that is already made available via the links above.
-  * Do not retain broken links to old help content.
+  * Do not retain broken links to old help content. The link to https://help.usajobs.gov/index.php/Pay_and_Benefits has not worked for over 18 months. Please remove this link.
 </div>
 </div>
