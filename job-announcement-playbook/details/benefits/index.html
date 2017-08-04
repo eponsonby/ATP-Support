@@ -40,8 +40,8 @@
   "@type": "WebPage",
   "mainEntityOfPage": "http://usajobs.github.io/ATP-Support//ATP-Support/job-announcement-playbook/details/benefits/",
   "headline": "Benefits",
-  "datePublished": "2017-08-04T12:24:32-04:00",
-  "dateModified": "2017-08-04T12:24:32-04:00",
+  "datePublished": "2017-08-04T15:32:41-04:00",
+  "dateModified": "2017-08-04T15:32:41-04:00",
   "description": "Get help with strategic recruitment.",
   "author": {
     "@type": "Organization",
@@ -3095,6 +3095,9 @@ main {
 .usajobs-recruitment__external-link .fa {
   padding-left: 0.5rem; }
 
+.usajobs-site-header {
+  position: relative; }
+
 .usa-banner {
   background-color: #f1f1f1;
   padding-bottom: 0.7rem; }
@@ -3118,14 +3121,16 @@ main {
     margin-top: 1px; }
 
 .usa-banner-inner {
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
-  max-width: 160rem;
-  height: 2.2rem; }
-  @media only screen and (min-width: 62em) {
+  height: auto;
+  padding-bottom: 0.5rem;
+  max-width: 160rem; }
+  @media (min-width: 48em) {
     .usa-banner-inner {
-      padding-right: 3rem;
       padding-left: 3rem; } }
+  @media only screen and (min-width: 120em) {
+    .usa-banner-inner {
+      padding-left: 0;
+      padding-right: 0; } }
 
 .usajobs-nav {
   position: relative;
@@ -3232,21 +3237,18 @@ main {
   max-width: 160rem;
   margin-left: auto;
   margin-right: auto; }
-@media (min-width: 48em) {
-  .usajobs-nav--vATP__banner-inner {
-    padding-left: 3rem; } }
-@media only screen and (min-width: 120em) {
-  .usajobs-nav--vATP__banner-inner {
-    padding-left: 0;
-    padding-right: 0; } }
 @media only screen and (min-width: 120em) {
   .usajobs-nav--vATP__brand {
     padding-left: 0; } }
+.usajobs-nav--vATP__feedback {
+  color: #323a45; }
+  .usajobs-nav--vATP__feedback:active, .usajobs-nav--vATP__feedback:hover, .usajobs-nav--vATP__feedback:visited {
+    color: #323a45; }
 
 .usa-nav-secondary {
   position: absolute;
   right: 3rem;
-  top: 2.5rem; }
+  bottom: 0.5rem; }
 
 .usa-nav-secondary-links {
   float: left; }
@@ -3483,10 +3485,10 @@ li.usa-footer-primary-content {
     font-size: 24px; }
 .usajobs-footer--v2 .usa-footer-logo .logo {
   display: inline-block; }
-.usajobs-footer--v2__logo {
+.usajobs-footer--v2__logo amp-img {
   max-width: 15rem; }
   @media (min-width: 48em) {
-    .usajobs-footer--v2__logo {
+    .usajobs-footer--v2__logo amp-img {
       max-width: 18.8rem; } }
 .usajobs-footer--v2__note {
   color: #ffffff;
@@ -3922,6 +3924,10 @@ li.usa-footer-primary-content {
   max-width: 722px; }
   .usajobs-recruitment-joa-playbook-details__example-img.this-job-is-open-to {
     max-width: 346px; }
+.usajobs-recruitment-joa-playbook-details__disclaimer {
+  margin-top: 4.5rem;
+  padding: 1.5rem;
+  background-color: #dce4ef; }
 
   </style>
 
@@ -3938,10 +3944,15 @@ li.usa-footer-primary-content {
     <div>
       <header class="usa-banner-header">
         <div class="usajobs-grid usa-banner-inner usajobs-nav--full_bleed__banner-inner">
-        <span class="usa-banner-header__img">
-          <amp-img src="/ATP-Support/assets/images/favicons/favicon-57.png" width="20" height="20" alt="U.S. flag" />
-        </span>
-        <p>An official website of the United States government</p>
+          <div class="usajobs-width-one-half">
+            <span class="usa-banner-header__img">
+              <amp-img src="/ATP-Support/assets/images/favicons/favicon-57.png" width="20" height="20" alt="U.S. flag" />
+            </span>
+            <p>An official website of the United States government</p>
+          </div>
+          <div class="usajobs-width-one-half">
+            <p>This site is a work in progress. If you find an error or have a concern reach out to <a href="mailto:usability@opm.gov" class="usajobs-nav--vATP__feedback">usability@opm.gov</a>.</p>
+          </div>
         </div>
       </header>
     </div>
@@ -4071,7 +4082,7 @@ li.usa-footer-primary-content {
 
             </aside>
             <main class="usajobs-content-well usajobs-recruitment-joa-playbook__main usajobs-recruitment-joa-playbook-details" role="main">
-              <h1 class="usajobs-recruitment-joa-playbook__title">
+              <h1 id="title" class="usajobs-recruitment-joa-playbook__title">
                 Benefits
               </h1>
               <p class="usa-font-lead">
@@ -4149,6 +4160,15 @@ li.usa-footer-primary-content {
   </div>
 </div>
 
+              <div class="usajobs-recruitment-joa-playbook-details__disclaimer">
+                <h4>Questions? Concerns?</h4>
+                <p>
+                  This site is a work in progress. We will continue to this content until it is as complete as possible. If you have questions or concerns about the veracity of anything you read here please reach out to your HR director who can contact OPM Policy.
+                </p>
+                <p>
+                  If you have comments about the site itself or suggestions on content to add please write to <a href="mailto:usability@opm.gov">usability@opm.gov</a>.
+                </p>
+              </div>
             </main>
           </div>
         </section>
