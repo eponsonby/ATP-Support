@@ -295,10 +295,12 @@ li.usa-footer-primary-content {
   }
 
   &__logo {
-    max-width: rem(150px);
+    amp-img {
+      max-width: rem(150px);
 
-    @include grid-media($ML) {
-      max-width: rem(188px);
+      @include grid-media($ML) {
+        max-width: rem(188px);
+      }
     }
   }
 

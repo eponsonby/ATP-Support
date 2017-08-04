@@ -385,6 +385,8 @@ Agencies are prohibited from collection this Declaration at the time of applicat
 
 This information has moved to a standard location at the end of the Requirements section named [Background checks and security clearance](../background-check/#drug-test-required).
 
+**Note**: This is a new field and may not yet be available from your Talent Acquisition System (TAS) vendor. Work with your TAS to request the ability to populate this new field.
+
 ### Student loan repayment incentive
 
 We recommend that this information be given in the [Benefits](../../benefits#agency-benefits) section.

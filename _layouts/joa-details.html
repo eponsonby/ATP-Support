@@ -2,7 +2,7 @@
 <html ⚡ lang="en">
   {% include head.html %}
   <body class="amp-border-box">
-    {% include header.html %}
+    {% include components/joa-playbook/header.html %}
     {% include components/joa-playbook/header-nav.html %}
     {% include analytics.html %}
     <div class="usajobs-recruitment usajobs-recruitment-joa-playbook">
@@ -13,7 +13,7 @@
               {% include components/joa-playbook/sidenav.html %}
             </aside>
             <main class="usajobs-content-well usajobs-recruitment-joa-playbook__main usajobs-recruitment-joa-playbook-details" role="main">
-              <h1 class="usajobs-recruitment-joa-playbook__title">
+              <h1 id="title" class="usajobs-recruitment-joa-playbook__title">
                 {{ page.title }}
               </h1>
               <p class="usa-font-lead">
@@ -48,6 +48,15 @@
                 </div>
               </div>
               {{ content }}
+              <div class="usajobs-recruitment-joa-playbook-details__disclaimer">
+                <h4>Questions? Concerns?</h4>
+                <p>
+                  This site is a work in progress. We will continue to this content until it is as complete as possible. If you have questions or concerns about the veracity of anything you read here please reach out to your HR director who can contact OPM Policy.
+                </p>
+                <p>
+                  If you have comments about the site itself or suggestions on content to add please write to <a href="mailto:usability@opm.gov">usability@opm.gov</a>.
+                </p>
+              </div>
             </main>
           </div>
         </section>

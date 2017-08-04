@@ -54,7 +54,9 @@ No. However, it is strongly encouraged to include this in the job announcement.
 
 Tells the applicant if a drug test is required.
 
-The value in this field will always link to: https://www.usajobs.gov/Help/faq/job-announcement/security-clearances/
+**Note**: This is a new field and may not yet be available from your Talent Acquisition System (TAS) vendor. Work with your TAS to request the ability to populate this new field.
+
+The value in this field will always link to: [https://www.usajobs.gov/Help/faq/job-announcement/security-clearances/](https://www.usajobs.gov/Help/faq/job-announcement/security-clearances/)
 
 #### Required
 Yes

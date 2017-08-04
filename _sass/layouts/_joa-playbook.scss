@@ -129,4 +129,10 @@
       max-width: 346px;
     }
   }
+
+  &__disclaimer {
+    margin-top: $size-L;
+    padding: $size-default;
+    background-color: $color-gray-cool-light;
+  }
 }
