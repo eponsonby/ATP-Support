@@ -30,8 +30,9 @@ Yes
 </div>
 <div class="usajobs-recruitment-joa-playbook-details__do-not">
   <h4><span class="fa fa-times"></span> Do Not</h4>
-  * Do not use the job summary to discussion the mission statement of they agency. Agencies may now use the [Agency modal](../overview#agency-modal---current-fields) to convey details about the agency and a link to your careers page.
+  * Do not use the job summary to discussion the mission statement of they agency. Agencies may now use the [Agency modal](../overview#agency-modal---current-fields) to convey details about the agency and link to your careers page.
   * Don’t use dehumanizing terms like “incumbent” or “candidate”.
+  * Do not repeat other sections of the job announcement in the summary section (who may apply, et. al.). Duplicating information does NOT emphasize that information but, instead serves to clutter the announcement. Duplicated information confuses and overwhelms job seekers.
 </div>
 </div>
 
@@ -63,6 +64,15 @@ Yes
 </div>
 </div>
 
+#### Examples
+
+Some example responsibilities that have previously appeared in other sections of the job announcement:
+
+* Incidental driving: Tells the applicant they may need to operate a vehicle as part of their duties.
+* Physical requirements: Tells the applicant they may need to life a certain weight to fulfill their duties.
+* Uniform: Tells the applicant they may have to wear a uniform to fulfill their duties.
+
+Be sure to also review the [Optional responsibilities](#optional-responsibilities) section towards the bottom of this page.
 
 ### Travel Required
 
@@ -71,7 +81,7 @@ This tells the job seeker if the job requires travel.
 Options include:
 
 *	Not required
-*	Occassional travel
+*	Occasional travel
 *	25% or less
 *	50% or less
 *	75% or less
@@ -133,11 +143,10 @@ Yes
 
 #### Recent change
 
-With the 6.5 release we moved Promotion Potential out of the [Overview](../overview/) section into Duties. We did this for serveral reasons:
+With the 6.5 release we moved Promotion Potential out of the [Overview](../overview/) section into Duties. We did this for several reasons:
 
 1. We conducted several rounds of card sorting with job seekers. Promotion Potential scored in the bottom half along with announcement and control number which also moved out of the Overview section.
 2. It allowed us to reduce the amount of information in the Overview section making the information that remains there more effective (readable and retainable).
-3. It allowed us to group the Promotion Potential with Supervisory status.
 
 ### Who May Apply
 
@@ -233,6 +242,50 @@ Certain announcements don't provide a way to apply online. This information is n
 | ------------- | ----------- |
 | Can't apply online | Announcements outside of the competitive service. |
 
+
+## Optional responsibilities
+
+There are some optional responsibilities that when added to your job announcement should appear in the Duties section.
+
+### Government Credit card
+
+Tells the applicant that they will need to obtain a government credit card.
+
+<div class="usajobs-recruitment-joa-playbook-details__suggested-text">
+<h5>Suggested text</h5>
+You will be required to complete training, obtain, and maintain a government credit card with travel and purchase authority.
+</div>
+
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__do">
+  <h4><span class="fa fa-check"></span> Do</h4>
+  * Include this text if it is applicable to the job.
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__do-not">
+  <h4><span class="fa fa-times"></span> Do Not</h4>
+  * Don’t include this text in **Other Requirements** or **Additional Information** or anywhere else other than Responsibilities.
+</div>
+</div>
+
+### Hazardous conditions warning
+
+Tells the applicant that they may be near hazardous conditions on the job.
+
+<div class="usajobs-recruitment-joa-playbook-details__suggested-text">
+<h5>Suggested text</h5>
+May be required to wear protective gear (i.e. Tyvek Suit and respirator).
+</div>
+
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__do">
+  <h4><span class="fa fa-check"></span> Do</h4>
+  * Include this text if it is applicable to the job.
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__do-not">
+  <h4><span class="fa fa-times"></span> Do Not</h4>
+  * Don’t include this text in **Other Requirements** or **Additional Information** or anywhere else other than Responsibilities.
+</div>
+</div>
 
 ## Previous fields
 

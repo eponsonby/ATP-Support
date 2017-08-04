@@ -51,7 +51,7 @@ Indicates if the applicant may be able to telework.
 
 #### Required
 
-No. Strongly suggested.
+No. However, it is strongly encouraged to include this in the job announcement.
 
 <div class="usajobs-recruitment-joa-playbook-details__container">
 <div class="usajobs-recruitment-joa-playbook-details__do">

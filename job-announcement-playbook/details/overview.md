@@ -15,7 +15,7 @@ previous-fields: ["Announcement number", "Control number", "Series"]
 
 The name of the job.
 
-The job title is the first thing a job seeker will see in their search results.  Make sure it’s easy to understand and descriptive of what the job is.
+The job title is the first thing a job seeker will see in their search results. Make sure it’s easy to understand and descriptive of what the job is.
 
 #### Required
 Yes
@@ -25,6 +25,7 @@ Yes
   <h4><span class="fa fa-check"></span> Do</h4>
   * Only include the job title.
   * Use plain language.
+  * Spell check your titles and your job announcement. Your TAS may provide this capability.
 </div>
 <div class="usajobs-recruitment-joa-playbook-details__do-not">
   <h4><span class="fa fa-times"></span> Do Not</h4>
@@ -32,6 +33,30 @@ Yes
   * Do not include additional information in parenthesis.
 </div>
 </div>
+
+#### Myth: Job announcement titles are dictated by policy and must follow a specific format.
+
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__do">
+  <h4>OPM Policy</h4>
+  <p>
+    Organizational and functional titles do not replace official position titles, they complement them. Agencies may establish organizational and functional titles for internal administration, program management, or similar purposes.
+  </p>
+  <p>
+    Examples of organizational titles are Branch Chief or Division Chief. Examples of functional titles are Chief of Network Management and Director of Policy Development.
+  </p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__do-not">
+  <h4>Impact</h4>
+  <p>
+    If job seekers don’t understand the job title, they are less likely to read the job announcement. For example, job titles that use grade levels or series numbers are confusing and can be misleading.
+  </p>
+  <p>
+    Job announcements should include a job title that best describes the position, attracts candidates, and makes the job easier to find. For example, titling a job “Java Developer” instead of “APPSW” makes it easier for job seekers to understand.
+  </p>
+</div>
+</div>
+
 
 ### Department name
 
@@ -271,8 +296,4 @@ The control number has moved to the [actions section](../how-to-apply#actions) w
 
 The series has moved to a new section, [Similar jobs](../similar-jobs/), that lives between Duties and Requirements and contains the series and a list of similar occupations. We moved series after a card sort and a usability test with non-Federal employee job seekers where they discovered they did not know what a series referred to. We worked with this group to ensure that the label "Job family (Series)" was clear and provided more context.
 
-We also moved series because we have a problem we are trying to address: Over 50% of all traffic to USAJOBS comes from domains external to USAJOBS and our bounce rate out of job announcements is quite high. In other words, over half of our users come from goggle or another outside source directly to a job announcement, view the announcement for an average of 106.5 seconds, and then a majority of those users leave the site entirely.
-
-We observed, over several usability tests, seekers evaluating the job announcement by reading the overview and duties section. By that point in reading the document seekers were making a decision to move on or not. Thus given our bounce rate we want to provide navigation to similar jobs in case this job is not an ideal fit for this applicant. Both the series link and occupation buttons take the user to search results that will provide them with other options.
-
-As with all changes we'll monitor the impact of this change using analytics and continued testing with job seekers.
+We also moved series because we have a problem we are trying to address which you read more about in [Similar jobs](../similar-jobs/)
