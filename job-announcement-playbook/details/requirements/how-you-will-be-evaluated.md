@@ -6,8 +6,12 @@ title: How you will be evaluated
 sidenav: how-you-will-be-evaluated
 lead: This section tells the applicant how their application will be use to determine your eligibility, qualifications, and quality ranking for this position.
 current-fields: ["Consideration order", "Basis for rating", "Category rating description", "Interview type", "Pre-employment requirement disclaimer", "Rating procedure", "Type of assessment"]
-previous-fields: []
+previous-fields: ["Financial suitability"]
 ---
+
+This section will:
+
+*	Include a lead-in sentence: "You will be evaluated for this job based on how well you meet the qualifications above."
 
 ### Consideration order
 
@@ -54,3 +58,9 @@ Yes
 
 #### Required
 Yes
+
+## Previous fields
+
+### Financial suitability
+
+A link to the financial suitability guidance is now found in the [Fair and Transparent - Legal and regulatory guidance](../fair-and-transparent/#legal-and-regulatory-guidance) section.

@@ -6,7 +6,7 @@ title: Conditions of Employment
 sidenav: conditions-of-employment
 lead: Conditions of employment lists pre-conditions or other requirements that the job seeker must have or agree to, either before or after accepting the job. Conditions of employment replaces the former "Key Requirements" section.
 current-fields: ["Bargaining unit position", "Direct deposit", "Driver’s license", "E-verify", "Financial disclosure report", "Financial interest regulation", "Firearm", "Government charge card", "Licensure", "Mobility agreement", "Physical", "PIV process", "Proof of citizenship", "Recruitment incentive"]
-previous-fields: ["Annual leave for non-federal service authorized", "Declaration for federal employment", "Drug test", "Student loan repayment incentive", "Security and background requirements"]
+previous-fields: ["Annual leave for non-federal service authorized", "Declaration for federal employment", "Drug test", "Probationary period", "Security and background requirements", "Selective service registration", "Student loan repayment incentive"]
 ---
 
 This section will:
@@ -387,10 +387,18 @@ This information has moved to a standard location at the end of the Requirements
 
 **Note**: This is a new field and may not yet be available from your Talent Acquisition System (TAS) vendor. Work with your TAS to request the ability to populate this new field.
 
-### Student loan repayment incentive
+### Probationary period
 
-We recommend that this information be given in the [Benefits](../../benefits#agency-benefits) section.
+A link to the probationary period statement is now found in the [Fair and Transparent - Legal and regulatory guidance](../fair-and-transparent/#legal-and-regulatory-guidance) section. If your agency has a probationary period longer or shorter than 1 year please continue to indicated that in the Conditions of Employment section.
 
 ### Security and background requirements
 
 This information has moved to a standard location at the end of the Requirements section named [Background checks and security clearance](../background-check/).
+
+### Selective service registration
+
+A link to the Selective service registration policy is now found in the [Fair and Transparent - Legal and regulatory guidance](../fair-and-transparent/#legal-and-regulatory-guidance) section.
+
+### Student loan repayment incentive
+
+We recommend that this information be given in the [Benefits](../../benefits#agency-benefits) section.
