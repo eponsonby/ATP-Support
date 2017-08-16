@@ -71,7 +71,7 @@ Yes
 
 The name of the agency that is posting this job announcement.
 
-The agency name will appear as a link. Clicking the link opens a modal that shows the user additional information including the agency details text (renamed from Agency Marketing Statement) and the agency careers page URL (renamed from Agency Marketing URL) as well as the agency contact information for this announcement.
+The agency name will appear as a link. Clicking the link opens a pop-up window (aka modal) that shows the user additional information including the agency details text (renamed from Agency Marketing Statement) and the agency careers page URL (renamed from Agency Marketing URL) as well as the agency contact information for this announcement.
 
 #### Required
 Yes
@@ -248,7 +248,7 @@ As of the 6.6 release override text has now become supplemental text and will ap
 
 ## Agency modal - Current fields
 
-The Agency modal opens when the user clicks on:
+The Agency modal is a small window that pops up over the screen to focus the user's attention on a task. It opens when the user clicks on:
 
 * The agency name in the [title bar](#title-bar---current-fields)
 * The **Learn more about this agency** button in the [Duties](../duties/) section.
@@ -279,7 +279,7 @@ This information holds the contact information and address where applicants can 
 
 ### Marketing URL
 
-Allows the agency to provide a URL to their careers page or other page that they deem appropriate that will be included at the bottom of the modal.
+Allows the agency to provide a URL to their careers page or other page that they deem appropriate that will be included at the bottom of the modal window.
 
 
 ## Previous fields

@@ -25,7 +25,7 @@ During the application process you can review, edit, delete and update your info
 
 ### Agency contact information
 
-Tells the job seeker how they can contact the agency. The **Learn more about this agency** link opens the [agency modal](../details/overview/#agency-modal---current-fields).
+Tells the job seeker how they can contact the agency. The **Learn more about this agency** link opens the [agency pop-up window](../details/overview/#agency-modal---current-fields).
 
 #### Required
 Yes

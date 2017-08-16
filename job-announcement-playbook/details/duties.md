@@ -30,7 +30,7 @@ Yes
 </div>
 <div class="usajobs-recruitment-joa-playbook-details__do-not">
   <h4><span class="fa fa-times"></span> Do Not</h4>
-  * Do not use the job summary to discussion the mission statement of they agency. Agencies may now use the [Agency modal](../overview#agency-modal---current-fields) to convey details about the agency and link to your careers page.
+  * Do not use the job summary to discuss the mission statement of the agency. Agencies may now use the [Agency pop-up window](../overview#agency-modal---current-fields) to convey details about the agency and link to your careers page.
   * Don’t use dehumanizing terms like “incumbent” or “candidate”.
   * Do not repeat other sections of the job announcement in the summary section (who may apply, et. al.). Duplicating information does NOT emphasize that information but, instead serves to clutter the announcement. Duplicated information confuses and overwhelms job seekers.
 </div>
