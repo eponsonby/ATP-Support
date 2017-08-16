@@ -12,18 +12,18 @@
     <div class="usa-nav-inner">
       <ul class="usa-nav-primary">
         <li>
+          <a class="usa-nav-link {% if page.category == 'home' %}usa-current{% endif %}" href="{{ site.baseurl }}/job-announcement-playbook/" title="Home" aria-label="About this site">
+            About this site
+          </a>
+        </li>
+        <li>
           <a class="usa-nav-link {% if page.category == 'details' %}usa-current{% endif %}" href="{{ site.baseurl }}/job-announcement-playbook/details/">
-            <span>Announcement details</span>
+            <span>Job announcement guidelines</span>
           </a>
         </li>
         <li>
           <a class="usa-nav-link {% if page.category == 'case-studies' %}usa-current{% endif %}" href="{{ site.baseurl }}/job-announcement-playbook/case-studies/">
             <span>Case studies</span>
-          </a>
-        </li>
-        <li>
-          <a class="usa-nav-link {% if page.category == 'creating' %}usa-current{% endif %}" href="{{ site.baseurl }}/job-announcement-playbook/creating/">
-            <span>Creating an announcement</span>
           </a>
         </li>
       </ul>

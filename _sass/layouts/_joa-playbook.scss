@@ -3,7 +3,8 @@
   @include grid-container();
 
   &__main,
-  &__aside {
+  &__aside,
+  &__home {
     padding: $size-M 0;
   }
 
@@ -18,6 +19,12 @@
   &__main {
     @include grid-media($ML) {
       @include grid-column(4);
+    }
+  }
+
+  &__home {
+    @include grid-media($L) {
+      margin-left: 0;
     }
   }
 }
