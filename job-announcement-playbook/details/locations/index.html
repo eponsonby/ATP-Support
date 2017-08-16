@@ -40,8 +40,8 @@
   "@type": "WebPage",
   "mainEntityOfPage": "http://usajobs.github.io/ATP-Support//ATP-Support/job-announcement-playbook/details/locations/",
   "headline": "Locations",
-  "datePublished": "2017-08-15T21:45:39-04:00",
-  "dateModified": "2017-08-15T21:45:39-04:00",
+  "datePublished": "2017-08-16T12:07:06-04:00",
+  "dateModified": "2017-08-16T12:07:06-04:00",
   "description": "Get help with strategic recruitment.",
   "author": {
     "@type": "Organization",
@@ -4107,6 +4107,10 @@ li.usa-footer-primary-content {
                     
                     <li><a href="#vacancies">Vacancies</a></li>
                     
+                    <li><a href="#within-area">Within area</a></li>
+                    
+                    <li><a href="#radius">Radius</a></li>
+                    
                     <li><a href="#relocation-expenses-reimbursed">Relocation expenses reimbursed</a></li>
                     
                     <li><a href="#telework-eligible">Telework eligible</a></li>
@@ -4133,14 +4137,46 @@ li.usa-footer-primary-content {
 <p>Indicates the number of vacancies at that location. Can also be provided as the total number of vacancies across all locations.</p>
 
 <h4 id="required-1">Required</h4>
-
 <p>No</p>
+
+<h3 id="within-area">Within area</h3>
+
+<p>Indicates if the applicant must live within the associated location(s). When true the radius of that area must also be specified.</p>
+
+<p><strong>NOTE:</strong> This is a new field and may not yet be offered by your Talent Acquisition System (TAS). Work with your vendor in order to be able to use this field.</p>
+
+<div class="usajobs-recruitment-joa-playbook-details__container">
+  <div class="usajobs-recruitment-joa-playbook-details__do">
+    <h4><span class="fa fa-check"></span> Do</h4>
+    <ul>
+      <li>Use this field only when absolutely necessary. Applicants are often confused about whether they must  move to the area before applying or after they accept the job.</li>
+    </ul>
+  </div>
+  <div class="usajobs-recruitment-joa-playbook-details__do-not">
+    <h4><span class="fa fa-times"></span> Do Not</h4>
+    <ul>
+      <li>Do not use the commuting area to deter applicants.</li>
+    </ul>
+  </div>
+</div>
+
+<h4 id="required-2">Required</h4>
+<p>No</p>
+
+<h3 id="radius">Radius</h3>
+
+<p>Defines the commuting area in miles from the center of the location that the agency has identified in their merit promotion plan.</p>
+
+<p><strong>NOTE:</strong> This is a new field and may not yet be offered by your Talent Acquisition System (TAS). Work with your vendor in order to be able to use this field.</p>
+
+<h4 id="required-3">Required</h4>
+<p>Only when <strong>Within area</strong> is true.</p>
 
 <h3 id="relocation-expenses-reimbursed">Relocation expenses reimbursed</h3>
 
 <p>Indicates if the applicant will be reimbursed for moving expenses related to relocation for this job. Formerly named <strong>Relocation Authorized</strong>.</p>
 
-<h4 id="required-2">Required</h4>
+<h4 id="required-4">Required</h4>
 
 <p>No. Strongly suggested.</p>
 
@@ -4163,7 +4199,7 @@ li.usa-footer-primary-content {
 
 <p>Indicates if the applicant may be able to telework.</p>
 
-<h4 id="required-3">Required</h4>
+<h4 id="required-5">Required</h4>
 
 <p>No. However, it is strongly encouraged to include this in the job announcement.</p>
 
