@@ -87,11 +87,11 @@
     color: $color-green;
   }
 
+  &__myth,
   &__suggested-text {
     margin-bottom: $size-default;
     padding: $size-base $size-default;
     background-color: $color-gray-lightest;
-
   }
 
   &__table {

@@ -34,6 +34,7 @@ Yes
 </div>
 </div>
 
+<div class="usajobs-recruitment-joa-playbook-details__myth">
 #### Myth: Job announcement titles are dictated by policy and must follow a specific format.
 
 <div class="usajobs-recruitment-joa-playbook-details__container">
@@ -54,6 +55,7 @@ Yes
   <p>
     Job announcements should include a job title that best describes the position, attracts candidates, and makes the job easier to find. For example, titling a job “Java Developer” instead of “APPSW” makes it easier for job seekers to understand.
   </p>
+</div>
 </div>
 </div>
 

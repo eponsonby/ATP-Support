@@ -95,6 +95,28 @@ Also, note that in the [September 1, 2017 USAJOBS 6.6 release](../../release-not
 1. All job announcement fields appear in the print version.
 2. All URLs for links are now included in the print version.
 
+<div class="usajobs-recruitment-joa-playbook-details__myth">
+#### Myth: Job announcements must be less than 5 pages when printed
+
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__do">
+  <h4>OPM Policy</h4>
+  <p>
+    In 2010, OPM recommended that job announcements be limited to five pages, but there is no official policy on job announcement page length.
+  </p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__do-not">
+  <h4>Impact</h4>
+  <p>
+    We've expanded the print version to include all URLs for all links and ensured that all fields now appear in the print version. We have split the display version of the job announcement up into smaller chunks.
+  </p>
+  <p>
+    This is not a reason to expand the length of the job announcement. Our research shows that job seekers spend 106.5 seconds looking at a job announcement. The longer it is, the more difficult it is for the job seeker to identify key details.
+  </p>
+</div>
+</div>
+</div>
+
 ## Previous fields
 
 ### Reasonable accommodation policy

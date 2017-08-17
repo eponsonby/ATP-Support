@@ -37,6 +37,26 @@ Yes
 </div>
 </div>
 
+
+<div class="usajobs-recruitment-joa-playbook-details__myth">
+#### Myth: Job announcements are marketing tools for agencies
+
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__do">
+  <h4>OPM Policy</h4>
+  <p>
+    This myth is both true and false. While this is not policy, we recommend that job announcements focus on the job, not the agency. Job seekers conduct independent research about agencies they are interested in.
+  </p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__do-not">
+  <h4>Impact</h4>
+  <p>
+    Our research shows that job seekers care more about the job details than the agency mission in their immediate job search. We recommend that job announcements focus on advertising the job itself, and that agency details and branding be kept on agency pages.
+  </p>
+</div>
+</div>
+</div>
+
 ### Responsibilities
 
 Lists the duties the applicant will be expected to perform.
@@ -78,6 +98,25 @@ Some example responsibilities that have previously appeared in other sections of
 * Uniform: Tells the applicant they may have to wear a uniform to fulfill their duties.
 
 Be sure to also review the [Optional responsibilities](#optional-responsibilities) section towards the bottom of this page.
+
+<div class="usajobs-recruitment-joa-playbook-details__myth">
+#### Myth: If using a standard Position Description (PD), HR specialists aren’t allowed to include specialized skills in the job announcement
+
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__do">
+  <h4>OPM Policy</h4>
+  <p>
+    You can include specialized skills in your job announcement. Position descriptions outline the occupational series and grade level of a position in accordance with OPM classification standards. The job analysis identifies the critical competencies and defines the specialized experience and skills needed to perform the work of the position. HR and the hiring manager should collaborate to conduct the job analysis and use the results to develop the job announcement.
+  </p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__do-not">
+  <h4>Impact</h4>
+  <p>
+    The job announcement should reflect the specific duties and requirements of a role. Providing specific detail about the job helps job seekers determine if they are qualified for a job and understand what the role entails. When a job seeker fully understands the position, they are able to make an informed decision about whether or not to apply.
+  </p>
+</div>
+</div>
+</div>
 
 ### Travel Required
 
@@ -246,6 +285,25 @@ Certain announcements don't provide a way to apply online. This information is n
 | Prerequisite  | Description |
 | ------------- | ----------- |
 | Can't apply online | Announcements outside of the competitive service. |
+
+<div class="usajobs-recruitment-joa-playbook-details__myth">
+#### Myth: You have to be a career employee to apply for merit promotion jobs
+
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__do">
+  <h4>OPM Policy</h4>
+  <p>
+    Federal employees under a career- conditional or career appointment can apply to merit promotion jobs. Eligible veterans can apply for merit promotion jobs under the Veteran Employment Opportunity Act (VEOA).
+  </p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__do-not">
+  <h4>Impact</h4>
+  <p>
+    Job seekers, including federal employees, don’t understand their eligibility and need more upfront clarification. Lack of clarity around eligibility increases the number of ineligible applicants that apply for a given job. Including information that is not related to eligibility but instead belongs in another section further confuses applicants.
+  </p>
+</div>
+</div>
+</div>
 
 
 ## Optional responsibilities
