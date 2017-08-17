@@ -1,18 +1,12 @@
 
 .usajobs-recruitment-joa-playbook {
   @include grid-container();
-
-  &__main,
-  &__aside,
-  &__home {
-    padding: $size-M 0;
-  }
+  padding: $size-M 0;
 
   &__sidenav {
     @include grid-media($ML) {
       @include grid-column(2);
       margin-left: 0;
-      padding-top: $size-M;
     }
   }
 

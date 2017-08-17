@@ -90,6 +90,11 @@ The actions section also includes controls for:
 * Save
 * Share
 
+Also, note that in the [September 1, 2017 USAJOBS 6.6 release](../../release-notes/v6.6) we ensured that:
+
+1. All job announcement fields appear in the print version.
+2. All URLs for links are now included in the print version.
+
 ## Previous fields
 
 ### Reasonable accommodation policy

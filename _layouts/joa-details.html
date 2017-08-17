@@ -8,57 +8,55 @@
     <div class="usajobs-recruitment usajobs-recruitment-joa-playbook">
       <div class="usajobs-content-gutter">
         <section class="usajobs-shell">
-          <div class="usajobs-recruitment-joa-playbook">
-            <aside class="usajobs-leftrail usajobs-recruitment-joa-playbook__sidenav">
-              {% include components/joa-playbook/sidenav.html %}
-            </aside>
-            <main class="usajobs-content-well usajobs-recruitment-joa-playbook__main usajobs-recruitment-joa-playbook-details" role="main">
-              <h1 id="title" class="usajobs-recruitment-joa-playbook__title">
-                {{ page.title }}
-              </h1>
-              <p class="usa-font-lead">
-                {{ page.lead }}
-              </p>
-              <div class="usajobs-recruitment-joa-playbook-details__fields-container">
-                {% if page.current-fields.size > 0 %}
-                <div class="usajobs-recruitment-joa-playbook-details__current-fields">
-                  <h5 class="usajobs-recruitment-joa-playbook-details__fields-title">Current fields</h5>
-                  <p class="usajobs-recruitment-joa-playbook-details__fields-detail">
-                    This section may contain the following:
-                  </p>
-                  <ul class="usajobs-recruitment-joa-playbook-details__field-list">
-                    {% for field in page.current-fields %}
-                    <li><a href="#{{ field | slugify }}">{{ field }}</a></li>
-                    {% endfor %}
-                  </ul>
-                </div>
+          <aside class="usajobs-leftrail usajobs-recruitment-joa-playbook__sidenav">
+            {% include components/joa-playbook/sidenav.html %}
+          </aside>
+          <main class="usajobs-content-well usajobs-recruitment-joa-playbook__main usajobs-recruitment-joa-playbook-details" role="main">
+            <h1 id="title" class="usajobs-recruitment-joa-playbook__title">
+              {{ page.title }}
+            </h1>
+            <p class="usa-font-lead">
+              {{ page.lead }}
+            </p>
+            <div class="usajobs-recruitment-joa-playbook-details__fields-container">
+              {% if page.current-fields.size > 0 %}
+              <div class="usajobs-recruitment-joa-playbook-details__current-fields">
+                <h5 class="usajobs-recruitment-joa-playbook-details__fields-title">Current fields</h5>
+                <p class="usajobs-recruitment-joa-playbook-details__fields-detail">
+                  This section may contain the following:
+                </p>
+                <ul class="usajobs-recruitment-joa-playbook-details__field-list">
+                  {% for field in page.current-fields %}
+                  <li><a href="#{{ field | slugify }}">{{ field }}</a></li>
+                  {% endfor %}
+                </ul>
+              </div>
+              {% endif %}
+              <div class="usajobs-recruitment-joa-playbook-details__previous-fields">
+                {% if page.previous-fields.size > 0 %}
+                <h5 class="usajobs-recruitment-joa-playbook-details__fields-title">Previous fields</h5>
+                <p class="usajobs-recruitment-joa-playbook-details__fields-detail">
+                  This section has contained this information in the past but has now been relocated:
+                </p>
+                <ul class="usajobs-recruitment-joa-playbook-details__field-list">
+                  {% for field in page.previous-fields %}
+                  <li><a href="#{{ field | slugify }}">{{ field }}</a></li>
+                  {% endfor %}
+                </ul>
                 {% endif %}
-                <div class="usajobs-recruitment-joa-playbook-details__previous-fields">
-                  {% if page.previous-fields.size > 0 %}
-                  <h5 class="usajobs-recruitment-joa-playbook-details__fields-title">Previous fields</h5>
-                  <p class="usajobs-recruitment-joa-playbook-details__fields-detail">
-                    This section has contained this information in the past but has now been relocated:
-                  </p>
-                  <ul class="usajobs-recruitment-joa-playbook-details__field-list">
-                    {% for field in page.previous-fields %}
-                    <li><a href="#{{ field | slugify }}">{{ field }}</a></li>
-                    {% endfor %}
-                  </ul>
-                  {% endif %}
-                </div>
               </div>
-              {{ content }}
-              <div class="usajobs-recruitment-joa-playbook-details__disclaimer">
-                <h4>Questions? Concerns?</h4>
-                <p>
-                  This site is a work in progress. We will continue to this content until it is as complete as possible. If you have questions or concerns about the veracity of anything you read here please reach out to your HR director who can contact OPM Policy.
-                </p>
-                <p>
-                  If you have comments about the site itself or suggestions on content to add please write to <a href="mailto:usability@opm.gov">usability@opm.gov</a>.
-                </p>
-              </div>
-            </main>
-          </div>
+            </div>
+            {{ content }}
+            <div class="usajobs-recruitment-joa-playbook-details__disclaimer">
+              <h4>Questions? Concerns?</h4>
+              <p>
+                This site is a work in progress. We will continue to this content until it is as complete as possible. If you have questions or concerns about the veracity of anything you read here please reach out to your HR director who can contact OPM Policy.
+              </p>
+              <p>
+                If you have comments about the site itself or suggestions on content to add please write to <a href="mailto:usability@opm.gov">usability@opm.gov</a>.
+              </p>
+            </div>
+          </main>
         </section>
       </div>
     </div>

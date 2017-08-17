@@ -92,6 +92,8 @@ If you are using an application limit, you must clearly state this in the job an
 
 If you are posting an open continuous job announcement, you must clearly state this in the job announcement.
 
+**NOTE:** A new field will be added to allow you to explicitly define the announcement type which may not yet be offered by your Talent Acquisition System (TAS). Work with your vendor in order to be able to use this field.
+
 #### Required
 Yes
 
