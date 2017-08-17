@@ -77,6 +77,8 @@ No. Strongly suggested.
 
 Indicates if the applicant may be able to telework.
 
+**NOTE:** This is a new field and may not yet be offered by your Talent Acquisition System (TAS). Work with your vendor in order to be able to use this field. There is an existing field however, that field is ignored. The new field will support a simple Yes or No indication.
+
 #### Required
 
 No. However, it is strongly encouraged to include this in the job announcement.

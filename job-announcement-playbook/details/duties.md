@@ -33,12 +33,17 @@ Yes
   * Do not use the job summary to discuss the mission statement of the agency. Agencies may now use the [Agency pop-up window](../overview#agency-modal---current-fields) to convey details about the agency and link to your careers page.
   * Don’t use dehumanizing terms like “incumbent” or “candidate”.
   * Do not repeat other sections of the job announcement in the summary section (who may apply, et. al.). Duplicating information does NOT emphasize that information but, instead serves to clutter the announcement. Duplicated information confuses and overwhelms job seekers.
+  * Do not center paragraphs or provide other HTML formatting. This negatively impacts the readability of the job announcement.
 </div>
 </div>
 
 ### Responsibilities
 
 Lists the duties the applicant will be expected to perform.
+
+**NOTE:** This is a new field and may not yet be offered by your Talent Acquisition System (TAS). Work with your vendor in order to be able to use this field. This field may still be named **Major Duties** in your TAS in which case it will:
+
+* Not automatically use bullets though you may continue to provide content via bullets.
 
 #### Required
 Yes

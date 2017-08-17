@@ -4,7 +4,7 @@ layout: joa-details
 category: requirements
 title: Conditions of Employment
 sidenav: conditions-of-employment
-lead: Conditions of employment lists pre-conditions or other requirements that the job seeker must have or agree to, either before or after accepting the job. Conditions of employment replaces the former "Key Requirements" section.
+lead: Conditions of employment lists pre-conditions or other requirements that the job seeker must have or agree to, either before or after accepting the job. Conditions of employment replaces the former "Key Requirements" section (though it may still be named Key requirements in your Talent Acquisition System).
 current-fields: ["Bargaining unit position", "Direct deposit", "Driver’s license", "E-verify", "Financial disclosure report", "Financial interest regulation", "Firearm", "Government charge card", "Licensure", "Mobility agreement", "Physical", "PIV process", "Proof of citizenship", "Recruitment incentive"]
 previous-fields: ["Annual leave for non-federal service authorized", "Declaration for federal employment", "Drug test", "Probationary period", "Security and background requirements", "Selective service registration", "Student loan repayment incentive"]
 ---
@@ -13,6 +13,11 @@ This section will:
 
 *	Automatically use a bulleted list format for each “condition”.
 *	Include a lead-in sentence: "If you apply to this job and we hire you, you must meet and agree to the following conditions:"
+
+**NOTE:** This is a new field and may not yet be offered by your Talent Acquisition System (TAS). Work with your vendor in order to be able to use this field. This field may still be named **Key requirements** in your TAS in which case it will:
+
+* Not automatically use bullets though you may continue to provide content via bullets.
+* Not include a lead-in sentence.
 
 #### Required
 Yes
