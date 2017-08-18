@@ -25,7 +25,7 @@ This section is currently driven by the text supplied in the [Who May Apply](../
 | Senior Executives | Senior Executive, SES |
 | Former Overseas Employees | Former Overseas Employees |
 
-We have established our Hiring Paths as an enumerated list that your Talent Acquisition System (TAS) vendor can use in the future to allow you to select valid options without having to supply text. Talk to your vendor about this feature.
+**NOTE:** We have established our Hiring Paths as an enumerated list that your Talent Acquisition System (TAS) vendor can use in the future to allow you to select valid options without having to supply text. Talk to your vendor about this feature. We strongly encourage agencies to switch from this option. String parsing is a temporary solution that allows us to transition to a more structured way of providing and presenting this information to job seekers.
 
 #### Example
 

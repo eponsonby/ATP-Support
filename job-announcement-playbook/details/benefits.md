@@ -20,17 +20,13 @@ current-fields: ["Agency Benefits"]
   alt="Benefits v6.6 example"></amp-img>
 </div>
 
-This section will automatically, and always, include the following text:
+This section will automatically, and always, include the initial paragraph and links seen above, followed by information that you provide, followed by a disclaimer explaining that benefits are sometimes not the same for all agencies.
 
-<div class="usajobs-recruitment-joa-playbook-details__suggested-text">
-A career with the U.S. Government provides employees with a comprehensive benefits package. As a federal employee, you and your family will have access to a range of benefits that are designed to make your federal career very rewarding.
-
-Eligibility for benefits depends on the type of position you hold and whether your position is full-time, part-time, or intermittent. Contact the hiring agency for more information on the specific benefits offered.
+The links in this section are as follows:
 
 *	[Benefits for federal employees](https://www.usa.gov/benefits-for-federal-employees#item-36407)
 *	[Healthcare insurance](https://www.opm.gov/healthcare-insurance/)
 *	[Pay and leave](https://www.usajobs.gov/Help/working-in-government/pay-and-leave/)
-</div>
 
 ### Agency benefits
 
