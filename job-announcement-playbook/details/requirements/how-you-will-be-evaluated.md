@@ -11,6 +11,10 @@ previous-fields: ["Financial suitability"]
 
 This section describes how you will evaluate an applicant and their application.  The content needs to set the expectation of how you’ll evaluate an applicant against their responses to the job questionnaire and the information in their resume.
 
+This section will:
+
+*	Include a lead-in sentence: "You will be evaluated for this job based on how well you meet the qualifications above."
+
 ### Basis for rating
 
 The basis for rating is the method you will use to evaluate an applicant.  It’s important to describe how you will evaluate an applicant.
