@@ -70,7 +70,7 @@ This tells the applicant which groups of people you will consider first, based o
 #### Example
 
 <div class="usajobs-recruitment-joa-playbook-details__suggested-text">
-Applicants are considered in the following order:
+Qualified applicants are considered in the following order:
 
 1. Candidates on the [Agency] Re-employment Priority List (RPL)
 2. Preference eligibles having a compensable service-connected disability of 10 percent or more
