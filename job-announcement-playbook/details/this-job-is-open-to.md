@@ -13,7 +13,7 @@ This section is currently driven by the text supplied in the [Who May Apply](../
 | Hiring Path                   | Who May Apply content |
 | ----------------------------- | --------------------- |
 | Open to the Public | U.S.Citizens, Excepted Service |
-| Federal Employees| Federal Employees, Current Federal Employees, Former Federal Employees, MeritPromotion, Status Candidates, CTAP, Career Transition Assistance Program, ICTAP, Interagency Career Transition Assistance Program|
+| Federal Employees| Federal Employees, Current Federal Employees, Former Federal Employees, Merit Promotion, Status Candidates, CTAP, Career Transition Assistance Program, ICTAP, Interagency Career Transition Assistance Program|
 | Internal to an Agency| Internal Employee, Agency Employee |
 | Veterans | Expanded Veteran Hiring Opportunity,  EVHO, Veterans Recruitment, VRA, VEOA, Veterans Employment Opportunity Act, 30% Disabled |
 | Students & Recent Graduates | Recent Graduates, Students, Current Intern |
