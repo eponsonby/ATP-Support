@@ -7,7 +7,7 @@ sidenav: this-job-is-open-to
 lead: This section gives an "at-a-glance" view of who the job is open to.
 ---
 
-This section is currently driven by the text supplied in the [Who May Apply](../duties#who-may-apply) section.
+This section is currently driven by the text supplied in the [Who May Apply](../duties#who-may-apply) section. Icons along with their text descriptions will only appear here based on the text that is supplied in **Who May Apply**.
 
 {: .usajobs-recruitment-joa-playbook-details__table}
 | Hiring Path                   | Who May Apply content |

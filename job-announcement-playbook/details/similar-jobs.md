@@ -25,7 +25,7 @@ Yes
 
 ### Occupations
 
-Occupations are automatically added by our system. We have mapped many of the Department of Labor's [Standard Occupation Classification (SOC) codes](https://www.bls.gov/soc/) to OPM Occupational Series. We use these SOC codes and titles and use our own search engine to search for those titles in job announcements posted to USAJOBS. Each job announcement is tagged with relevant occupations.
+Occupations are automatically added by our system. We have mapped many of the Department of Labor's [Standard Occupation Classification (SOC) codes](https://www.bls.gov/soc/) to OPM Occupational Series. We use these SOC codes and titles and our own search engine to search for those titles in the body of the job announcements posted to USAJOBS. Thus the more often you use an occupation title in your job announcement the more likely it will be tagged with that occupation. Each job announcement is tagged with relevant occupations.
 
 The occupation buttons each show the SOC occupation title and the number of jobs tagged with that occupation. Clicking on the buttons will take the user to the search results page where the results are filtered by that occupation.
 

@@ -94,7 +94,7 @@ Yes
 This describes knowledge, skills, abilities, or special qualifications that are in addition to the minimum requirements, and are essential to perform the duties and responsibilities of a particular job.
 
 #### Required
-Yes
+No
 
 
 ### Time in grade
@@ -110,7 +110,6 @@ Yes
 <h4>Qualifications for former/current federal employees</h4>
 <p><em>If you're a former or current federal employee, you must meet these qualifications in addition to the qualifications above.</em></p>
 <p><strong>Time in Grade Requirement:</strong> Applicants who have held a General Schedule (GS) position within the last 52 weeks must have a 52 weeks of Federal service at the GS-[insert grade] grade (or equivalent).</p>
-<p>* All applicants must meet applicable time-in-grade and specialized experience requirements within thirty (30) days after the closing of the announcements.</p>
 <p>Some federal jobs allow you to substitute your education for the required specialized experience in orer to qualify. For this job, you may qualify if you education meets the definitions below:</p>
 <p>Have 2 years of progressively higher level graduate education leading to a master's degree or master's or equivalent graduate degree.</p>
 </div>
