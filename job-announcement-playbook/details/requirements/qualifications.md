@@ -76,7 +76,7 @@ Very specific experience that an applicant needs to be successful at the job.
 
 Tells the job seeker if there are education requirements. Use this section to also describe if education can be used instead of experience.
 
-This sub-section will always appear when any text is provided, which is highly encouraged.
+This sub-section will always appear. If you do not enter any text in this field, the header "Education" will still display. If the job does not have education requirements, you should enter "None" or "There are no education requirements."
 
 #### Required
 Yes
@@ -86,6 +86,7 @@ Yes
   <h4><span class="fa fa-check"></span> Do</h4>
   * Distinguish and describe minimum education requirements versus additional education requirements.
   * Include and describe how a job seeker might use education instead of experience, if appropriate.
+  * Include "None" or "There are no education requirements" or similar language, if there are no education requirements.
 </div>
 </div>
 
