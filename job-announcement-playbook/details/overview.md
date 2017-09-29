@@ -213,7 +213,7 @@ As of the 6.6 release override text has now become supplemental text and will ap
   * Do not include the service type — this is captured in the [Service field](#service).
   * Do not include the work schedule — this is captured in the [Work schedule field](#work-schedule).
   * Do not repeat the appointment types in supplemental (formerly override) text. The value of the appointment type field will appear next to the supplemental text you provide.
-  * Avoid Multiple whenever possible. Job seekers have difficulty understanding what this term means. When using Multiple use the supplemental text to explain which appointment types are possible for this job.
+  * Avoid the **Multiple** option whenever possible. Job seekers have difficulty understanding what this term means. When using the **Multiple** option use the supplemental text to explain which appointment types are possible for this job.
 </div>
 </div>
 

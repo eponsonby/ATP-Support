@@ -33,7 +33,7 @@ Yes
   * Do not use the job summary to discuss the mission statement of the agency. Agencies may now use the [Agency pop-up window](../overview#agency-modal---current-fields) to convey details about the agency and link to your careers page.
   * Don’t use dehumanizing terms like “incumbent” or “candidate”.
   * Do not repeat other sections of the job announcement in the summary section (who may apply, et. al.). Duplicating information does NOT emphasize that information but, instead serves to clutter the announcement. Duplicated information confuses and overwhelms job seekers.
-  * Do not center paragraphs or provide other HTML formatting. This negatively impacts the readability of the job announcement.
+  * Do not center paragraphs or provide HTML formatting. This negatively impacts the readability of the job announcement.
 </div>
 </div>
 
@@ -83,7 +83,7 @@ Yes
 </div>
 <div class="usajobs-recruitment-joa-playbook-details__do-not">
   <h4><span class="fa fa-times"></span> Do Not</h4>
-  * Don’t make the duties section overwhelming — a list of 20 duties is too much. Instead prioritize the most important duties.
+  * Don’t make the duties section overwhelming — a list of 20 duties is too much. Instead, prioritize the most important duties.
   * Don’t use dehumanizing terms like “incumbent” or “candidate”.
   * Don’t repeat duties.
 </div>

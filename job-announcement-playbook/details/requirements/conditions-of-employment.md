@@ -4,7 +4,7 @@ layout: joa-details
 category: requirements
 title: Conditions of Employment
 sidenav: conditions-of-employment
-lead: Conditions of employment lists pre-conditions or other requirements that the job seeker must have or agree to, either before or after accepting the job. Conditions of employment replaces the former "Key Requirements" section (though it may still be named Key requirements in your Talent Acquisition System).
+lead: Conditions of employment lists pre-conditions or other requirements that the job seeker must have or agree to, either before or after accepting the job. Conditions of employment replace the former "Key Requirements" section (though it may still be named Key requirements in your Talent Acquisition System).
 current-fields: ["Bargaining unit position", "Direct deposit", "Driver’s license", "E-verify", "Financial disclosure report", "Financial interest regulation", "Firearm", "Government charge card", "Licensure", "Mobility agreement", "Physical", "PIV process", "Proof of citizenship", "Recruitment incentive"]
 previous-fields: ["Annual leave for non-federal service authorized", "Declaration for federal employment", "Drug test", "Probationary period", "Security and background requirements", "Selective service registration", "Student loan repayment incentive"]
 ---
@@ -33,7 +33,7 @@ Yes
   <h4><span class="fa fa-times"></span> Do Not</h4>
   * Do not add your own bullet style or additional HTML - the job announcement will automatically apply the correct bullet style.
   * Do not use the "previous fields" listed below.
-  * Do not add a separate "Key Requirements" section — the Conditions of employment replaces Key Requirements.
+  * Do not add a separate "Key Requirements" section — the Conditions of employment replace Key Requirements.
 </div>
 </div>
 
