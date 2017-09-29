@@ -5,7 +5,7 @@ category: requirements
 title: Qualifications
 sidenav: qualifications
 lead: Describes the experience and education that a job seeker needs to be qualified for the job. When hiring for multiple grade levels, you must explain the qualifications for each grade level.  
-current-fields: ["Specialized experience", "Education", "Selective placement factor", "Time in grade"]
+current-fields: ["Specialized experience", "Education", "Preview questionnaire URL", "Selective placement factor", "Time in grade"]
 previous-fields: []
 ---
 
@@ -89,6 +89,15 @@ Yes
   * Include "None" or "There are no education requirements" or similar language, if there are no education requirements.
 </div>
 </div>
+
+### Preview questionnaire URL
+
+A URL pointing to the questionnaire for this announcement. 
+
+### Required
+No
+
+**NOTE:** This is a new field and may not yet be offered by your Talent Acquisition System (TAS). Work with your vendor in order to be able to use this field.
 
 ### Selective Placement Factor
 

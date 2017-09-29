@@ -4,13 +4,11 @@ layout: joa-details
 category: required-documents
 title: Required Documents
 sidenav: required-documents
-lead: This section lists the documents required in order to be able to apply.
+lead: This section lists the documents required to be able to apply.
 current-fields: ["Documents to file", "Fax overwrite warning", "Transcript required"]
 ---
 
-This section will:
-
-* End in the following set of information:
+This section will end in the following set of information when [Education requirements](../requirements/#education) are defined:
 
 <div class="usajobs-recruitment-joa-playbook-details__example-img">
 <amp-img src="{{ site.baseurl }}/assets/images/job-announcement-playbook/required-documents-disclaimer-v6.6.png"
@@ -25,7 +23,7 @@ This section will:
 
 ## Documents to file
 
-Tells the job seeker which documents need to filed to support their eligibility.
+Tells the job seeker which documents to file to support their eligibility.
 
 #### Required
 Yes

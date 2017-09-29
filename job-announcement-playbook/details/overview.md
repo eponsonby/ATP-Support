@@ -5,7 +5,7 @@ category: details
 title: Overview
 sidenav: overview
 lead: The overview section gives an "at-a-glance" view of the job. Some of this information appears on the search results card and entices a job seeker to open the job announcement.
-current-fields: ["Job title", "Department name", "Agency name", "Open and closing dates", "Service", "Pay scale and grade", "Salary", "Appointment type", "Work schedule"]
+current-fields: ["Job title", "Department name", "Agency name", "Announcement closing type", "Open and closing dates", "Announcement closing type", "Service type", "Pay scale and grade", "Salary", "Appointment type", "Work schedule"]
 previous-fields: ["Announcement number", "Control number", "Series"]
 ---
 
@@ -80,6 +80,16 @@ Yes
 
 ## Overview - Current fields
 
+### Announcement closing type
+
+Indicates the closing type. One of:
+
+* Open and closing dates
+* Application cut-off
+* Open continuous
+
+**NOTE:** This is a new field and may not yet be offered by your Talent Acquisition System (TAS). Work with your vendor in order to be able to use this field.
+
 ### Open and closing dates
 
 The open date is the first day an applicant can submit an application to the job.  The closing date is the last day an applicant can submit an application.
@@ -88,13 +98,12 @@ The job announcement will automatically close at 11:59pm EST on the closing date
 
 #### Application cut-off
 
-If you are using an application limit, you must clearly state this in the job announcement.  
+If you are using an application limit, you must clearly state this in the job announcement. Unless you are using the announcement closing type field mentioned above this must be entered manually.  
 
 #### Open continuous
 
-If you are posting an open continuous job announcement, you must clearly state this in the job announcement.
+If you are posting an open continuous job announcement, you must clearly state this in the job announcement. Unless you are using the announcement closing type field mentioned above this must be entered manually.  
 
-**NOTE:** A new field will be added to allow you to explicitly define the announcement type which may not yet be offered by your Talent Acquisition System (TAS). Work with your vendor in order to be able to use this field.
 
 #### Required
 Yes
@@ -111,12 +120,15 @@ Yes
 </div>
 </div>
 
-### Service
+
+### Service type
 
 Tells the applicant what service the job is in: Competitive, Excepted, or Senior Executive Service.
 
+**NOTE:** This is a new field and may not yet be offered by your Talent Acquisition System (TAS). Work with your vendor in order to be able to use this field.
+
 #### Required
-Yes
+No
 
 <div class="usajobs-recruitment-joa-playbook-details__container">
 <div class="usajobs-recruitment-joa-playbook-details__do">

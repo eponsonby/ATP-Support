@@ -25,7 +25,7 @@ This section is currently driven by the text supplied in the [Who May Apply](../
 | Senior Executives | Senior Executive, SES |
 | Former Overseas Employees | Former Overseas Employees |
 
-**NOTE:** We have established our Hiring Paths as an enumerated list that your Talent Acquisition System (TAS) vendor can use in the future to allow you to select valid options without having to supply the text. Talk to your vendor about this feature. We strongly encourage agencies to switch from this option. String parsing is a temporary solution that allows us to transition to a more structured way of providing and presenting this information to job seekers.
+**NOTE:** We have established our Hiring Paths as an enumerated list that your Talent Acquisition System (TAS) vendor can use in the future to allow you to select valid options without having to supply the text. The two fields are named "Hiring Path Code" and "Hiring Path Explanation" in our [Data Dictionary](https://developer.usajobs.gov/General/Schemas). Talk to your vendor about this feature. We strongly encourage agencies to switch to using these new fields. String parsing is a temporary solution that allows us to transition to a more structured way of providing and presenting this information to job seekers.
 
 #### Example
 
@@ -45,3 +45,5 @@ This example shows all of the possible hiring paths. No single job would feature
 ### Second announcement
 
 If this job is also open in another announcement to other hiring paths then this section will appear directly below the **This job is open to**. It contains the text "This job is also open in another announcement to" and then lists the other hiring paths. Clicking on this will open a new tab or window, which depends on the preference of the user set in their browser, with the second announcement.
+
+**NOTE:** This is a new field and may not yet be offered by your Talent Acquisition System (TAS). Work with your vendor in order to be able to use this field.

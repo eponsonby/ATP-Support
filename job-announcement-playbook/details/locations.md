@@ -5,7 +5,7 @@ category: locations
 title: Locations
 sidenav: locations
 lead: The Locations section lists the work locations and vacancies for the job.
-current-fields: ["Location", "Vacancies", "Within area", "Radius", "Relocation expenses reimbursed", "Telework eligible"]
+current-fields: ["Location", "Vacancies", "Location within area", "Commute distance", "Relocation expenses reimbursed", "Telework eligible"]
 ---
 
 ## Current fields
@@ -25,9 +25,9 @@ Indicates the number of vacancies at that location. Can also be provided as the 
 #### Required
 No
 
-### Within area
+### Location within area
 
-Indicates if the applicant must live within the associated location(s). When true the radius of that area must also be specified.
+Indicates if the applicant must live within the associated location(s). When true the commute distance of that area must also be specified.
 
 **NOTE:** This is a new field and may not yet be offered by your Talent Acquisition System (TAS). Work with your vendor in order to be able to use this field.
 
@@ -45,7 +45,7 @@ Indicates if the applicant must live within the associated location(s). When tru
 #### Required
 No
 
-### Radius
+### Commute distance
 
 Defines the commuting area in miles from the center of the location that the agency has identified in their merit promotion plan.
 
