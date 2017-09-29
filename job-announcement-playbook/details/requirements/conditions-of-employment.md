@@ -384,21 +384,21 @@ We recommend this move to the [Benefits](../../benefits#agency-benefits) section
 
 ### Declaration for federal employment
 
-Agencies are prohibited from collection this Declaration at the time of application unless they have an exception for approval from OPM. There are approvals pending but at this time no agency has this exception. If you feel that your agency does have this exception please have your HR director reach out to OPM Policy.
+Agencies are prohibited from collecting this Declaration at the time of application unless they have an exception for approval from OPM. There are approvals pending but at this time no agency has this exception. If you feel that your agency does have this exception please have your HR director reach out to OPM Policy.
 
 ### Drug test
 
-This information has moved to a standard location at the end of the Requirements section named [Background checks and security clearance](../background-check/#drug-test-required).
+This information has moved to a standard location at the end of the **Requirements** section named [Background checks and security clearance](../background-check/#drug-test-required).
 
 **Note**: This is a new field and may not yet be available from your Talent Acquisition System (TAS) vendor. Work with your TAS to request the ability to populate this new field.
 
 ### Probationary period
 
-A link to the probationary period statement is now found in the [Fair and Transparent - Legal and regulatory guidance](../fair-and-transparent/#legal-and-regulatory-guidance) section. If your agency has a probationary period longer or shorter than 1 year please continue to indicated that in the Conditions of Employment section.
+A link to the probationary period statement is now found in the [Fair and Transparent - Legal and regulatory guidance](../fair-and-transparent/#legal-and-regulatory-guidance) section. If your agency has a probationary period longer or shorter than 1 year please continue to indicate that in the **Conditions of Employment** section.
 
 ### Security and background requirements
 
-This information has moved to a standard location at the end of the Requirements section named [Background checks and security clearance](../background-check/).
+This information has moved to a standard location at the end of the **Requirements** section named [Background checks and security clearance](../background-check/).
 
 ### Selective service registration
 
@@ -406,4 +406,4 @@ A link to the Selective service registration policy is now found in the [Fair an
 
 ### Student loan repayment incentive
 
-We recommend that this information be given in the [Benefits](../../benefits#agency-benefits) section.
+We recommend that this information is given in the [Benefits](../../benefits#agency-benefits) section.
