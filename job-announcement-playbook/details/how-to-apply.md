@@ -82,7 +82,7 @@ Multiple positions may be filled from this announcement.
 
 ## Actions
 
-This section also includes an **Apply** button that will start the application process for the user. The actions component appears in the right-hand-side of the screen (at desktop viewport size; the page is responsive so this section will move depending on the width of the browser window and the device it is being displayed upon).
+This section also includes an **Apply** button that will start the application process for the user. The actions component appears in the right-hand-side of the screen (at desktop "viewport" size; the page is responsive so this section will move depending on the width of the browser window and the device it is being displayed upon).
 
 The actions section also includes controls for:
 

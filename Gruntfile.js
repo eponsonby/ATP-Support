@@ -18,40 +18,18 @@ module.exports = function(grunt) {
       },
       jekyllServe: {
         command: "bundle exec jekyll serve --baseurl ''"
+      },
+      spellCheck: {
+        command: "mdspell -r -n -a --en-us job-announcement-playbook/**/*.md"
+      },
+      linkChecker: {
+        command: "blc http://usajobs.github.io/ATP-Support/ -e -r"
       }
     },
     notify_hooks: {
       options: {
         enabled: true,
         success: false // whether successful grunt executions should be notified automatically
-      }
-    },
-    linkChecker: {
-      // Use a large amount of concurrency to speed up check
-      options: {
-        maxConcurrency: 20,
-        noFragment: true
-      },
-      dev: {
-        site: 'localhost',
-        options: {
-          initialPort: 4000
-        }
-      },
-      staging: {
-        site: 'usajobs.github.io/ATP-Support'
-      }
-    },
-    mdspell: {
-      options: {
-        ignoreAcronyms: true,
-        ignoreNumbers: true
-      },
-      files: {
-        src: [
-        'index.html',
-        'search.html'
-        ]
       }
     },
     scsslint: {
@@ -68,7 +46,12 @@ module.exports = function(grunt) {
       all: {
         options: {
           errorlevels: ['error'],
-          ignore: 'Element “img” is missing required attribute “src”.'
+          ignore: [
+            'Attribute “⚡” not allowed on element “html” at this point.',
+            'Element “img” is missing required attribute “src”.',
+            'Attribute “amp-custom” not allowed on element “style” at this point.',
+            'Attribute “amp-boilerplate” not allowed on element “style” at this point.'
+          ]
         },
         src: [ '_dist/**/*.html' ]
       }
@@ -78,4 +61,5 @@ module.exports = function(grunt) {
   grunt.registerTask('serve', ['shell:jekyllServe']);
   grunt.registerTask('build', ['shell:jekyllBuild']);
   grunt.registerTask('lint', ['scsslint']);
+  grunt.registerTask('test', ['shell:spellCheck', 'htmllint', 'shell:linkChecker']);
 };

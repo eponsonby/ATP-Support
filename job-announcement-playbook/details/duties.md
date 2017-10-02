@@ -210,9 +210,9 @@ Yes
 </div>
 </div>
 
-#### Pre-requisites
+#### Prerequisites
 
-The Who May Apply section has contained eligibility information as well as a set of pre-requisites for employment that have found new homes in the job announcement.
+The Who May Apply section has contained eligibility information as well as a set of prerequisites for employment that have found new homes in the job announcement.
 
 ##### New field in API
 

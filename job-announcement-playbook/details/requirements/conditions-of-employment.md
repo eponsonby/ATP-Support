@@ -87,7 +87,7 @@ You will need to set up direct deposit so we can pay you.
 </div>
 <div class="usajobs-recruitment-joa-playbook-details__do-not">
   <h4><span class="fa fa-times"></span> Do Not</h4>
-  * Do not feel like you must include this ‘condition’. The law (31 usc3332) requires direct deposit for salaries, however Policy does not require that applicants be made aware of the requirement before they start their job.
+  * Do not feel like you must include this ‘condition’. The law (31 USC3332) requires direct deposit for salaries, however Policy does not require that applicants be made aware of the requirement before they start their job.
   * Do not include this text in any other section—it should only appear once and only in Conditions of employment.
 </div>
 </div>

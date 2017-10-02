@@ -12,7 +12,7 @@ This section is currently driven by the text supplied in the [Who May Apply](../
 {: .usajobs-recruitment-joa-playbook-details__table}
 | Hiring Path                   | Who May Apply content |
 | ----------------------------- | --------------------- |
-| Open to the Public | U.S.Citizens, Excepted Service |
+| Open to the Public | U.S. Citizens, Excepted Service |
 | Federal Employees| Federal Employees, Current Federal Employees, Former Federal Employees, Merit Promotion, Status Candidates, CTAP, Career Transition Assistance Program, ICTAP, Interagency Career Transition Assistance Program|
 | Internal to an Agency| Internal Employee, Agency Employee |
 | Veterans | Expanded Veteran Hiring Opportunity,  EVHO, Veterans Recruitment, VRA, VEOA, Veterans Employment Opportunity Act, 30% Disabled |
