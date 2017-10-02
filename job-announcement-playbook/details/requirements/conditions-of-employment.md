@@ -126,7 +126,7 @@ No
 
 <div class="usajobs-recruitment-joa-playbook-details__suggested-text">
 <h5>Suggested text</h5>
-Successfully pass the E-Verify employment verification check. To learn more about E-Verify, including your rights and responsibilities, visit <a href="www.dhs.gov/E-Verify/">www.dhs.gov/E-Verify/</a>.
+Successfully pass the E-Verify employment verification check. To learn more about E-Verify, including your rights and responsibilities, visit <a href="http://www.dhs.gov/E-Verify/">www.dhs.gov/E-Verify/</a>.
 </div>
 
 <div class="usajobs-recruitment-joa-playbook-details__container">
@@ -394,7 +394,7 @@ This information has moved to a standard location at the end of the **Requiremen
 
 ### Probationary period
 
-A link to the probationary period statement is now found in the [Fair and Transparent - Legal and regulatory guidance](../fair-and-transparent/#legal-and-regulatory-guidance) section. If your agency has a probationary period longer or shorter than 1 year please continue to indicate that in the **Conditions of Employment** section.
+A link to the probationary period statement is now found in the [Fair and Transparent - Legal and regulatory guidance](../../fair-and-transparent/#legal-and-regulatory-guidance) section. If your agency has a probationary period longer or shorter than 1 year please continue to indicate that in the **Conditions of Employment** section.
 
 ### Security and background requirements
 
@@ -402,7 +402,7 @@ This information has moved to a standard location at the end of the **Requiremen
 
 ### Selective service registration
 
-A link to the Selective service registration policy is now found in the [Fair and Transparent - Legal and regulatory guidance](../fair-and-transparent/#legal-and-regulatory-guidance) section.
+A link to the Selective service registration policy is now found in the [Fair and Transparent - Legal and regulatory guidance](../../fair-and-transparent/#legal-and-regulatory-guidance) section.
 
 ### Student loan repayment incentive
 

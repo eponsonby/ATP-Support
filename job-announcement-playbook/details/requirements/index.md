@@ -15,4 +15,4 @@ The Requirements section is broken down into the following subsections:
 
 #### [How you will be evaluated](how-you-will-be-evaluated/)
 
-#### [Background checks and security clearance](background-checks/)
+#### [Background checks and security clearance](background-check/)

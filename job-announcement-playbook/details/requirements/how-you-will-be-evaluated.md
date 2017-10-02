@@ -149,4 +149,4 @@ The DEO handbook does require to indicate under Basis for Rating whether a drug 
 
 ### Financial suitability
 
-A link to the financial suitability guidance is now found in the [Fair and Transparent - Legal and regulatory guidance](../fair-and-transparent/#legal-and-regulatory-guidance) section.
+A link to the financial suitability guidance is now found in the [Fair and Transparent - Legal and regulatory guidance](../../fair-and-transparent/#legal-and-regulatory-guidance) section.
