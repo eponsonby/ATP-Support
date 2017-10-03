@@ -31,7 +31,9 @@ The occupation buttons each show the SOC occupation title and the number of jobs
 
 ### Mission critical code
 
-The Mission critical code allows for tagging a job as belonging to a mission critical occupation. The following tags are defined:
+The mission critical code is a ‘tag’ we use to identify a job that is a “Mission Critical Occupation”. 
+
+We created tags for these seven Mission Critical Occupations: 
 
 1. Cyber Security
 2. Data Scientist
@@ -43,17 +45,24 @@ The Mission critical code allows for tagging a job as belonging to a mission cri
 
 #### What are Mission Critical Occupations?
 
-Mission Critical Occupations (MCOs) are roles that OPM has identified as being in high demand or critical to an agency’s mission. USAJOBS created tags for the seven MCOs that either exist across multiple series, or don’t align with any series, in order to make them easier for job seekers to find.
+Mission Critical Occupations (MCOs) are roles that OPM has identified as being in high demand or critical to an agency’s mission. So far, OPM has identified seven MCOs, that may exist across multiple series, or don’t align with any series.
 
 #### Why use Mission Critical Occupation Tags?
 
-Tagging job announcements increases their visibility to job seekers. Relevant job announcements that are appropriately tagged will be boosted in the search results, helping job seekers more easily search for and identify opportunities that are a good match for their skill sets and experience.
+Tagging a job announcement with the right tag(s) helps:
+
+* Elevate the job in search results.
+* Increase the job visibility to job seekers.
+* Make it easier for job seekers to search for and identify jobs that are a good match for their skill sets and experience.
+
 
 #### Next Steps
 
-If your agency is serviced by USA Staffing or Monster, MCO tags are currently available. We encourage you to start using them immediately if you are not already. In the coming months, relevant, tagged job announcements will be boosted in search results and these seven MCOs will be added to the USAJOBS keyword autocomplete. If your agency works with a different TAS and you have questions about the availability of MCO tags, please reach out to your agency TAS representative.
+MCO tags are currently available to agencies that use USA Staffing or Monster. We encourage you to start using the MCO tags in your job announcements. In the coming months, we will add these seven MCO tags to the USAJOBS keyword autocomplete.  We will also boost relevant, tagged job announcements in the search results. 
+
+If your agency uses a different TAS and you have questions about the availability of MCO tags, please reach out to your agency TAS representative.
 
 #### Required
 No
 
-**NOTE:** This is a new field and may not yet be offered by your Talent Acquisition System (TAS). Work with your vendor in order to be able to use this field. Display of these tags is not yet supported in the job announcement but is forthcoming.
+**NOTE:** This is a new field and your Talent Acquisition System (TAS) may not offer it yet. Work with your vendor to start using this field. USAJOBS currently doesn’t display these tags in the job announcement, but we will support this feature soon.
