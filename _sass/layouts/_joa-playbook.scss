@@ -15,11 +15,77 @@
       @include grid-column(4);
     }
   }
+}
 
-  &__home {
+.usajobs-recruitment-joa-playbook-home {
+  &__section {
+    padding: $size-M $size-default;
+
     @include grid-media($L) {
-      margin-left: 0;
+      padding: $size-XL $size-L;
     }
+  }
+
+  &__title {
+    font-family: $font-serif;
+    color: $color-white;
+  }
+}
+
+.usajobs-recruitment-joa-playbook-home--lead {
+  background-color: $color-cool-blue-light;
+  color: $color-white;
+}
+
+.usajobs-recruitment-joa-playbook-home--playlist {
+  background-color: $color-gray-dark;
+  color: $color-white;
+
+  &__list {
+    font-size: $h3-font-size;
+    line-height: $lead-line-height;
+    color: $color-white;
+    list-style-postion: inside;
+    padding-left: 2rem;
+
+    li {
+      padding-bottom: $size-default;
+    }
+
+    a {
+      color: $color-white;
+      text-decoration: none;
+
+      &:hover {
+        color: $color-white;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.usajobs-recruitment-joa-playbook-home--plays {
+  max-width: $article-max-width;
+
+  &__title {
+    margin-bottom: $size-default;
+  }
+
+  &__can-do,
+  &__questions {
+    padding-left: 2.5rem;
+  }
+
+  &__can-do {
+    list-style-image: url("../assets/images/job-announcement-playbook/bullet-sq.svg");
+  }
+
+  &__questions {
+    list-style-image: url("../assets/images/job-announcement-playbook/bullet-circle.svg");
+  }
+
+  li {
+    margin: $size-S 0;
   }
 }
 
