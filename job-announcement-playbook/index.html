@@ -40,8 +40,8 @@
   "@type": "WebPage",
   "mainEntityOfPage": "http://usajobs.github.io/ATP-Support//ATP-Support/job-announcement-playbook/",
   "headline": "Help for the USAJOBS Agency Talent Portal",
-  "datePublished": "2017-10-03T10:20:43-04:00",
-  "dateModified": "2017-10-03T10:20:43-04:00",
+  "datePublished": "2017-10-11T23:08:22-04:00",
+  "dateModified": "2017-10-11T23:08:22-04:00",
   "description": "Get help with strategic recruitment.",
   "author": {
     "@type": "Organization",
@@ -3864,9 +3864,50 @@ li.usa-footer-primary-content {
       width: calc(66.6666666667% - 5rem);
       float: left;
       margin-left: 3rem; } }
+
+.usajobs-recruitment-joa-playbook-home__section {
+  padding: 3rem 1.5rem; }
   @media only screen and (min-width: 62em) {
-    .usajobs-recruitment-joa-playbook__home {
-      margin-left: 0; } }
+    .usajobs-recruitment-joa-playbook-home__section {
+      padding: 6rem 4.5rem; } }
+.usajobs-recruitment-joa-playbook-home__title {
+  font-family: Merriweather, Georgia, Cambria, "Times New Roman", Times, serif;
+  color: #ffffff; }
+
+.usajobs-recruitment-joa-playbook-home--lead {
+  background-color: #4773aa;
+  color: #ffffff; }
+
+.usajobs-recruitment-joa-playbook-home--playlist {
+  background-color: #323a45;
+  color: #ffffff; }
+  .usajobs-recruitment-joa-playbook-home--playlist__list {
+    font-size: 24px;
+    line-height: 1.7;
+    color: #ffffff;
+    list-style-postion: inside;
+    padding-left: 2rem; }
+    .usajobs-recruitment-joa-playbook-home--playlist__list li {
+      padding-bottom: 1.5rem; }
+    .usajobs-recruitment-joa-playbook-home--playlist__list a {
+      color: #ffffff;
+      text-decoration: none; }
+      .usajobs-recruitment-joa-playbook-home--playlist__list a:hover {
+        color: #ffffff;
+        text-decoration: underline; }
+
+.usajobs-recruitment-joa-playbook-home--plays {
+  max-width: 60rem; }
+  .usajobs-recruitment-joa-playbook-home--plays__title {
+    margin-bottom: 1.5rem; }
+  .usajobs-recruitment-joa-playbook-home--plays__can-do, .usajobs-recruitment-joa-playbook-home--plays__questions {
+    padding-left: 2.5rem; }
+  .usajobs-recruitment-joa-playbook-home--plays__can-do {
+    list-style-image: url("../assets/images/job-announcement-playbook/bullet-sq.svg"); }
+  .usajobs-recruitment-joa-playbook-home--plays__questions {
+    list-style-image: url("../assets/images/job-announcement-playbook/bullet-circle.svg"); }
+  .usajobs-recruitment-joa-playbook-home--plays li {
+    margin: 1rem 0; }
 
 .usajobs-recruitment-joa-playbook-details h2 {
   margin-top: 6rem; }
@@ -3999,18 +4040,23 @@ li.usa-footer-primary-content {
     <div class="usa-nav-inner">
       <ul class="usa-nav-primary">
         <li>
-          <a class="usa-nav-link usa-current" href="/ATP-Support/job-announcement-playbook/" title="Home" aria-label="About this site">
-            About this site
+          <a class="usa-nav-link usa-current" href="/ATP-Support/job-announcement-playbook/" title="Home" aria-label="The Plays">
+            Plays
           </a>
         </li>
         <li>
           <a class="usa-nav-link " href="/ATP-Support/job-announcement-playbook/details/">
-            <span>Job announcement guidelines</span>
+            <span>Guidelines</span>
           </a>
         </li>
         <li>
           <a class="usa-nav-link " href="/ATP-Support/job-announcement-playbook/case-studies/">
             <span>Case studies</span>
+          </a>
+        </li>
+        <li>
+          <a class="usa-nav-link " href="/ATP-Support/job-announcement-playbook/release-notes/">
+            <span>Release notes</span>
           </a>
         </li>
       </ul>
@@ -4037,115 +4083,240 @@ li.usa-footer-primary-content {
 </script>
 </amp-analytics>
 
-    <div class="usajobs-recruitment usajobs-recruitment-joa-playbook">
-      <div class="usajobs-content-gutter">
-        <section class="usajobs-shell">
-          <main class="usajobs-content-well usajobs-recruitment-joa-playbook__home" role="main">
-  <h2 class="usajobs-recruitment-joa-playbook__title">
-    Welcome to the job announcement playbook
-  </h2>
-  <p class="usa-font-lead">
-    This site is for anyone who is involved in creating a job announcement. Our goal is to make the job announcement easier to read and understand. Improving our job announcements will help our job seekers find the job(s) they’re looking for and help our agencies hire the best talent available.
-  </p>
-  <p>
-    The job announcement guideline site will help you:
-  </p>
-  <ul>
-    <li>Get the latest updates to USAJOBS and the job announcement.</li>
-    <li>Learn what you must include (and what’s optional) in the job announcement.</li>
-    <li>Get guidance and best practices on creating an ideal job announcement.</li>
-    <li>Learn how other agencies are improving their job announcements.</li>
-  </ul>
-  <p>
-    You’ll still need to create your job announcement in your Talent Acquisition System (TAS).
-  </p>
+    <div class="usajobs-recruitment usajobs-recruitment-joa-playbook-home">
+      <section class="usajobs-shell">
+        <main role="main">
+  <div class="usajobs-recruitment-joa-playbook-home__section usajobs-recruitment-joa-playbook-home--lead">
+    <h1 id="title" class="usajobs-recruitment-joa-playbook-home__title">
+      Welcome to the job announcement playbook
+    </h1>
+    <p class="usa-font-lead">
+      Our goal is to make the job announcement easier to read and understand. Improving our job announcements will help our job seekers find the job they’re looking for and help our agencies hire the best talent available.
+    </p>
+    <p>
+      This site is for anyone who is involved in creating a job announcement. The site will help you:
+    </p>
+    <ul>
+      <li>Get the latest updates to USAJOBS and the job announcement.</li>
+      <li>Learn what you must include (and what’s optional) in the job announcement.</li>
+      <li>Get guidance and best practices on creating an ideal job announcement.</li>
+      <li>Learn how other agencies are improving their job announcements.</li>
+    </ul>
+    <p>
+      You’ll still need to create your job announcement in your Talent Acquisition System (TAS).
+    </p>
+  </div>
+  <div id="plays" class="usajobs-recruitment-joa-playbook-home__section usajobs-recruitment-joa-playbook-home--playlist">
+    <h2 class="usajobs-recruitment-joa-playbook-home__title">
+      The plays
+    </h2>
+    <ol class="usajobs-recruitment-joa-playbook-home--playlist__list">
+      <li>
+        <a href="#play-1">
+          Build an ongoing relationship between the Hiring (HR) Specialist and the Hiring Manager
+        </a>
+      </li>
+      <li>
+        <a href="#play-2">Focus on the job announcement content</a>
+      </li>
+      <li><a href="#play-3">Review your job announcement templates</a></li>
+      <li><a href="#play-4">Work with your TAS to measure your job announcements</a></li>
+      <li><a href="#play-5">Talk to candidates</a></li>
+    </ol>
+  </div>
+  <div class="usajobs-recruitment-joa-playbook-home__section usajobs-recruitment-joa-playbook-home--plays" id="play-1">
+    <h3 class="usajobs-recruitment-joa-playbook-home--plays__title">
+      Build an ongoing relationship between the Hiring (HR) Specialist and the Hiring Manager
+    </h3>
+    <h4>Problem</h4>
+    <p>
+      Many Hiring Managers and HR Specialists are unclear of one another’s role and many Hiring Managers have a lack of knowledge about and have frustration with the hiring process. As a result, the entire hiring process is less efficient and effective, and sometimes leading to a decision not to hire at all.
+    </p>
+    <h4>Why should we fix it?</h4>
+    <p>
+      When there’s a need to hire someone, establishing a relationship between the HR Specialist and Hiring Manager right away is key. Hiring Managers who work in concert with their HR Specialists (and vice versa) will be better able to assess and hire the best talent.
+    </p>
+    <h4>Here’s what you can do</h4>
+    <ul class="usajobs-recruitment-joa-playbook-home--plays__can-do">
+      <li>Have a kickoff meeting with the HR Specialist and the Hiring Manager as soon as a hiring need is identified.</li>
+      <li>Discuss the roles and responsibilities of the Hiring Manager and the HR specialist - who will do what and when during the hiring process.</li>
+      <li>Have recurring touch points throughout the hiring process.</li>
+      <li>Engage SME’s to assist in the hiring process--ask them to help interview, review applications, or serve on assessment panels.</li>
+      <!-- li>Understand what each role can do to improve the hiring process:
+        <ul>
+          <li>Follow these ‘Hiring Excellence’ tips for Hiring Managers</li>
+          <li>Follow these ‘Hiring Excellence’’ tips for HR Specialists</li>
+        </ul>
+      </li -->
+      <li>Check out other best practices through the <a href="https://www.opm.gov/policy-data-oversight/hiring-information/hiring-excellence/tools-resources/">Hiring Excellence website</a>.</li>
+    </ul>
+    <h4>Key questions</h4>
+    <ul class="usajobs-recruitment-joa-playbook-home--plays__questions">
+      <li>Do you understand how the hiring process works?</li>
+      <li>Is this a new job or a replacement?</li>
+      <li>Do we need to change or update the position description?</li>
+      <li>What, if any, assessment will be used?</li>
+      <li>Is there a SME we can ask to help with interviewing or assessing the candidates?</li>
+      <li>What are our action items and when do we need to complete them?</li>
+    </ul>
+  </div>
+  <hr />
+  <div class="usajobs-recruitment-joa-playbook-home__section usajobs-recruitment-joa-playbook-home--plays" id="play-2">
+    <h3 class="usajobs-recruitment-joa-playbook-home--plays__title">
+      Focus on the job announcement content
+    </h3>
+    <h4>Problem</h4>
+    <p>
+      Job announcements put too much focus on regulations and other legal content, instead of on what a job seeker needs to know. As a result, the job seeker doesn’t have enough information to make an informed decision and agencies are unable to attract qualified applicants.
+    </p>
+    <h4>Why should we fix it?</h4>
+    <p>
+      The job announcement is for the job seeker.  The announcement must tell the job seeker what they need to know and what they need to do.  Well written job announcements, with the right information, will attract better qualified and more informed applicants.
+    </p>
+    <h4>Here’s what you can do</h4>
+    <ul class="usajobs-recruitment-joa-playbook-home--plays__can-do"></li>
+      <li>Use plain language – <a href="https://www.gpo.gov/fdsys/pkg/PLAW-111publ274/pdf/PLAW-111publ274.pdf">it’s the law</a>.
+        <ul>
+          <li><a href="/ATP-Support/job-announcement-playbook/details/overview#job-title">Write a clear job title</a>.</li>
+          <li>Use other best practices for writing plain language job announcements.</li>
+        </ul>
+      </li>
+      <li>Speak to the job seeker
+        <ul>
+          <li>Use pronouns to personalize the content and experience (i.e. use “you”, “your” when speaking to the job seeker).</li>
+          <li>Don’t use dehumanizing terms like “incumbent” or “candidate”.</li>
+          <li>Read the job announcement as if you’re new to the government – does it make sense?</li>
+        </ul>
+      </li>
+      <li>Only include content that the job seeker needs.
+        <ul>
+          <li>Take the job seeker’s perspective—what do they need to know about this job?</li>
+          <li>Use the job analysis and description to identify the most important information.</li>
+        </ul>
+      </li>
+      <li>Read the <a href="/ATP-Support/job-announcement-playbook/details">job announcement guidelines</a> to know the type of content that goes in each section of the job announcement</li>
+      <li>Read the <a href="/ATP-Support/job-announcement-playbook/details/fair-and-transparent/">Fair & Transparent section of the playbook</a> to know what legal and regulation content is automatically included in the job announcement. You don’t need to repeat this content anywhere else.</li>
+      <li>Organize the content logically
+        <ul>
+          <li>Place the most important information at the top of each section in the job announcement. For example, place the most important job duties as the first few bullets in the duties section.</li>
+          <li>Use bulleted lists to break out separate duties and/or qualifications. If you use the new Duties field, it will automatically add bulleted lists. But, you can always add a bulleted list using html.</li>
+        </ul>
+      </li>
+    </ul>
 
-  <h2 class="usajobs-recruitment-joa-playbook__title">
-    What’s new with USAJOBS and the job announcement
-  </h2>
-  <p>
-    We’ll provide regular updates on changes to USAJOBS and the job announcement.
-  </p>
-  <div class="usajobs-recruitment-release-notes">
-  <h3>Changes to be made on September 1, 2017 (USAJOBS Release 6.6)</h3>
-  <p>
-    The most recent update to USAJOBS introduces a new job announcement layout, search filter changes, and some content updates.
-  </p>
-  <p>
-    We made the following changes:
-  </p>
-  <h4>1. Removed "Land management" hiring path</h4>
-  <p>
-    We removed <strong>Land Management</strong> as a searchable filter because if you’re eligible for Land Management, you’re also eligible to apply for any job listed under the Federal Employee hiring path. Therefore, we don’t need to have a distinct search filter for Land Management.
-  </p>
-  <p>
-    We removed the <strong>Land Management</strong> hiring path from the USAJOBS search filter, the <strong>This job is open to</strong> section in the job announcement, and the USAJOBS landing page.
-  </p>
-  <p>
-    We kept a Help Center page to explain Land Management to applicants: <a href=" https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/federal-employees/land-management/">
-      https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/federal-employees/land-management/
-    </a>
-  </p>
+    <h4>Key questions</h4>
+    <ul class="usajobs-recruitment-joa-playbook-home--plays__questions">
+      <li>Does the content make sense when you read it out loud?</li>
+      <li>Did you put the right content in the right sections?</li>
+      <li>Is any of the content repetitive? Do you repeat the same legal or regulations that are in the Fair & Transparent section?</li>
+      <li>What does the job seeker need to know at this stage in the process?</li>
+      <li>What does the job seeker want to know and what do they already know?</li>
+    </ul>
+  </div>
 
-  <h4>2. Created a new Help Center page for the Base management hiring path</h4>
-  <p>
-    We added a Help center page to explain the “Base Management” eligibility for employees of the Defense Industrial Base Facility or the Major Range and Test Facilities Base.
-  </p>
-  <p>
-    <a href="https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/federal-employees/base-management/">
-      https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/federal-employees/base-management/
-    </a>
-  </p>
-  <h4>3. Updated the travel percentage options</h4>
-  <p>
-    Based on feedback from our users, we updated the travel percentage options in the search filters and in the answers to the travel question in
+  <hr />
 
-    We are updating the options for the question “What percentage of duty time will you travel?” that the user can set in their <a href="https://www.usajobs.gov/Applicant/ProfileDashboard/Preferences">Profile > Preferences</a>.
-  </p>
-  <p>
-    The new travel percentage options are:
-  </p>
-  <ul>
-    <li>Not required</li>
-    <li>Occasional travel</li>
-    <li>25% or less</li>
-    <li>50% or less</li>
-    <li>75% or less</li>
-    <li>76% or greater</li>
-  </ul>
-  <p>
-    We’ve also updated the <a href="https://www.usajobs.gov/Help//how-to/search/filters/travel-percentage/">travel percentage</a> page in the Help Center.
-  </p>
-  <p>
-    These changes will make it easier for job seekers to narrow their results by the amount of travel, and it will help HR Specialists more accurately describe a job’s travel requirements.
-  </p>
-  <h4>4. Added an application status indicator in search results</h4>
-  <p>
-    Based on feedback from our users, we now indicate in search results which jobs a user has already applied to and what the status of that application is. This helps users avoid clicking on jobs they've already seen and applied to.
-  </p>
-  <h4>5. Search radius now automatically shown in search results</h4>
-  <p>
-    Our search has always used a default radius (currently set to 25 miles) from the center of the location specified in the location field. A pill that indicates to the user that this radius is in place by default now appears to make that more clear.
-  </p>
-  <h4>6. Updated job announcement</h4>
-  <p>
-    We've made a slew of changes to the job announcement. So many in fact that we decided to create this site to help communicate those changes for this and all subsequent releases. Please review the <a href="/ATP-Support/job-announcement-playbook/details/">job announcement details</a> to learn about these changes.
-  </p>
-</div>
+  <div class="usajobs-recruitment-joa-playbook-home__section usajobs-recruitment-joa-playbook-home--plays" id="play-3">
+    <h3 class="usajobs-recruitment-joa-playbook-home--plays__title">
+      Review your job announcement templates
+    </h3>
+    <h4>Problem</h4>
+    <p>
+      Agencies often create too many job announcement templates making it hard to keep track of and review them. As a result, many templates are not up-to-date and display bad information.
+    </p>
+    <h4>Why should we fix it?</h4>
+    <p>
+      Good job announcement templates make HR’s job easier and more efficient, and builds trust with the job seeker. USAJOBS is continually tweaking the job announcement based on research and user feedback.  The fewer templates you have, the easier it is to update them with the ongoing changes.
+    </p>
+    <h4>Here’s what you can do</h4>
+    <ul class="usajobs-recruitment-joa-playbook-home--plays__can-do"></li>
+      <li>Review your job announcement templates now to make sure they’re up-to-date with all of the job announcement changes.</li>
+      <li>Reduce the number of job announcement templates you use—a smaller number of templates is much more manageable.</li>
+      <li>Put a process in place to review your templates on a regular basis.</li>
+    </ul>
+    <h4>Key questions</h4>
+    <ul class="usajobs-recruitment-joa-playbook-home--plays__questions">
+      <li>How many job announcement templates do you have?</li>
+      <li>How many job announcement templates do you actually use?</li>
+      <li>Are any templates repetitive?</li>
+      <li>When was the last time you updated the templates?</li>
+    </ul>
+  </div>
 
+  <hr />
 
-  <h4>Previous changes to USAJOBS</h4>
-  <ul class="usa-unstyled-list">
-    <li>
-      <a href="/ATP-Support/job-announcement-playbook/release-notes/v6.5/">
-        Changes made on July 1, July 24, and August 10, 2017 (Release 6.5)
-      </a>
-    </li>
-  </ul>
+  <div class="usajobs-recruitment-joa-playbook-home__section usajobs-recruitment-joa-playbook-home--plays" id="play-4">
+    <h3 class="usajobs-recruitment-joa-playbook-home--plays__title">
+      Work with your TAS to measure your job announcements
+    </h3>
+    <h4>Problem</h4>
+    <p>
+      The job announcement is not measured formally, so it’s unclear which parts of the job announcement work well and don’t work well.
+    </p>
+    <h4>Why should we fix it?</h4>
+    <p>
+      Measuring the success of your job announcement is the only way to know the types of applicants you’re getting.  Maybe your job announcement is working really well—you should share what you’re doing with other agencies so they can adopt best practices.  Or, maybe you’re having a hard time getting qualified applicants. By putting success metrics in place, you can focus on areas that need improvement.
+    </p>
+    <p>
+      If you’re using USA Staffing or Monster, they CAN produce reports for you.
+    </p>
+    <h4>Here’s what you can do</h4>
+    <ul class="usajobs-recruitment-joa-playbook-home--plays__can-do"></li>
+      <li>Ask your TAS to create reports on a regular basis to measure your job announcement.</li>
+      <li>Consider getting data for:
+        <ul>
+          <li>Ineligible applicants</li>
+          <li>Incomplete applications</li>
+          <li>Not qualified applicants</li>
+          <li>Eligible, but not referred</li>
+          <li>SME reviews</li>
+          <li>Any other metrics</li>
+        </ul>
+      </li>
+      <li>Use the data to inform your decisions on what you include in your job announcements.</li>
+      <li>Share your data with USAJOBS—if you’re seeing a bad trend, tell us so we know what’s working and what’s not. If you’re seeing good results, tell us so we can share what you’re doing right with other agencies.</li>
+    </ul>
+  </div>
+
+  <hr />
+
+  <div class="usajobs-recruitment-joa-playbook-home__section usajobs-recruitment-joa-playbook-home--plays" id="play-5">
+    <h3 class="usajobs-recruitment-joa-playbook-home--plays__title">
+      Talk to candidates
+    </h3>
+    <h4>Problem</h4>
+    <p>
+      The hiring process is too impersonal. Often, candidates have no idea what happens to their application, because they never receive a status. Many candidates make it to the final cut and are still unclear about what the job is and whether it’s a good fit.  And, some candidates are hired without ever talking to the hiring agency or manager. This lack of communication becomes the expectation, so the cycle continues.
+    </p>
+    <h4>Why should we fix it?</h4>
+    <p>
+      Open, clear and continuous communication is the key to finding the right person to fill a job. It’s important to actually talk to the person you’re considering, before you hire them and continue to nurture the relationship through the onboarding process.
+    </p>
+    <h4>Here’s what you can do</h4>
+    <ul class="usajobs-recruitment-joa-playbook-home--plays__can-do"></li>
+      <li>Start with writing good job duties for the job announcement.</li>
+      <li>Use resume mining, events or career sites to proactively reach target candidates.</li>
+      <li>Answer questions and provide status updates.</li>
+      <li>Set up a phone interview with candidates (once you’ve narrowed down your list).</li>
+      <li>Ask the candidate if they understand what the job duties are—consider asking them in their own words.</li>
+      <li>Ask the candidate if they have any questions about the job.</li>
+      <li>Be clear about next steps.</li>
+      <li>Read about phone and other interview types in Hiring Excellence.</li>
+    </ul>
+
+    <h4>Key questions</h4>
+    <ul class="usajobs-recruitment-joa-playbook-home--plays__questions">
+      <li>Do you know what the job duties are?</li>
+      <li>Is the job announcement duties section clear and written for the job seeker?</li>
+      <li>When and how do you want to talk to the candidate?</li>
+      <li>Does the candidate know what the job duties are?</li>
+      <li>Is the candidate a good fit for the job and the team?</li>
+      <li>Is the candidate a good fit based on initial conversation?</li>
+    </ul>
+  </div>
 </main>
 
-        </section>
-      </div>
+      </section>
     </div>
     <footer class="usa-footer usa-footer-big usajobs-footer--v2" role="contentinfo" aria-label="footer" data-object="footer">
   <div class="usajobs-grid usa-footer-return-to-top">
@@ -4159,10 +4330,16 @@ li.usa-footer-primary-content {
               Job announcement playbook
           </li>
           <li class="usajobs-footer--v2__menu-item home-menu is-hidden">
-            <a href="/ATP-Support/job-announcement-playbook/">Home</a>
+            <a href="/ATP-Support/job-announcement-playbook/">Plays</a>
           </li>
           <li class="usajobs-footer--v2__menu-item home-menu is-hidden">
-            <a href="/ATP-Support/job-announcement-playbook/details/">Announcement details</a>
+            <a href="/ATP-Support/job-announcement-playbook/details/">Guidelines</a>
+          </li>
+          <li class="usajobs-footer--v2__menu-item home-menu is-hidden">
+            <a href="/ATP-Support/job-announcement-playbook/case-studies/">Case studies</a>
+          </li>
+          <li class="usajobs-footer--v2__menu-item home-menu is-hidden">
+            <a href="/ATP-Support/job-announcement-playbook/release-notes/">Release notes</a>
           </li>
         </ul>
         <ul class="usa-unstyled-list usa-footer-primary-content usajobs-footer--v2__faqs">
