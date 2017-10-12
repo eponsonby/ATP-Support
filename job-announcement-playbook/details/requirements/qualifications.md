@@ -22,7 +22,7 @@ This section will:
 <h4><span class="fa fa-check"></span> Do</h4>
 <h5>Only include content that the job seeker needs</h5>
 * Only include information about qualifications - don’t include background checks, job locations, etc.
-* Use the qualifications from [OPM’s Qualifications Standards Handbook](https://www.opm.gov/policy-data-oversight/classification-qualifications/classifying-general-schedule-positions/) as a guide when writing the job announcement, but make sure to use plain language.
+* You must use the exact language from the [OPM Qualifications Standards Handbook](https://www.opm.gov/policy-data-oversight/classification-qualifications/classifying-general-schedule-positions/) when writing the job announcement.
 * Include education requirements, if there are any.
 * Include how to substitute education for experience, if needed.
 
@@ -92,7 +92,7 @@ Yes
 
 ### Preview questionnaire URL
 
-A URL pointing to the questionnaire for this announcement. 
+A URL pointing to the questionnaire for this announcement.
 
 ### Required
 No
@@ -115,11 +115,18 @@ This tells the job seeker if they need to have experience equal to a specific gr
 
 Yes
 
-<div class="usajobs-recruitment-joa-playbook-details__suggested-text">
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__do-not">
+  <h4><span class="fa fa-times"></span> Do Not</h4>
+  * Do not talk about qualifications or specialized experience in the Time in grade section.
+</div>
+</div>
+
+<!-- div class="usajobs-recruitment-joa-playbook-details__suggested-text">
 <h5>Suggested text</h5>
 <h4>Qualifications for former/current federal employees</h4>
 <p><em>If you're a former or current federal employee, you must meet these qualifications in addition to the qualifications above.</em></p>
 <p><strong>Time in Grade Requirement:</strong> Applicants who have held a General Schedule (GS) position within the last 52 weeks must have a 52 weeks of Federal service at the GS-[insert grade] grade (or equivalent).</p>
 <p>Some federal jobs allow you to substitute your education for the required specialized experience in order to qualify. For this job, you may qualify if you education meets the definitions below:</p>
 <p>Have 2 years of progressively higher level graduate education leading to a master's degree or master's or equivalent graduate degree.</p>
-</div>
+</div -->

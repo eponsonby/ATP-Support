@@ -77,7 +77,7 @@ This may include:
 
 ### Type of rating
 
-Each agency defines what the categories of rating are for their applicants. You are required to tell the applicant what the categories are and how you define them. Examples of ratings are numeric and category ratings.
+Each agency defines what the categories of rating are for their applicants. You are required to tell the applicant what the categories are and how you define them.
 
 <div class="usajobs-recruitment-joa-playbook-details__suggested-text">
 <h5>Suggested text for category rating</h5>

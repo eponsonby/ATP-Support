@@ -23,7 +23,7 @@ Yes
 Indicates the number of vacancies at that location. Can also be provided as the total number of vacancies across all locations.
 
 #### Required
-No
+The total number of vacancies is required. It is not required to provide the number of vacancies at each location.
 
 ### Location within area
 
