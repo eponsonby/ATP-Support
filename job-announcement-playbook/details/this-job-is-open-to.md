@@ -23,7 +23,7 @@ This section is currently driven by the text supplied in the [Who May Apply](../
 | Native American | Indian Preference, Native American |
 | Peace Corps & Vista | Peace Corps, AmeriCorps, Vista |
 | Senior Executives | Senior Executive, SES |
-| Former Overseas Employees | Former Overseas Employees |
+| Family of overseas employees | Overseas, Family Member Preference, Eligible Family Member |
 
 **NOTE:** We have established our Hiring Paths as an enumerated list that your Talent Acquisition System (TAS) vendor can use in the future to allow you to select valid options without having to supply the text. The two fields are named "Hiring Path Code" and "Hiring Path Explanation" in our [Data Dictionary](https://developer.usajobs.gov/General/Schemas). Talk to your vendor about this feature. We strongly encourage agencies to switch to using these new fields. String parsing is a temporary solution that allows us to transition to a more structured way of providing and presenting this information to job seekers.
 
@@ -32,13 +32,13 @@ This section is currently driven by the text supplied in the [Who May Apply](../
 This example shows all of the possible hiring paths. No single job would feature all of these.
 
 <div class="usajobs-recruitment-joa-playbook-details__example-img this-job-is-open-to">
-<amp-img src="{{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v6.6.png"
-  srcset="{{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v6.6.png 768w,
-  {{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v6.6-SM.png 100w"
-  width="346"
-  height="1065"
+<amp-img src="{{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v6.7.png"
+  srcset="{{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v6.7.png 768w,
+  {{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v6.7-SM.png 100w"
+  width="322"
+  height="1207"
   layout="responsive"
-  alt="This job is open to... v6.6 example"></amp-img>
+  alt="This job is open to... v6.7 example"></amp-img>
 </div>
 
 
