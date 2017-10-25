@@ -37,8 +37,8 @@ This example shows all of the possible hiring paths. No single job would feature
 <amp-img src="{{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v6.7.png"
   srcset="{{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v6.7.png 768w,
   {{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v6.7-SM.png 100w"
-  width="319"
-  height="1089"
+  width="322"
+  height="1086"
   layout="responsive"
   alt="This job is open to... v6.7 example"></amp-img>
 </div>
