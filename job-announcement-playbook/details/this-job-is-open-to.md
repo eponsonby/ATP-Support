@@ -25,6 +25,8 @@ This section is currently driven by the text supplied in the [Who May Apply](../
 | Senior Executive Service | Determined by ES pay plan and minimum salary of $119,000|
 | Family of overseas employees | Overseas, Family Member Preference, Eligible Family Member |
 
+If you need to debug why a job announcement is being assigned a hiring path based on the text you provide then you and your Talent Acquisition System (TAS) vendor may find the [full list of valid and invalid text for hiring paths](https://developer.usajobs.gov/General/Hiring-Paths) (production) on our developer site ([uat](https://developer.uat.usajobs.gov/General/Hiring-Paths)).
+
 **NOTE:** We have established our Hiring Paths as an enumerated list that your Talent Acquisition System (TAS) vendor can use in the future to allow you to select valid options without having to supply the text. The two fields are named "Hiring Path Code" and "Hiring Path Explanation" in our [Data Dictionary](https://developer.usajobs.gov/General/Schemas). Talk to your vendor about this feature. We strongly encourage agencies to switch to using these new fields. String parsing is a temporary solution that allows us to transition to a more structured way of providing and presenting this information to job seekers.
 
 #### Example
@@ -35,8 +37,8 @@ This example shows all of the possible hiring paths. No single job would feature
 <amp-img src="{{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v6.7.png"
   srcset="{{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v6.7.png 768w,
   {{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v6.7-SM.png 100w"
-  width="322"
-  height="1207"
+  width="319"
+  height="1089"
   layout="responsive"
   alt="This job is open to... v6.7 example"></amp-img>
 </div>
