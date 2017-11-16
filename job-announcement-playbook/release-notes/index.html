@@ -40,8 +40,8 @@
   "@type": "WebPage",
   "mainEntityOfPage": "http://usajobs.github.io/ATP-Support//ATP-Support/job-announcement-playbook/release-notes/",
   "headline": "Help for the USAJOBS Agency Talent Portal",
-  "datePublished": "2017-10-25T11:50:45-04:00",
-  "dateModified": "2017-10-25T11:50:45-04:00",
+  "datePublished": "2017-11-16T11:44:25-05:00",
+  "dateModified": "2017-11-16T11:44:25-05:00",
   "description": "Get help with strategic recruitment.",
   "author": {
     "@type": "Organization",
@@ -3873,6 +3873,8 @@ li.usa-footer-primary-content {
 .usajobs-recruitment-joa-playbook-home__title {
   font-family: Merriweather, Georgia, Cambria, "Times New Roman", Times, serif;
   color: #ffffff; }
+.usajobs-recruitment-joa-playbook-home__last-build {
+  font-size: 1.4rem; }
 
 .usajobs-recruitment-joa-playbook-home--lead {
   background-color: #4773aa;
@@ -4093,51 +4095,34 @@ li.usa-footer-primary-content {
   We’ll provide regular updates on changes to USAJOBS and the job announcement.
 </p>
 <div class="usajobs-recruitment-release-notes">
-  <h3>Changes to be made on October 20, 2017 (USAJOBS Release 6.7)</h3>
+  <h3>Changes to be made on December 3, 2017 (USAJOBS Release 6.8)</h3>
   <p>
-    This release of USAJOBS was mainly focused on back-end changes not visible to the user. Specifically, we have updated the SIF, our API for accepting job announcements. We've also been working on our upcoming move to a new authentication system.
+    This release of USAJOBS was mainly focused on integration with <a href="https://login.gov/">login.gov</a> and starting the 6 month clock on fields that are currently optional that will become required.
   </p>
   <p>
     We made the following changes:
   </p>
-  <h4>1. The MajorDuties field has expanded</h4>
+  <h4>1. Added 2 factor authentication via integration with login.gov</h4>
   <p>
-    The list of <a href="/ATP-Support/job-announcement-playbook/details/duties/">duties</a> that can be sent increased from 10 to 20 entries and each entry can now be 250 characters in length.
+    <a href="https://www.uat.usajobs.gov/Help/faq/account/login-gov/">Read more</a> about login.gov. Users will be required to create an account with login.gov which uses 2 factor authentication to secure that account. Users will then be directed to USAJOBS where there account will be automatically linked to their USAJOBS profile if they primary or secondary email address they used when creating their login.gov account matches an existing USAJOBS profile in good standing. Otherwise users will be able to manually recover their profile.
   </p>
-  <h4>
-    2. The Conditions of Employment field has expanded
-  </h4>
   <p>
-    The list of <a href="/ATP-Support/job-announcement-playbook/details/requirements/conditions-of-employment/">Conditions of Employment</a> has increased from 10 to 20 entries and each entry can be up to 250 characters long.
+    A one-sheet for agencies is being created that will provide directions on how to route users should they contact you for help with signing in or creating a new login.gov account. That information will be posted to this site before the release date.
   </p>
-
-  <h4>3. Second announcement field changes from URL to a control number</h4>
+  <h4>2. Started the 6 month clock on SIF field changes</h4>
   <p>
-    Now to link one announcement to another, for example, an announcement open to the public to an announcement open only to Federal employees, your TAS can provide a control number rather than the URL for that announcement.
-  </p>
-  <h4>
-    4. Closing time is now following the ISO 8601 standard
-  </h4>
-  <p>
-    On the back-end we are now following the International Organization for Standardization (ISO) standard for representation of dates and times. Thus this field now accepts only military time in the Eastern time zone. Users will continue to see the timezone displayed, as it has been, in the hour format.
-  </p>
-  <h4>6. Telework has been added</h4>
-  <p>
-    The <a href="/ATP-Support/job-announcement-playbook/details/locations/#telework-eligible">telework</a> field has been added and currently accepts a value of Y or N.
-  </p>
-  <h4>7. Job summary field length is now 500 characters</h4>
-  <p>
-    The <a href="/ATP-Support/job-announcement-playbook/details/duties/#summary">job summary</a> field length is now 500 characters.
-  </p>
-  <h4>8. The "Former overseas employees" hiring path is now "Family of overseas employees"</h4>
-  <p>
-    We've changed the name to more accurate reflect the group that these jobs are targeting. In addition, we've expanded the scope of the hiring path to include not only jobs offered upon returning to the U.S., but also jobs offered overseas. The Help Center hiring path page has been updated to reflect this change and communicate it to job seekers.
+    A number of SIF fields have been added, removed, or will change from optional to required six months from this release (roughly June 3, 2018). A full list will be posted here before the release date.
   </p>
 </div>
 
 
 <h3>Previous changes to USAJOBS</h3>
 <ul class="usa-unstyled-list">
+  <li>
+    <a href="/ATP-Support/job-announcement-playbook/release-notes/v6.7/">
+      Changes made on October 20, 2017 (Release 6.7)
+    </a>
+  </li>
   <li>
     <a href="/ATP-Support/job-announcement-playbook/release-notes/v6.6/">
       Changes made on September 1, 2017 (Release 6.6)
