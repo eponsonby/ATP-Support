@@ -29,7 +29,7 @@ Yes
 </div>
 <div class="usajobs-recruitment-joa-playbook-details__do-not">
   <h4><span class="fa fa-times"></span> Do Not</h4>
-  * Do not include play plan, series, grade or any other information that is available elsewhere in the job announcement.
+  * Do not include pay plan, series, grade or any other information that is available elsewhere in the job announcement.
   * Do not include additional information in parenthesis.
 </div>
 </div>
