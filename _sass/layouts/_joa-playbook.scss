@@ -30,6 +30,10 @@
     font-family: $font-serif;
     color: $color-white;
   }
+
+  &__last-build {
+    font-size: $small-font-size;
+  }
 }
 
 .usajobs-recruitment-joa-playbook-home--lead {
