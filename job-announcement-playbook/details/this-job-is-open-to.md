@@ -7,25 +7,40 @@ sidenav: this-job-is-open-to
 lead: This section gives an "at-a-glance" view of who the job is open to.
 ---
 
-This section is currently driven by the text supplied in the [Who May Apply](../duties#who-may-apply) section. Icons along with their text descriptions will only appear here based on the text that is supplied in **Who May Apply**.
+This section is populated in two ways:
+1. Using the multi-select hiring path list in your TAS. If your agency TAS has updated their system to use the multi-select, this will be your only option to add a hiring path to your job announcement.  Icons and their text descriptions will appear in the “This job is open to” section based on the options you select.
+2. Using the text in the [Who May Apply](../duties#who-may-apply) section. If your agency TAS has not updated their system to use the multi-select hiring path list, you will continue to use the **Who May Apply** section. Icons along with their text descriptions will appear in the “This job is open to” section based on the text that is in **Who May Apply**.
+
+The table below shows the content you need to use in the Who May Apply section to display the matching hiring path. For example, if you want your job announcement to display “Open to the public”, you must enter “U.S. Citizens” in the Who May Apply field.
 
 {: .usajobs-recruitment-joa-playbook-details__table}
 | Hiring Path                   | Who May Apply content |
 | ----------------------------- | --------------------- |
-| Open to the Public | U.S. Citizens, Excepted Service |
-| Federal Employees| Federal Employees, Current Federal Employees, Former Federal Employees, Merit Promotion, Status Candidates, CTAP, Career Transition Assistance Program, ICTAP, Interagency Career Transition Assistance Program|
-| Internal to an Agency| Internal Employee, Agency Employee |
+| Open to the public | U.S. Citizens |
+| Federal employees - Competitive service| Federal Employees, Current Federal Employees, Merit Promotion, Status Candidates |
+| Federal employees - Excepted service| Excepted Service |
+| Internal to an agency| Internal Employee, Agency Employee |
+| Career transition (CTAP, ICTAP, RPL) | CTAP, Career Transition Assistance Program, ICTAP, Interagency Career Transition Assistance Program, Reemployment Priority List, RPL |
 | Veterans | Expanded Veteran Hiring Opportunity,  EVHO, Veterans Recruitment, VRA, VEOA, Veterans Employment Opportunity Act, 30% Disabled |
-| Students & Recent Graduates | Recent Graduates, Students, Current Intern |
-| Individuals with Disabilities | Schedule A, Individuals with Disabilities |
-| Military Spouses | Military Spouses |
+| Students | Students, Current Intern |
+| Recent graduates | Recent Graduate |
+| Individuals with disabilities | Schedule A, Individuals with Disabilities |
+| Military spouses | Military Spouse |
 | National Guard & Reserves | National Guard |
-| Native American | Indian Preference, Native American |
-| Peace Corps & Vista | Peace Corps, AmeriCorps, Vista |
-| Senior Executive Service | Determined by ES pay plan and minimum salary of $119,000|
+| Native Americans | Indian Preference, Native American |
+| Land and base management | Land Management, Base Management |
+| Peace Corps & AmeriCorp Vista | Peace Corps, AmeriCorps, Vista |
+| Senior Executive Service only | Determined by ES pay plan and minimum salary of $119,000|
 | Family of overseas employees | Overseas, Family Member Preference, Eligible Family Member |
 
-If you need to debug why a job announcement is being assigned a hiring path based on the text you provide then you and your Talent Acquisition System (TAS) vendor may find the [full list of valid and invalid text for hiring paths](https://developer.usajobs.gov/General/Hiring-Paths) (production) on our developer site ([UAT](https://developer.uat.usajobs.gov/General/Hiring-Paths)).
+### Clarification from agency
+Use this section for additional eligibility information or specific instructions.
+**Example**
+If you only want to hire from within a specific department, you would select the **Internal to an agency** hiring path and use the **Clarification from agency** section to indicate the job is open to department employees only.  
+
+**Questions about the hiring paths?**
+
+If you don't understand why a job announcement is being assigned a hiring path based on the text you provide then you and your Talent Acquisition System (TAS) vendor can use the [full list of valid and invalid text for hiring paths](https://developer.usajobs.gov/General/Hiring-Paths) (production) located on our developer site ([UAT](https://developer.uat.usajobs.gov/General/Hiring-Paths)).
 
 **NOTE:** We have established our Hiring Paths as an enumerated list that your Talent Acquisition System (TAS) vendor can use in the future to allow you to select valid options without having to supply the text. The two fields are named "Hiring Path Code" and "Hiring Path Explanation" in our [Data Dictionary](https://developer.usajobs.gov/General/Schemas). Talk to your vendor about this feature. We strongly encourage agencies to switch to using these new fields. String parsing is a temporary solution that allows us to transition to a more structured way of providing and presenting this information to job seekers.
 
