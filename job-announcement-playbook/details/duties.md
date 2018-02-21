@@ -194,25 +194,28 @@ With the 6.5 release we moved Promotion Potential out of the [Overview](../overv
 
 ### Who May Apply
 
-Indicates in text who is eligible to apply to this position.
+Use this section to list who is eligible to apply to the job. We also use the text in this section to auto-populate the [**This job is open to**](../this-job-is-open-to) section. This section is only available if your TAS does not offer the hiring path multi-select option.
 
 #### Required
-Yes
+Yes, if your TAS does not offer the hiring path multi-select option. 
+
+This section does not appear if your TAS uses the hiring path multi-select option.
+
 
 <div class="usajobs-recruitment-joa-playbook-details__container">
 <div class="usajobs-recruitment-joa-playbook-details__do">
   <h4><span class="fa fa-check"></span> Do</h4>
-  * Use the terms we have defined to seed the [This job is open to...](../this-job-is-open-to) section.
+  * Use the terms we have defined in the [This job is open to](../this-job-is-open-to) section.
 </div>
 <div class="usajobs-recruitment-joa-playbook-details__do-not">
   <h4><span class="fa fa-times"></span> Do Not</h4>
-  * Do not include information that is not relevant to eligibility. See the following section for guidance.
+  * Do not include information that is not relevant to eligibility. See the prerequisites section below for guidance.
 </div>
 </div>
 
 #### Prerequisites
 
-The Who May Apply section has contained eligibility information as well as a set of prerequisites for employment that have found new homes in the job announcement.
+In the past, the **Who May Apply** section included eligibility information as well as a set of prerequisites for employment. However, there are new sections in the job announcement for these ‘prerequisites’. See the guidelines below to know where to put information that should not be in the Who May Apply.
 
 ##### New field in API
 
@@ -242,7 +245,7 @@ This information required a change to an existing hiring path or the creation of
 
 ##### Education
 
-This information is related to educational qualification requirements. Indicating the level of eduction necessary should be moved to the [Education section of Requirements](../requirements/qualifications/#education).
+This information is related to educational qualification requirements, not eligibility and does not belong in the Who May Apply section. Instead, list the level of education necessary in the [Education section of Requirements](../requirements/qualifications/#education).
 
 {: .usajobs-recruitment-joa-playbook-details__table}
 | Prerequisite  | Description |
@@ -269,7 +272,7 @@ This information does not map to a hiring path, is not related to eligibility, a
 
 ##### Qualifications
 
-This information is not related to eligibility and should be under [Qualifications](../requirements#qualifications).
+This information is not related to eligibility. Instead, put this information under [Qualifications](../requirements#qualifications).
 
 {: .usajobs-recruitment-joa-playbook-details__table}
 | Prerequisite  | Description |
@@ -279,7 +282,7 @@ This information is not related to eligibility and should be under [Qualificatio
 
 ##### No apply path
 
-Certain announcements don't provide a way to apply online. This information is not related to eligibility and should be under [How to apply](../how-to-apply). Please provide a clear path via URL for job seekers to click on to apply on our site or find additional instructions.
+Some announcements don't provide a way to apply online. This information is not related to eligibility and does not belong in the Who May Apply section. Instead, put this information in [How to apply](../how-to-apply). Please provide a clear path via URL for job seekers to click on to apply on our site or find additional instructions.
 
 {: .usajobs-recruitment-joa-playbook-details__table}
 | Prerequisite  | Description |
@@ -308,7 +311,7 @@ Certain announcements don't provide a way to apply online. This information is n
 
 ## Optional responsibilities
 
-There are some optional responsibilities that when added to your job announcement should appear in the Duties section.
+List any optional responsibilities in the Duties section.
 
 ### Hazardous conditions warning
 
