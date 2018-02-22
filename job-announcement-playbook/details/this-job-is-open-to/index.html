@@ -40,8 +40,8 @@
   "@type": "WebPage",
   "mainEntityOfPage": "http://usajobs.github.io/ATP-Support//ATP-Support/job-announcement-playbook/details/this-job-is-open-to/",
   "headline": "This job is open to",
-  "datePublished": "2018-02-22T13:32:46-05:00",
-  "dateModified": "2018-02-22T13:32:46-05:00",
+  "datePublished": "2018-02-22T15:55:31-05:00",
+  "dateModified": "2018-02-22T15:55:31-05:00",
   "description": "Get help with strategic recruitment.",
   "author": {
     "@type": "Organization",
@@ -4154,7 +4154,15 @@ li.usa-footer-primary-content {
                 
               </div>
             </div>
-            <p>This section is currently driven by the text supplied in the <a href="../duties#who-may-apply">Who May Apply</a> section. Icons along with their text descriptions will only appear here based on the text that is supplied in <strong>Who May Apply</strong>.</p>
+            <p>There are two ways we populate this section:</p>
+<ol>
+  <li>Using the multi-select hiring path list in your TAS. If your agency TAS has updated their system to use the multi-select, this will be your only option to add a hiring path to your job announcement.  The hiring path icons and their text descriptions will appear in the “This job is open to” section based on the options you select.</li>
+  <li>Using the text in the <a href="../duties#who-may-apply">Who May Apply</a> section. If your agency TAS has not updated their system to use the multi-select hiring path list, you will continue to use the <strong>Who May Apply</strong> section. The hiring path icons and their text descriptions will appear in the “This job is open to” section based on the text that is in <strong>Who May Apply</strong>.</li>
+</ol>
+
+<p><strong>Mapping Who May Apply to the hiring paths</strong></p>
+
+<p>The table below shows the content you need to use in the Who May Apply section to display the matching hiring path. For example, if you want your job announcement to display “Open to the public”, you must enter “U.S. Citizens” in the Who May Apply field. Or, we’ll also display “Open to the public”, if you don’t enter anything in the Who May Apply field.</p>
 
 <table class="usajobs-recruitment-joa-playbook-details__table">
   <thead>
@@ -4165,47 +4173,63 @@ li.usa-footer-primary-content {
   </thead>
   <tbody>
     <tr>
-      <td>Open to the Public</td>
-      <td>U.S. Citizens, Excepted Service</td>
+      <td>Open to the public</td>
+      <td>U.S. Citizens</td>
     </tr>
     <tr>
-      <td>Federal Employees</td>
-      <td>Federal Employees, Current Federal Employees, Former Federal Employees, Merit Promotion, Status Candidates, CTAP, Career Transition Assistance Program, ICTAP, Interagency Career Transition Assistance Program</td>
+      <td>Federal employees - Competitive service</td>
+      <td>Federal Employees, Current Federal Employees, Merit Promotion, Status Candidates</td>
     </tr>
     <tr>
-      <td>Internal to an Agency</td>
+      <td>Federal employees - Excepted service</td>
+      <td>Excepted Service</td>
+    </tr>
+    <tr>
+      <td>Internal to an agency</td>
       <td>Internal Employee, Agency Employee</td>
+    </tr>
+    <tr>
+      <td>Career transition (CTAP, ICTAP, RPL)</td>
+      <td>CTAP, Career Transition Assistance Program, ICTAP, Interagency Career Transition Assistance Program, Reemployment Priority List, RPL</td>
     </tr>
     <tr>
       <td>Veterans</td>
       <td>Expanded Veteran Hiring Opportunity,  EVHO, Veterans Recruitment, VRA, VEOA, Veterans Employment Opportunity Act, 30% Disabled</td>
     </tr>
     <tr>
-      <td>Students &amp; Recent Graduates</td>
-      <td>Recent Graduates, Students, Current Intern</td>
+      <td>Students</td>
+      <td>Students, Current Intern</td>
     </tr>
     <tr>
-      <td>Individuals with Disabilities</td>
+      <td>Recent graduates</td>
+      <td>Recent Graduate</td>
+    </tr>
+    <tr>
+      <td>Individuals with disabilities</td>
       <td>Schedule A, Individuals with Disabilities</td>
     </tr>
     <tr>
-      <td>Military Spouses</td>
-      <td>Military Spouses</td>
+      <td>Military spouses</td>
+      <td>Military Spouse</td>
     </tr>
     <tr>
       <td>National Guard &amp; Reserves</td>
       <td>National Guard</td>
     </tr>
     <tr>
-      <td>Native American</td>
+      <td>Native Americans</td>
       <td>Indian Preference, Native American</td>
     </tr>
     <tr>
-      <td>Peace Corps &amp; Vista</td>
+      <td>Land and base management</td>
+      <td>Land Management, Base Management</td>
+    </tr>
+    <tr>
+      <td>Peace Corps &amp; AmeriCorps Vista</td>
       <td>Peace Corps, AmeriCorps, Vista</td>
     </tr>
     <tr>
-      <td>Senior Executive Service</td>
+      <td>Senior Executive Service only</td>
       <td>Determined by ES pay plan and minimum salary of $119,000</td>
     </tr>
     <tr>
@@ -4215,9 +4239,17 @@ li.usa-footer-primary-content {
   </tbody>
 </table>
 
-<p>If you need to debug why a job announcement is being assigned a hiring path based on the text you provide then you and your Talent Acquisition System (TAS) vendor may find the <a href="https://developer.usajobs.gov/General/Hiring-Paths">full list of valid and invalid text for hiring paths</a> (production) on our developer site (<a href="https://developer.uat.usajobs.gov/General/Hiring-Paths">UAT</a>).</p>
+<h3 id="clarification-from-agency">Clarification from agency</h3>
+<p>Use this section for additional eligibility information.</p>
 
-<p><strong>NOTE:</strong> We have established our Hiring Paths as an enumerated list that your Talent Acquisition System (TAS) vendor can use in the future to allow you to select valid options without having to supply the text. The two fields are named “Hiring Path Code” and “Hiring Path Explanation” in our <a href="https://developer.usajobs.gov/General/Schemas">Data Dictionary</a>. Talk to your vendor about this feature. We strongly encourage agencies to switch to using these new fields. String parsing is a temporary solution that allows us to transition to a more structured way of providing and presenting this information to job seekers.</p>
+<p><strong>Example</strong>
+If you only want to hire from within a specific department, you would select the <strong>Internal to an agency</strong> hiring path and use the <strong>Clarification from agency</strong> section to indicate the job is open to department employees only.</p>
+
+<p><strong>Questions about the hiring paths?</strong></p>
+
+<p>If you don’t understand why a job announcement is being assigned a hiring path based on the text you provide then you and your Talent Acquisition System (TAS) vendor can use the <a href="https://developer.usajobs.gov/General/Hiring-Paths">full list of valid and invalid text for hiring paths</a> (production) located on our developer site (<a href="https://developer.uat.usajobs.gov/General/Hiring-Paths">UAT</a>).</p>
+
+<p><strong>NOTE:</strong> We have established our hiring paths as an enumerated list that your Talent Acquisition System (TAS) vendor can use in the future to allow you to select valid options without having to supply the text. The two fields are named “Hiring Path Code” and “Hiring Path Explanation” in our <a href="https://developer.usajobs.gov/General/Schemas">Data Dictionary</a>. Talk to your vendor about this feature. We strongly encourage agencies to switch to using these new fields. String parsing is a temporary solution that allows us to transition to a more structured way of providing and presenting this information to job seekers.</p>
 
 <h4 id="example">Example</h4>
 
