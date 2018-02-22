@@ -12,7 +12,7 @@ There are two ways we populate this section:
 
 **Mapping Who May Apply to the hiring paths**
 
-The table below shows the content you need to use in the Who May Apply section to display the matching hiring path. For example, if you want your job announcement to display “Open to the public”, you must enter “U.S. Citizens” in the Who May Apply field. Or, we'll also display "Open to the public", if you don't enter anything in the Who May Apply fied.
+The table below shows the content you need to use in the Who May Apply section to display the matching hiring path. For example, if you want your job announcement to display “Open to the public”, you must enter “U.S. Citizens” in the Who May Apply field. Or, we'll also display "Open to the public", if you don't enter anything in the Who May Apply field.
 
 {: .usajobs-recruitment-joa-playbook-details__table}
 | Hiring Path                   | Who May Apply content |
@@ -30,7 +30,7 @@ The table below shows the content you need to use in the Who May Apply section t
 | National Guard & Reserves | National Guard |
 | Native Americans | Indian Preference, Native American |
 | Land and base management | Land Management, Base Management |
-| Peace Corps & AmeriCorp Vista | Peace Corps, AmeriCorps, Vista |
+| Peace Corps & AmeriCorps Vista | Peace Corps, AmeriCorps, Vista |
 | Senior Executive Service only | Determined by ES pay plan and minimum salary of $119,000|
 | Family of overseas employees | Overseas, Family Member Preference, Eligible Family Member |
 
