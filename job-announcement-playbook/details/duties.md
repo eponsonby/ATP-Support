@@ -194,32 +194,34 @@ With the 6.5 release we moved Promotion Potential out of the [Overview](../overv
 
 ### Who May Apply
 
-Use this section to list who is eligible to apply to the job. We also use the text in this section to auto-populate the [**This job is open to**](../this-job-is-open-to) section. This section is only available if your TAS does not offer the hiring path multi-select option.
+This field is only available if your TAS does not offer the hiring path multi-select option.
+
+Use this section to list who is eligible to apply to the job. We also use the text in this section to auto-populate the [**This job is open to**](../this-job-is-open-to) section. 
 
 #### Required
 Yes, if your TAS does not offer the hiring path multi-select option. 
 
-This section does not appear if your TAS uses the hiring path multi-select option.
+**Who May Apply** does not appear if your TAS uses the hiring path multi-select option.
 
 
 <div class="usajobs-recruitment-joa-playbook-details__container">
 <div class="usajobs-recruitment-joa-playbook-details__do">
   <h4><span class="fa fa-check"></span> Do</h4>
-  * Use the terms we have defined in the [This job is open to](../this-job-is-open-to) section.
+  * Use the terms we've defined in the mapping table within the [This job is open to](../this-job-is-open-to) section.
 </div>
 <div class="usajobs-recruitment-joa-playbook-details__do-not">
   <h4><span class="fa fa-times"></span> Do Not</h4>
-  * Do not include information that is not relevant to eligibility. See the prerequisites section below for guidance.
+  * Do not include information that is not relevant to eligibility. See the prerequisites section for guidance.
 </div>
 </div>
 
 #### Prerequisites
 
-In the past, the **Who May Apply** section included eligibility information as well as a set of prerequisites for employment. However, there are new sections in the job announcement for these ‘prerequisites’. See the guidelines below to know where to put information that should not be in the Who May Apply.
+In the past, the **Who May Apply** section included eligibility information as well as a set of prerequisites for employment. However, the job announcement now has new sections to handle these ‘prerequisites’. See the guidelines below--we've listed the most common 'prerequisites' and where this information belongs in the new job announcement. 
 
 ##### New field in API
 
-All of the changes below warranted the creation of a new field in our API. Work with your Talent Acquisition System (TAS) to request access to these new fields.
+We created new fields in our API to handle the prerequisites below. Work with your Talent Acquisition System (TAS) to request access to these new fields.
 
 {: .usajobs-recruitment-joa-playbook-details__table}
 | Prerequisite  | Description |
@@ -234,18 +236,18 @@ All of the changes below warranted the creation of a new field in our API. Work 
 
 ##### Hiring path changes
 
-This information required a change to an existing hiring path or the creation of a new path.
+We updated an existing hiring path or created a new one to include the following information. 
 
 {: .usajobs-recruitment-joa-playbook-details__table}
 | Prerequisite  | Description |
 | ------------- | ----------- |
 | Agency employees only | New hiring path "Internal to an agency" |
-| Reserves | Combined with National Guard - Hiring path changed to National Guard and Reserves |
+| Reserves | Combined with National Guard - Hiring path changed to National Guard & Reserves |
 | In the 1st, 2nd, or 3rd areas of consideration | National Guard | National Guard & Reserves |
 
 ##### Education
 
-This information is related to educational qualification requirements, not eligibility and does not belong in the Who May Apply section. Instead, list the level of education necessary in the [Education section of Requirements](../requirements/qualifications/#education).
+This information is related to educational qualification requirements, not eligibility and does not belong in the Who May Apply section. Instead, list the level of education in the [Education section of Requirements](../requirements/qualifications/#education).
 
 {: .usajobs-recruitment-joa-playbook-details__table}
 | Prerequisite  | Description |
@@ -311,7 +313,7 @@ Some announcements don't provide a way to apply online. This information is not 
 
 ## Optional responsibilities
 
-List any optional responsibilities in the Duties section.
+List any optional responsibilities in the **Duties** section.
 
 ### Hazardous conditions warning
 
