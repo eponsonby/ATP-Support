@@ -6,12 +6,13 @@ title: This job is open to
 sidenav: this-job-is-open-to
 lead: This section gives an "at-a-glance" view of who the job is open to.
 ---
+There are two ways we populate this section:
+1. Using the multi-select hiring path list in your TAS. If your agency TAS has updated their system to use the multi-select, this will be your only option to add a hiring path to your job announcement.  The hiring path icons and their text descriptions will appear in the “This job is open to” section based on the options you select.
+2. Using the text in the [Who May Apply](../duties#who-may-apply) section. If your agency TAS has not updated their system to use the multi-select hiring path list, you will continue to use the **Who May Apply** section. The hiring path icons and their text descriptions will appear in the “This job is open to” section based on the text that is in **Who May Apply**.
 
-This section is populated in two ways:
-1. Using the multi-select hiring path list in your TAS. If your agency TAS has updated their system to use the multi-select, this will be your only option to add a hiring path to your job announcement.  Icons and their text descriptions will appear in the “This job is open to” section based on the options you select.
-2. Using the text in the [Who May Apply](../duties#who-may-apply) section. If your agency TAS has not updated their system to use the multi-select hiring path list, you will continue to use the **Who May Apply** section. Icons along with their text descriptions will appear in the “This job is open to” section based on the text that is in **Who May Apply**.
+**Mapping Who May Apply to the hiring paths**
 
-The table below shows the content you need to use in the Who May Apply section to display the matching hiring path. For example, if you want your job announcement to display “Open to the public”, you must enter “U.S. Citizens” in the Who May Apply field.
+The table below shows the content you need to use in the Who May Apply section to display the matching hiring path. For example, if you want your job announcement to display “Open to the public”, you must enter “U.S. Citizens” in the Who May Apply field. Or, we'll also display "Open to the public", if you don't enter anything in the Who May Apply fied.
 
 {: .usajobs-recruitment-joa-playbook-details__table}
 | Hiring Path                   | Who May Apply content |
@@ -34,7 +35,8 @@ The table below shows the content you need to use in the Who May Apply section t
 | Family of overseas employees | Overseas, Family Member Preference, Eligible Family Member |
 
 ### Clarification from agency
-Use this section for additional eligibility information or specific instructions.
+Use this section for additional eligibility information.
+
 **Example**
 If you only want to hire from within a specific department, you would select the **Internal to an agency** hiring path and use the **Clarification from agency** section to indicate the job is open to department employees only.  
 
@@ -42,7 +44,7 @@ If you only want to hire from within a specific department, you would select the
 
 If you don't understand why a job announcement is being assigned a hiring path based on the text you provide then you and your Talent Acquisition System (TAS) vendor can use the [full list of valid and invalid text for hiring paths](https://developer.usajobs.gov/General/Hiring-Paths) (production) located on our developer site ([UAT](https://developer.uat.usajobs.gov/General/Hiring-Paths)).
 
-**NOTE:** We have established our Hiring Paths as an enumerated list that your Talent Acquisition System (TAS) vendor can use in the future to allow you to select valid options without having to supply the text. The two fields are named "Hiring Path Code" and "Hiring Path Explanation" in our [Data Dictionary](https://developer.usajobs.gov/General/Schemas). Talk to your vendor about this feature. We strongly encourage agencies to switch to using these new fields. String parsing is a temporary solution that allows us to transition to a more structured way of providing and presenting this information to job seekers.
+**NOTE:** We have established our hiring paths as an enumerated list that your Talent Acquisition System (TAS) vendor can use in the future to allow you to select valid options without having to supply the text. The two fields are named "Hiring Path Code" and "Hiring Path Explanation" in our [Data Dictionary](https://developer.usajobs.gov/General/Schemas). Talk to your vendor about this feature. We strongly encourage agencies to switch to using these new fields. String parsing is a temporary solution that allows us to transition to a more structured way of providing and presenting this information to job seekers.
 
 #### Example
 
