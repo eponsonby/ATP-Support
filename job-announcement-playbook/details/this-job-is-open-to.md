@@ -51,18 +51,18 @@ If you don't understand why a job announcement is being assigned a hiring path b
 This example shows all of the possible hiring paths. No single job would feature all of these.
 
 <div class="usajobs-recruitment-joa-playbook-details__example-img this-job-is-open-to">
-<amp-img src="{{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v6.7.png"
-  srcset="{{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v6.7.png 768w,
-  {{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v6.7-SM.png 100w"
-  width="322"
-  height="1086"
+<amp-img src="{{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v6.9.png"
+  srcset="{{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v6.9.png 768w,
+  {{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v6.9-SM.png 100w"
+  width="320"
+  height="1964"
   layout="responsive"
-  alt="This job is open to... v6.7 example"></amp-img>
+  alt="This job is open to... v6.9 example"></amp-img>
 </div>
 
 
 ### Second announcement
 
-If this job is also open in another announcement to other hiring paths then this section will appear directly below the **This job is open to**. It contains the text "This job is also open in another announcement to" and then lists the other hiring paths. Clicking on this will open a new tab or window, which depends on the preference of the user set in their browser, with the second announcement.
+If this job is also open in another announcement to other hiring paths then this section will appear directly below the **This job is open to**. It contains the text "This job is also open in another announcement to" and then lists the other hiring paths. Clicking on this will open a new tab or window, which depends on the preference the user set in their browser, with the second announcement.
 
 **NOTE:** This is a new field and may not yet be offered by your Talent Acquisition System (TAS). Work with your vendor in order to be able to use this field.
