@@ -118,6 +118,8 @@
 
   &__current-fields,
   &__previous-fields,
+  &__required-by-usajobs,
+  &__required-by-policy,
   &__do,
   &__do-not {
     @include grid-media($M) {
@@ -127,6 +129,7 @@
   }
 
   &__current-fields,
+  &__required-by-usajobs,
   &__do {
     @include grid-media($M) {
       padding-right: $size-default;
