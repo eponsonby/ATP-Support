@@ -49,23 +49,10 @@ Tells the job seeker how they can submit their application by fax.
 #### Required
 Yes
 
-### Further certification statement
-
-???
-
-#### Required
-No
-
-<div class="usajobs-recruitment-joa-playbook-details__suggested-text">
-<h5>Suggested text</h5>
-Further certification from this announcement may take place up to [number of days] days beyond the closing date of this announcement.
-</div>
-
 ### Next steps
 
-Tells the job seeker what may happen next after their application is received. It also should house the following two statements, when applicable:
+Tells the job seeker what may happen next after their application is received. It also should house the following statement, when applicable:
 
-* [Further certification statement](#futher-certification-statement)
 * [Positions filled statement](#positions-filled-statement)
 
 #### Required
