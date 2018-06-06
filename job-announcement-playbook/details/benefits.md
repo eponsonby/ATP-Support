@@ -35,11 +35,11 @@ This text allows the agency to describe benefits that they offer above and beyon
 <div class="usajobs-recruitment-joa-playbook-details__container">
 <div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
   <h4>Required by USAJOBS</h4>
-  <p>YNo</p>
+  <p>No</p>
 </div>
 <div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
   <h4>Required by Policy</h4>
-  <p>YNo</p>
+  <p>No</p>
 </div>
 </div>
 
