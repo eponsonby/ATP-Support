@@ -32,8 +32,17 @@ The links in this section are as follows:
 
 This text allows the agency to describe benefits that they offer above and beyond the standard Federal government benefits. If your agency has it’s own benefits page, you can add a link to that page.
 
-#### Required
-No
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>YNo</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>YNo</p>
+</div>
+</div>
+
 
 <div class="usajobs-recruitment-joa-playbook-details__suggested-text">
 <h5>Suggested text</h5>
