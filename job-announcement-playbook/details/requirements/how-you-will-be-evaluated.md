@@ -15,6 +15,23 @@ This section will:
 
 *	Include a lead-in sentence: "You will be evaluated for this job based on how well you meet the qualifications above."
 
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>Yes</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>Yes</p>
+</div>
+</div>
+
+You must include the following:
+
+* Basis for rating
+* Type of rating
+* Interview type
+
 ### Basis for rating
 
 The basis for rating is the method you will use to evaluate an applicant.  It's important to describe how you will evaluate an applicant.
@@ -29,9 +46,6 @@ The method of rating may include one or more of the following:
 
 Details on [rating procedures can be found in the DEO Handbook](https://www.opm.gov/policy-data-oversight/hiring-information/competitive-hiring/deo_handbook.pdf).
 
-
-#### Required
-Yes
 
 <div class="usajobs-recruitment-joa-playbook-details__suggested-text">
 <h5>Suggested text - Use this text as the first sentence in this section:</h5>
@@ -86,9 +100,6 @@ Each agency defines what the categories of rating are for their applicants. You 
 *	Qualified: An applicant who demonstrates the basic qualifications, with general knowledge, skills, and abilities.
 </div>
 
-#### Required
-Yes
-
 <div class="usajobs-recruitment-joa-playbook-details__container">
 <div class="usajobs-recruitment-joa-playbook-details__do">
   <h4><span class="fa fa-check"></span> Do</h4>
@@ -109,9 +120,6 @@ Types of interview may be:
 *	Structured interview
 *	Phone interview
 *	In-person and one-on-one interview
-
-#### Required
-Yes
 
 ### Conditions of employment reminder
 
