@@ -9,6 +9,17 @@ current-fields: ["Specialized experience", "Education", "Preview questionnaire U
 previous-fields: []
 ---
 
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>Yes</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>Yes</p>
+</div>
+</div>
+
 The job seeker needs to determine whether they should apply for the job, so it’s important to be clear and concise. Read the qualifications from the job seeker perspective and ask these questions:
 
 *	Are the qualifications specific?
@@ -69,6 +80,7 @@ Very specific experience that an applicant needs to be successful at the job.
 <div class="usajobs-recruitment-joa-playbook-details__do-not">
   <h4><span class="fa fa-times"></span> Do Not</h4>
   * Do not repeat in Duties or Conditions of Employment.
+</div>
 </div>
 </div>
 
