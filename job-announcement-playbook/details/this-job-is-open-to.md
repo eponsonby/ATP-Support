@@ -6,6 +6,17 @@ title: This job is open to
 sidenav: this-job-is-open-to
 lead: This section gives an "at-a-glance" view of who the job is open to.
 ---
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>Yes</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>Yes</p>
+</div>
+</div>
+
 There are two ways we populate this section:
 1. Using the multi-select hiring path list in your TAS. If your agency TAS has updated their system to use the multi-select, this will be your only option to add a hiring path to your job announcement.  The hiring path icons and their text descriptions will appear in the “This job is open to” section based on the options you select.
 2. Using the text in the [Who May Apply](../duties#who-may-apply) section. If your agency TAS has not updated their system to use the multi-select hiring path list, you will continue to use the **Who May Apply** section. The hiring path icons and their text descriptions will appear in the “This job is open to” section based on the text that is in **Who May Apply**.
