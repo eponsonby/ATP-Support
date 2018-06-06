@@ -74,8 +74,16 @@ The name of the department.
 
 The department name is purely informational. Many of those new to government do not know the hierarchy of departments and agencies.
 
-#### Required
-Yes
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>Yes</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>Yes</p>
+</div>
+</div>
 
 ### Agency name
 
@@ -83,8 +91,16 @@ The name of the agency that is posting this job announcement.
 
 The agency name will appear as a link. Clicking the link opens a pop-up window (aka modal) that shows the user additional information including the agency details text (renamed from Agency Marketing Statement) and the agency careers page URL (renamed from Agency Marketing URL) as well as the agency contact information for this announcement.
 
-#### Required
-Yes
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>Yes</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>Yes</p>
+</div>
+</div>
 
 ## Overview - Current fields
 
@@ -104,6 +120,7 @@ The open date is the first day an applicant can submit an application to the job
 
 The job announcement will automatically close at 11:59pm EST on the closing date.  
 
+
 #### Application cut-off
 
 If you are using an application limit, you must clearly state this in the job announcement. Unless you are using the announcement closing type field mentioned above this must be entered manually.  
@@ -112,9 +129,16 @@ If you are using an application limit, you must clearly state this in the job an
 
 If you are posting an open continuous job announcement, you must clearly state this in the job announcement. Unless you are using the announcement closing type field mentioned above this must be entered manually.  
 
-
-#### Required
-Yes
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>Yes</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>Yes</p>
+</div>
+</div>
 
 <div class="usajobs-recruitment-joa-playbook-details__container">
 <div class="usajobs-recruitment-joa-playbook-details__do">
@@ -128,15 +152,23 @@ Yes
 </div>
 </div>
 
-
 ### Service type
 
 Tells the applicant what service the job is in: Competitive, Excepted, or Senior Executive Service.
 
 **NOTE:** This is a new field and may not yet be offered by your Talent Acquisition System (TAS). Work with your vendor in order to be able to use this field.
 
-#### Required
-No
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>Yes</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>No</p>
+</div>
+</div>
+
 
 <div class="usajobs-recruitment-joa-playbook-details__container">
 <div class="usajobs-recruitment-joa-playbook-details__do">
@@ -155,8 +187,16 @@ No
 
 Describes the grade level and pay scale that the job falls under.
 
-#### Required
-Yes
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>Yes</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>Yes</p>
+</div>
+</div>
 
 <div class="usajobs-recruitment-joa-playbook-details__container">
 <div class="usajobs-recruitment-joa-playbook-details__do">
@@ -177,8 +217,16 @@ You can enter a “per year” or “hourly” salary.
 
 If the salary is hourly, the value can’t exceed $220.00 per hour.
 
-#### Required
-Yes
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>Yes</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>Yes</p>
+</div>
+</div>
 
 <div class="usajobs-recruitment-joa-playbook-details__container">
 <div class="usajobs-recruitment-joa-playbook-details__do">
@@ -224,6 +272,17 @@ Tells the applicant the type of appointment. Appointment types can be:
 As of the 6.6 release override text has now become supplemental text and will appear next to the value for appointment type. This is to ensure that the key information is conveyed and there is consistency across job announcements.
 
 <div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>Yes</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>Yes</p>
+</div>
+</div>
+
+<div class="usajobs-recruitment-joa-playbook-details__container">
 <div class="usajobs-recruitment-joa-playbook-details__do">
   <h4><span class="fa fa-check"></span> Do</h4>
   * Only include the appointment type.
@@ -253,6 +312,17 @@ Tells the applicant the work schedule they can expect for this job.  Work schedu
 #### Recent change
 
 As of the 6.6 release override text has now become supplemental text and will appear next to the value for work schedule. This is to ensure that the key information is conveyed and there is consistency across job announcements.
+
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>Yes</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>Yes</p>
+</div>
+</div>
 
 <div class="usajobs-recruitment-joa-playbook-details__container">
 <div class="usajobs-recruitment-joa-playbook-details__do">
@@ -300,6 +370,17 @@ This field was not shown unless the Agency Marketing URL was also present. That 
 ### Agency contact information
 
 This information holds the contact information and address where applicants can reach the agency. It includes phone, TDD, email, and address.
+
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>Yes</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>Yes</p>
+</div>
+</div>
 
 ### Marketing URL
 
