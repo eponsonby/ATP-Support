@@ -14,8 +14,16 @@ Indicates the level of background check necessary for this job.
 
 The value in this field will always link to: [https://www.usajobs.gov/Help/faq/job-announcement/security-clearances/](https://www.usajobs.gov/Help/faq/job-announcement/security-clearances/)
 
-#### Required
-No. However, it is strongly encouraged to include this in the job announcement.
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>Yes</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>No. However, it is strongly encouraged to include this in the job announcement.</p>
+</div>
+</div>
 
 <div class="usajobs-recruitment-joa-playbook-details__container">
 <div class="usajobs-recruitment-joa-playbook-details__do">
@@ -27,6 +35,7 @@ No. However, it is strongly encouraged to include this in the job announcement.
   * Do not repeat this information in other sections.
 </div>
 </div>
+</div>
 
 
 ### Security clearance
@@ -35,8 +44,16 @@ Indicates the level of security clearance necessary for this job.
 
 The value in this field will always link to: [https://www.usajobs.gov/Help/faq/job-announcement/security-clearances/](https://www.usajobs.gov/Help/faq/job-announcement/security-clearances/)
 
-#### Required
-No. However, it is strongly encouraged to include this in the job announcement.
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>Yes</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>Yes</p>
+</div>
+</div>
 
 <div class="usajobs-recruitment-joa-playbook-details__container">
 <div class="usajobs-recruitment-joa-playbook-details__do">
@@ -48,6 +65,7 @@ No. However, it is strongly encouraged to include this in the job announcement.
   * Do not repeat this information in other sections.
 </div>
 </div>
+</div>
 
 
 ### Drug test required
@@ -56,8 +74,16 @@ Tells the applicant if a drug test is required. Will display as "Yes" or "No".
 
 **Note**: This is a new field and may not yet be available from your Talent Acquisition System (TAS) vendor. Work with your TAS to request the ability to populate this new field.
 
-#### Required
-Yes
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>Yes</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>Yes</p>
+</div>
+</div>
 
 <div class="usajobs-recruitment-joa-playbook-details__container">
 <div class="usajobs-recruitment-joa-playbook-details__do">
@@ -67,5 +93,6 @@ Yes
 <div class="usajobs-recruitment-joa-playbook-details__do-not">
   <h4><span class="fa fa-times"></span> Do Not</h4>
   * Do not repeat this information in other sections.
+</div>
 </div>
 </div>
