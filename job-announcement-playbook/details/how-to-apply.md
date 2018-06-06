@@ -23,14 +23,34 @@ During the application process you can review, edit, delete and update your info
 </p>
 </div>
 
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>Yes</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>Yes</p>
+</div>
+</div>
+
+
 ### Agency contact information
 
 Tells the job seeker how they can contact the agency. The **Learn more about this agency** link opens the [agency pop-up window](../overview/#agency-modal---current-fields).
 
-#### Required
-Yes
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>Yes</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>Yes</p>
+</div>
+</div>
 
-Information provide via our API is displayed in the following manner:
+Information provided via our API is displayed in the following manner:
 
 <div class="usajobs-recruitment-joa-playbook-details__example-img">
 <amp-img src="{{ site.baseurl }}/assets/images/job-announcement-playbook/agency-contact-info-v6.6.png"
@@ -55,8 +75,16 @@ Tells the job seeker what may happen next after their application is received. I
 
 * [Positions filled statement](#positions-filled-statement)
 
-#### Required
-Yes
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>Yes</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>Yes</p>
+</div>
+</div>
 
 ### Positions filled statement
 
