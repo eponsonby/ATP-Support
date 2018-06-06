@@ -25,8 +25,16 @@ This section will end in the following set of information when [Education requir
 
 Tells the job seeker which documents to file to support their eligibility.
 
-#### Required
-Yes
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>Yes</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>Yes</p>
+</div>
+</div>
 
 #### Example
 
@@ -60,8 +68,17 @@ If you applied online and your application is complete, do not fax the paper app
 
 Tells the job seeker if transcripts are required.
 
-#### Required
-Yes, if transcripts are required.
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>Conditional. Yes, if transcripts are required.</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>Yes, if transcripts are required.</p>
+</div>
+</div>
+
 
 <div class="usajobs-recruitment-joa-playbook-details__suggested-text">
 <h5>Suggested text</h5>
