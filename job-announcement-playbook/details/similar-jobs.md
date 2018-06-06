@@ -20,8 +20,16 @@ As with all changes we'll monitor the impact of this change using analytics and 
 
 Tells the applicant the job family, or category, that the job belongs to. The codes and titles for the job family are the [OPM Occupational Series](https://www.opm.gov/policy-data-oversight/classification-qualifications/general-schedule-qualification-standards/#url=List-by-Occupational-Series). The job family link directs the user to the search results page where the results are filtered by that series.
 
-#### Required
-Yes
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>Yes</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>Yes</p>
+</div>
+</div>
 
 ### Occupations
 
