@@ -62,6 +62,15 @@ Information provided via our API is displayed in the following manner:
   alt="Agency contact information v6.6 example"></amp-img>
 </div>
 
+The following fields are required:
+
+* Agency contact name
+* Phone number
+* Fax number
+* Street address
+* Email address
+
+
 ### Apply by fax
 
 Tells the job seeker how they can submit their application by fax.
