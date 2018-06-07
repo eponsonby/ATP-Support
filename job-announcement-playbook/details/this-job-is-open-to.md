@@ -17,7 +17,9 @@ lead: This section gives an "at-a-glance" view of who the job is open to.
 </div>
 </div>
 
-There are two ways we populate this section:
+**How to update the "This job is open to" section**
+
+There are two ways to populate this section:
 1. Using the multi-select hiring path list in your TAS. If your agency TAS has updated their system to use the multi-select, this will be your only option to add a hiring path to your job announcement.  The hiring path icons and their text descriptions will appear in the “This job is open to” section based on the options you select.
 2. Using the text in the [Who May Apply](../duties#who-may-apply) section. If your agency TAS has not updated their system to use the multi-select hiring path list, you will continue to use the **Who May Apply** section. The hiring path icons and their text descriptions will appear in the “This job is open to” section based on the text that is in **Who May Apply**.
 
@@ -51,6 +53,17 @@ Use this section for additional eligibility information.
 **Example**
 If you only want to hire from within a specific department, you would select the **Internal to an agency** hiring path and use the **Clarification from agency** section to indicate the job is open to department employees only.  
 
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>Conditional. If you use an exclusive hiring path or special authority, you need to include clarification text.</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>No.</p>
+</div>
+</div>
+
 **Questions about the hiring paths?**
 
 If you don't understand why a job announcement is being assigned a hiring path based on the text you provide then you and your Talent Acquisition System (TAS) vendor can use the [full list of valid and invalid text for hiring paths](https://developer.usajobs.gov/General/Hiring-Paths) (production) located on our developer site ([UAT](https://developer.uat.usajobs.gov/General/Hiring-Paths)).
@@ -74,6 +87,10 @@ This example shows all of the possible hiring paths. No single job would feature
 
 ### Second announcement
 
-If this job is also open in another announcement to other hiring paths then this section will appear directly below the **This job is open to**. It contains the text "This job is also open in another announcement to" and then lists the other hiring paths. Clicking on this will open a new tab or window, which depends on the preference the user set in their browser, with the second announcement.
+Use this section when the job is also open in a second job announcement to other hiring paths.
+
+The **Second announcement** section will appear directly below the **This job is open to**.  The **Second announcement** says "This job is also open in another announcement to" and will list the other hiring paths. 
+
+Clicking on the link will open a new tab or window, depending on the preference the user set in their browser, with the the full second job announcement.
 
 **NOTE:** This is a new field and may not yet be offered by your Talent Acquisition System (TAS). Work with your vendor in order to be able to use this field.
