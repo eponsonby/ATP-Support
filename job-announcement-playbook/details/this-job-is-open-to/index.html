@@ -40,8 +40,8 @@
   "@type": "WebPage",
   "mainEntityOfPage": "http://usajobs.github.io/ATP-Support//ATP-Support/job-announcement-playbook/details/this-job-is-open-to/",
   "headline": "This job is open to",
-  "datePublished": "2018-05-14T10:15:11-04:00",
-  "dateModified": "2018-05-14T10:15:11-04:00",
+  "datePublished": "2018-06-11T14:03:28-04:00",
+  "dateModified": "2018-06-11T14:03:28-04:00",
   "description": "Get help with strategic recruitment.",
   "author": {
     "@type": "Organization",
@@ -3922,7 +3922,7 @@ li.usa-footer-primary-content {
 @media (min-width: 37.5em) {
   .usajobs-recruitment-joa-playbook-details__fields-container, .usajobs-recruitment-joa-playbook-details__container {
     display: flex;
-    flex-wrap: none; } }
+    flex-wrap: inherit; } }
 @media (min-width: 37.5em) {
   .usajobs-recruitment-joa-playbook-details__current-fields, .usajobs-recruitment-joa-playbook-details__previous-fields, .usajobs-recruitment-joa-playbook-details__required-by-usajobs, .usajobs-recruitment-joa-playbook-details__required-by-policy, .usajobs-recruitment-joa-playbook-details__do, .usajobs-recruitment-joa-playbook-details__do-not {
     flex: 1;
@@ -4154,7 +4154,20 @@ li.usa-footer-primary-content {
                 
               </div>
             </div>
-            <p>There are two ways we populate this section:</p>
+            <div class="usajobs-recruitment-joa-playbook-details__container">
+  <div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+    <h4>Required by USAJOBS</h4>
+    <p>Yes</p>
+  </div>
+  <div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+    <h4>Required by Policy</h4>
+    <p>Yes</p>
+  </div>
+</div>
+
+<p><strong>How to update the “This job is open to” section</strong></p>
+
+<p>There are two ways to populate this section:</p>
 <ol>
   <li>Using the multi-select hiring path list in your TAS. If your agency TAS has updated their system to use the multi-select, this will be your only option to add a hiring path to your job announcement.  The hiring path icons and their text descriptions will appear in the “This job is open to” section based on the options you select.</li>
   <li>Using the text in the <a href="../duties#who-may-apply">Who May Apply</a> section. If your agency TAS has not updated their system to use the multi-select hiring path list, you will continue to use the <strong>Who May Apply</strong> section. The hiring path icons and their text descriptions will appear in the “This job is open to” section based on the text that is in <strong>Who May Apply</strong>.</li>
@@ -4245,6 +4258,17 @@ li.usa-footer-primary-content {
 <p><strong>Example</strong>
 If you only want to hire from within a specific department, you would select the <strong>Internal to an agency</strong> hiring path and use the <strong>Clarification from agency</strong> section to indicate the job is open to department employees only.</p>
 
+<div class="usajobs-recruitment-joa-playbook-details__container">
+  <div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+    <h4>Required by USAJOBS</h4>
+    <p>Conditional. If you use an exclusive hiring path or special authority, you need to include clarification text.</p>
+  </div>
+  <div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+    <h4>Required by Policy</h4>
+    <p>No.</p>
+  </div>
+</div>
+
 <p><strong>Questions about the hiring paths?</strong></p>
 
 <p>If you don’t understand why a job announcement is being assigned a hiring path based on the text you provide then you and your Talent Acquisition System (TAS) vendor can use the <a href="https://developer.usajobs.gov/General/Hiring-Paths">full list of valid and invalid text for hiring paths</a> (production) located on our developer site (<a href="https://developer.uat.usajobs.gov/General/Hiring-Paths">UAT</a>).</p>
@@ -4262,7 +4286,11 @@ If you only want to hire from within a specific department, you would select the
 
 <h3 id="second-announcement">Second announcement</h3>
 
-<p>If this job is also open in another announcement to other hiring paths then this section will appear directly below the <strong>This job is open to</strong>. It contains the text “This job is also open in another announcement to” and then lists the other hiring paths. Clicking on this will open a new tab or window, which depends on the preference the user set in their browser, with the second announcement.</p>
+<p>Use this section when the job is also open in a second job announcement to other hiring paths.</p>
+
+<p>The <strong>Second announcement</strong> section will appear directly below the <strong>This job is open to</strong>.  The <strong>Second announcement</strong> says “This job is also open in another announcement to” and will list the other hiring paths.</p>
+
+<p>Clicking on the link will open a new tab or window, depending on the preference the user set in their browser, with the the full second job announcement.</p>
 
 <p><strong>NOTE:</strong> This is a new field and may not yet be offered by your Talent Acquisition System (TAS). Work with your vendor in order to be able to use this field.</p>
 

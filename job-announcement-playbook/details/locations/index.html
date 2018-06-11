@@ -40,8 +40,8 @@
   "@type": "WebPage",
   "mainEntityOfPage": "http://usajobs.github.io/ATP-Support//ATP-Support/job-announcement-playbook/details/locations/",
   "headline": "Locations",
-  "datePublished": "2018-05-14T10:15:11-04:00",
-  "dateModified": "2018-05-14T10:15:11-04:00",
+  "datePublished": "2018-06-11T14:03:28-04:00",
+  "dateModified": "2018-06-11T14:03:28-04:00",
   "description": "Get help with strategic recruitment.",
   "author": {
     "@type": "Organization",
@@ -3922,7 +3922,7 @@ li.usa-footer-primary-content {
 @media (min-width: 37.5em) {
   .usajobs-recruitment-joa-playbook-details__fields-container, .usajobs-recruitment-joa-playbook-details__container {
     display: flex;
-    flex-wrap: none; } }
+    flex-wrap: inherit; } }
 @media (min-width: 37.5em) {
   .usajobs-recruitment-joa-playbook-details__current-fields, .usajobs-recruitment-joa-playbook-details__previous-fields, .usajobs-recruitment-joa-playbook-details__required-by-usajobs, .usajobs-recruitment-joa-playbook-details__required-by-policy, .usajobs-recruitment-joa-playbook-details__do, .usajobs-recruitment-joa-playbook-details__do-not {
     flex: 1;
@@ -4174,22 +4174,48 @@ li.usa-footer-primary-content {
 
 <p>Indicates the street address (if provided), city, and state of the work location.</p>
 
-<h4 id="required">Required</h4>
-
-<p>Yes</p>
+<div class="usajobs-recruitment-joa-playbook-details__container">
+  <div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+    <h4>Required by USAJOBS</h4>
+    <p>Conditional</p>
+  </div>
+  <div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+    <h4>Required by Policy</h4>
+    <p>Yes</p>
+  </div>
+</div>
 
 <h3 id="vacancies">Vacancies</h3>
 
 <p>Indicates the number of vacancies at that location. Can also be provided as the total number of vacancies across all locations.</p>
 
-<h4 id="required-1">Required</h4>
-<p>The total number of vacancies is required. It is not required to provide the number of vacancies at each location.</p>
+<div class="usajobs-recruitment-joa-playbook-details__container">
+  <div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+    <h4>Required by USAJOBS</h4>
+    <p>Yes - The total number of vacancies is required. It is not required to provide the number of vacancies at each location.</p>
+  </div>
+  <div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+    <h4>Required by Policy</h4>
+    <p>Yes</p>
+  </div>
+</div>
 
 <h3 id="location-within-area">Location within area</h3>
 
 <p>Indicates if the applicant must live within the associated location(s). When true the commute distance of that area must also be specified.</p>
 
 <p><strong>NOTE:</strong> This is a new field and may not yet be offered by your Talent Acquisition System (TAS). Work with your vendor in order to be able to use this field.</p>
+
+<div class="usajobs-recruitment-joa-playbook-details__container">
+  <div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+    <h4>Required by USAJOBS</h4>
+    <p>No. But if you include this, you must include the commute distance too.  See commute distance.</p>
+  </div>
+  <div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+    <h4>Required by Policy</h4>
+    <p>No.</p>
+  </div>
+</div>
 
 <div class="usajobs-recruitment-joa-playbook-details__container">
   <div class="usajobs-recruitment-joa-playbook-details__do">
@@ -4206,25 +4232,37 @@ li.usa-footer-primary-content {
   </div>
 </div>
 
-<h4 id="required-2">Required</h4>
-<p>No</p>
-
 <h3 id="commute-distance">Commute distance</h3>
 
 <p>Defines the commuting area in miles from the center of the location that the agency has identified in their merit promotion plan.</p>
 
 <p><strong>NOTE:</strong> This is a new field and may not yet be offered by your Talent Acquisition System (TAS). Work with your vendor in order to be able to use this field.</p>
 
-<h4 id="required-3">Required</h4>
-<p>Only when <strong>Within area</strong> is true.</p>
+<div class="usajobs-recruitment-joa-playbook-details__container">
+  <div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+    <h4>Required by USAJOBS</h4>
+    <p>This is conditional. Include commute distance only when <strong>Within area</strong> is true.</p>
+  </div>
+  <div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+    <h4>Required by Policy</h4>
+    <p>No</p>
+  </div>
+</div>
 
 <h3 id="relocation-expenses-reimbursed">Relocation expenses reimbursed</h3>
 
 <p>Indicates if the applicant will be reimbursed for moving expenses related to relocation for this job. Formerly named <strong>Relocation Authorized</strong>.</p>
 
-<h4 id="required-4">Required</h4>
-
-<p>No. Strongly suggested.</p>
+<div class="usajobs-recruitment-joa-playbook-details__container">
+  <div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+    <h4>Required by USAJOBS</h4>
+    <p>Yes</p>
+  </div>
+  <div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+    <h4>Required by Policy</h4>
+    <p>No, but strongly recommended.</p>
+  </div>
+</div>
 
 <div class="usajobs-recruitment-joa-playbook-details__container">
   <div class="usajobs-recruitment-joa-playbook-details__do">
@@ -4247,9 +4285,16 @@ li.usa-footer-primary-content {
 
 <p><strong>NOTE:</strong> This is a new field and may not yet be offered by your Talent Acquisition System (TAS). Work with your vendor in order to be able to use this field. There is an existing field however, that field is ignored. The new field will support a simple Yes or No indication.</p>
 
-<h4 id="required-5">Required</h4>
-
-<p>No. However, it is strongly encouraged to include this in the job announcement.</p>
+<div class="usajobs-recruitment-joa-playbook-details__container">
+  <div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+    <h4>Required by USAJOBS</h4>
+    <p>Yes</p>
+  </div>
+  <div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+    <h4>Required by Policy</h4>
+    <p>No. However, it is strongly encouraged to include this in the job announcement.</p>
+  </div>
+</div>
 
 <div class="usajobs-recruitment-joa-playbook-details__container">
   <div class="usajobs-recruitment-joa-playbook-details__do">
