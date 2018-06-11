@@ -112,7 +112,7 @@
   &__container {
     @include grid-media($M) {
       display: flex;
-      flex-wrap: none;
+      flex-wrap: inherit;
     }
   }
 
