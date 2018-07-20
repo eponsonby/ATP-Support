@@ -50,7 +50,8 @@ module.exports = function(grunt) {
             'Attribute “⚡” not allowed on element “html” at this point.',
             'Element “img” is missing required attribute “src”.',
             'Attribute “amp-custom” not allowed on element “style” at this point.',
-            'Attribute “amp-boilerplate” not allowed on element “style” at this point.'
+            'Attribute “amp-boilerplate” not allowed on element “style” at this point.',
+            '“list-style-postion”: Property “list-style-postion” doesn\'t exist.'
           ]
         },
         src: [ '_dist/**/*.html' ]
