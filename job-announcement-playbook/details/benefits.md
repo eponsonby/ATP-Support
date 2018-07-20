@@ -11,22 +11,20 @@ current-fields: ["Agency Benefits"]
 #### Example
 
 <div class="usajobs-recruitment-joa-playbook-details__example-img">
-<amp-img src="{{ site.baseurl }}/assets/images/job-announcement-playbook/benefits-v6.6.png"
-  srcset="{{ site.baseurl }}/assets/images/job-announcement-playbook/benefits-v6.6.png 768w,
-  {{ site.baseurl }}/assets/images/job-announcement-playbook/benefits-v6.6-SM.png 100w"
-  width="450"
-  height="348"
+<amp-img src="{{ site.baseurl }}/assets/images/job-announcement-playbook/benefits-v6.7.png"
+  srcset="{{ site.baseurl }}/assets/images/job-announcement-playbook/benefits-v6.7.png 768w,
+  {{ site.baseurl }}/assets/images/job-announcement-playbook/benefits-v6.7-SM.png 100w"
+  width="750"
+  height="354"
   layout="responsive"
-  alt="Benefits v6.6 example"></amp-img>
+  alt="Benefits v6.7 example"></amp-img>
 </div>
 
-This section will automatically, and always, include the initial paragraph and links seen above, followed by information that you provide, followed by a disclaimer explaining that benefits are sometimes not the same for all agencies.
+This section will automatically, and always, include the initial paragraph and link seen above, followed by information that you provide, followed by a disclaimer explaining that benefits are sometimes not the same for all agencies.
 
-The links in this section are as follows:
+The link in this section is as follows:
 
-*	[Benefits for federal employees](https://www.usa.gov/benefits-for-federal-employees#item-36407)
-*	[Healthcare insurance](https://www.opm.gov/healthcare-insurance/)
-*	[Pay and leave](https://www.usajobs.gov/Help/working-in-government/pay-and-leave/)
+*	[Learn more about federal benefits](https://www.usajobs.gov/Help/working-in-government/benefits/)
 
 ### Agency benefits
 
@@ -59,6 +57,6 @@ Learn more about our benefits and careers: [Insert link to agency specific benef
   <h4><span class="fa fa-times"></span> Do Not</h4>
   * Do not repeat benefits information in any other section — it should only appear in the benefits section.
   * Do not repeat benefits information that is already made available via the links above.
-  * Do not retain broken links to old help content. The link to https://help.usajobs.gov/index.php/Pay_and_Benefits has not worked for over 18 months. Please remove this link.
+  * Do not retain broken links to old help content. The link to https://help.usajobs.gov/index.php/Pay_and_Benefits has not worked for over 2 years. Please remove this link.
 </div>
 </div>
