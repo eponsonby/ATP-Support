@@ -44,7 +44,7 @@ The table below shows the content you need to use in the Who May Apply section t
 | Native Americans | Indian Preference, Native American |
 | Land and base management | Land Management, Base Management |
 | Peace Corps & AmeriCorps Vista | Peace Corps, AmeriCorps, Vista |
-| Senior Executive Service only | Determined by ES pay plan and minimum salary of $119,000|
+| Senior Executives | Determined by ES pay plan and minimum salary of $119,000|
 | Family of overseas employees | Overseas, Family Member Preference, Eligible Family Member |
 
 ### Clarification from agency
@@ -75,13 +75,13 @@ If you don't understand why a job announcement is being assigned a hiring path b
 This example shows all of the possible hiring paths. No single job would feature all of these.
 
 <div class="usajobs-recruitment-joa-playbook-details__example-img this-job-is-open-to">
-<amp-img src="{{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v6.9.png"
-  srcset="{{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v6.9.png 768w,
-  {{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v6.9-SM.png 100w"
+<amp-img src="{{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v7.1.png"
+  srcset="{{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v7.1.png 768w,
+  {{ site.baseurl }}/assets/images/job-announcement-playbook/this-job-is-open-to-v7.1-SM.png 100w"
   width="320"
-  height="1964"
+  height="1907"
   layout="responsive"
-  alt="This job is open to... v6.9 example"></amp-img>
+  alt="This job is open to... v7.1 example"></amp-img>
 </div>
 
 
@@ -89,7 +89,7 @@ This example shows all of the possible hiring paths. No single job would feature
 
 Use this section when the job is also open in a second job announcement to other hiring paths.
 
-The **Second announcement** section will appear directly below the **This job is open to**.  The **Second announcement** says "This job is also open in another announcement to" and will list the other hiring paths. 
+The **Second announcement** section will appear directly below the **This job is open to**.  The **Second announcement** says "This job is also open in another announcement to" and will list the other hiring paths.
 
 Clicking on the link will open a new tab or window, depending on the preference the user set in their browser, with the the full second job announcement.
 
