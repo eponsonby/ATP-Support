@@ -1,9 +1,9 @@
 ---
 permalink: job-announcement-playbook/details/video/
 layout: joa-details
-category: details
-title: Video
-sidenav: video
+category: videos
+title: Videos
+sidenav: videos
 lead: The video field is an optional field you can use in the job announcement. It offers a space for the hiring agency to post a video about the job, the office and workplace environment or the agency and its mission.
 ---
 
