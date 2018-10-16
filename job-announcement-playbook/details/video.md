@@ -4,8 +4,21 @@ layout: joa-details
 category: details
 title: Video
 sidenav: video
-lead: The video field is an optional field you can use in the job announcement. It offers a space for the hiring agency to post a video about the job, the office and workplace environment or the agency and its mission.  The video needs to tell a story that inspires job seekers and motivates them to apply to the job. 
+lead: The video field is an optional field you can use in the job announcement. It offers a space for the hiring agency to post a video about the job, the office and workplace environment or the agency and its mission.
 ---
+
+The video needs to tell a story that inspires job seekers and motivates them to apply to the job.
+
+<div class="usajobs-recruitment-joa-playbook-details__container">
+<div class="usajobs-recruitment-joa-playbook-details__required-by-usajobs">
+  <h4>Required by USAJOBS</h4>
+  <p>No</p>
+</div>
+<div class="usajobs-recruitment-joa-playbook-details__required-by-policy">
+  <h4>Required by Policy</h4>
+  <p>No</p>
+</div>
+</div>
 
 ## Do
 
