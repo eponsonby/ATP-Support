@@ -45,13 +45,16 @@ module.exports = function(grunt) {
     htmllint: {
       all: {
         options: {
+          'attr-name-ignore-regex': ["list-style-postion"],
           errorlevels: ['error'],
           ignore: [
             'Attribute “⚡” not allowed on element “html” at this point.',
             'Element “img” is missing required attribute “src”.',
             'Attribute “amp-custom” not allowed on element “style” at this point.',
             'Attribute “amp-boilerplate” not allowed on element “style” at this point.',
-            '“list-style-postion”: Property “list-style-postion” doesn\'t exist.'
+            'CSS: “list-style-postion”: Property “list-style-postion” doesn\'t exist.',
+            'CSS: The @charset rule may only occur at the start of the style sheet. Please check that there are no spaces before it..',
+            'The “main” element must not appear as a descendant of the “section” element.'
           ]
         },
         src: [ '_dist/**/*.html' ]
