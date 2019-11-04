@@ -11,5 +11,5 @@ An introduction to the basic features of the applicant review boards.
 A guide on how to use your applicant review boards to selecting candidates. 
 
 ### Selection Process Frequently Asked Questions 
-[Community Manager - Selection Process - FAQs.pdf](Community Manager - Selection Process - FAQs) 
+[Community Manager - Selection Process - FAQs.pdf](Community Manager - Selection Process - FAQs.pdf) 
 Frequently Asked Questions concerning the selection process in ATP. 
