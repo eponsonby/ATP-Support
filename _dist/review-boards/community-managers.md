@@ -3,7 +3,7 @@
 An overview of the selection process for Community Managers. 
 
 ### The Primary Phase 
-[Community Manager - Selection Process - Primary Phase Phase.pdf](Community Manager - Selection Process - Primary Phase Phase.pdf) 
+[Community Manager - Selection Process - Primary Phase.pdf](Community Manager - Selection Process - Primary Phase.pdf) 
 An overview of the Primary Selection Phase for Community Managers. 
 
 ### The Alternates Phase 
