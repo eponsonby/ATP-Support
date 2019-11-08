@@ -8,4 +8,4 @@
 [Hiring Manager - Selection Process - Using Your Applicant Review Boards.pdf](Hiring Manager - Selection Process - Using Your Applicant Review Boards.pdf): A guide on how to use your applicant review boards to selecting candidates. 
 
 ### Selection Process Frequently Asked Questions 
-[Community Manager - Selection Process - FAQs.pdf](Community Manager - Selection Process - FAQs.pdf): Frequently Asked Questions concerning the selection process in ATP. 
+[Hiring Manager - Selection Process - FAQs.pdf](Community Manager - Selection Process - FAQs.pdf): Frequently Asked Questions concerning the selection process in ATP. 
