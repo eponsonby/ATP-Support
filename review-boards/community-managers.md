@@ -9,3 +9,6 @@
 
 ### The Close Out Phase 
 [Community Manager - Selection Process - Close Out Phase.pdf](Community Manager - Selection Process - Close Out Phase.pdf): An overview of the Close Out Phase for Community Managers. 
+
+### Inviting New Users
+[Community Manager - Inviting New Users.pdf](Community Manager - Inviting New Users.pdf): Guidance on how to invite new users to ATP for access to applicant review boards. 
