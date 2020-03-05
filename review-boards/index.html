@@ -8,7 +8,7 @@ layout: default
 
     <h2 class="usajobs-recruitment__section-header">General ATP Guidance</h2>
     {% capture general %}{% include_relative general.md %}{% endcapture %}
-    {{ account | markdownify }}
+    {{ general | markdownify }}
 
     <h2 class="usajobs-recruitment__section-header">Hiring Managers</h2>
     {% capture hiring_managers %}{% include_relative hiring-managers.md %}{% endcapture %}
