@@ -23,7 +23,7 @@ module.exports = function(grunt) {
         command: "mdspell -r -n -a --en-us job-announcement-playbook/**/*.md"
       },
       linkChecker: {
-        command: "blc http://usajobs.github.io/ATP-Support/ -e -r"
+        command: "blc http://usajobs.github.io/ATP-Support/ -e -r --exclude *.pdf"
       }
     },
     notify_hooks: {
