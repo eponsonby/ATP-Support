@@ -40,8 +40,8 @@
   "@type": "WebPage",
   "mainEntityOfPage": "http://usajobs.github.io/ATP-Support//ATP-Support/job-announcement-playbook/details/required-documents/",
   "headline": "Required Documents",
-  "datePublished": "2020-07-20T10:27:01-04:00",
-  "dateModified": "2020-07-20T10:27:01-04:00",
+  "datePublished": "2020-08-10T10:39:19-04:00",
+  "dateModified": "2020-08-10T10:39:19-04:00",
   "description": "Get help with strategic recruitment.",
   "author": {
     "@type": "Organization",
@@ -74,14 +74,6 @@
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
-/* FONT PATH
- * -------------------------- */
-@font-face {
-  font-family: 'FontAwesome';
-  src: url("assets/fonts/fontawesome-webfont.eot?v=4.7.0");
-  src: url("assets/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("assets/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("assets/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("assets/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("assets/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -3237,9 +3229,17 @@ main {
   max-width: 160rem;
   margin-left: auto;
   margin-right: auto; }
-@media only screen and (min-width: 120em) {
-  .usajobs-nav--vATP__brand {
-    padding-left: 0; } }
+.usajobs-nav--vATP__brand {
+  padding: 1.5rem 0 1.5rem 1.5rem; }
+  @media (min-width: 30em) {
+    .usajobs-nav--vATP__brand {
+      padding-bottom: 1rem; } }
+  @media (min-width: 48em) {
+    .usajobs-nav--vATP__brand {
+      padding-left: 3rem; } }
+  @media only screen and (min-width: 62em) {
+    .usajobs-nav--vATP__brand {
+      padding-top: 1.2rem; } }
 .usajobs-nav--vATP__feedback {
   color: #323a45; }
   .usajobs-nav--vATP__feedback:active, .usajobs-nav--vATP__feedback:hover, .usajobs-nav--vATP__feedback:visited {
@@ -3256,7 +3256,7 @@ main {
     display: inline;
     padding-left: 1rem; }
     .usa-nav-secondary-links li:not(:last-child)::after {
-      content: '|';
+      content: "|";
       padding-left: 1rem; }
   .usa-nav-secondary-links a {
     color: #5b616b;
@@ -3818,33 +3818,102 @@ li.usa-footer-primary-content {
     .usa-sidenav-sub_list .usa-sidenav-sub_list a:hover {
       padding-left: 3.8rem; }
 
-.usajobs-recruitment-home {
+.usajobs-openopps-help-center-banner {
+  padding: 3rem 3rem 4.5rem 3rem;
+  background: #046b99; }
+  .usajobs-openopps-help-center-banner__title {
+    margin: 0;
+    color: #ffffff; }
+  .usajobs-openopps-help-center-banner__link, .usajobs-openopps-help-center-banner__link:visited {
+    color: #ffffff;
+    text-decoration: none; }
+
+.usajobs-openopps-help-center-nav-secondary {
+  margin-bottom: 1rem;
+  background-color: #f1f1f1;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+  .usajobs-openopps-help-center-nav-secondary__body {
+    max-width: 160rem;
+    margin-left: auto;
+    margin-right: auto; }
+    .usajobs-openopps-help-center-nav-secondary__body a {
+      text-decoration: none; }
+  .usajobs-openopps-help-center-nav-secondary__menu {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left; }
+  .usajobs-openopps-help-center-nav-secondary__container {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0; }
+    .usajobs-openopps-help-center-nav-secondary__container:before, .usajobs-openopps-help-center-nav-secondary__container:after {
+      content: none; }
+    .usajobs-openopps-help-center-nav-secondary__container.is-active .usajobs-openopps-help-center-nav-secondary__item {
+      font-weight: bold;
+      color: #212121;
+      border-bottom: 3px solid #009688; }
+  .usajobs-openopps-help-center-nav-secondary__item {
+    display: block;
+    padding: 1rem 1.5rem;
+    font-size: 1.7rem;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    color: #323a45; }
+    .usajobs-openopps-help-center-nav-secondary__item:after {
+      content: "";
+      display: table;
+      clear: both; }
+    @media (min-width: 30em) {
+      .usajobs-openopps-help-center-nav-secondary__item {
+        padding: 1.5rem 3rem; } }
+    .usajobs-openopps-help-center-nav-secondary__item:visited {
+      color: #323a45; }
+      .usajobs-openopps-help-center-nav-secondary__item:visited:hover {
+        color: #205493; }
+  .usajobs-openopps-help-center-nav-secondary__text {
+    display: block; }
+    @media (min-width: 37.5em) {
+      .usajobs-openopps-help-center-nav-secondary__text {
+        display: inline-block; } }
+  .usajobs-openopps-help-center-nav-secondary__text-long {
+    display: none; }
+    @media (min-width: 37.5em) {
+      .usajobs-openopps-help-center-nav-secondary__text-long {
+        display: inline-block; }
+        .usajobs-openopps-help-center-nav-secondary__text-long:hover {
+          text-decoration: none; } }
+
+.usajobs-openopps-help-center--home {
   padding: 4.5rem 1.5rem;
-  background-color: #dce4ef;
-  min-height: 95vh; }
-  .usajobs-recruitment-home__container::after {
+  min-height: 68vh; }
+  .usajobs-openopps-help-center--home__container::after {
     clear: both;
     content: "";
     display: block; }
-  .usajobs-recruitment-home__section {
+  .usajobs-openopps-help-center--home__section {
     margin-bottom: 1.5rem;
     padding: 3rem 1.5rem;
     background-color: #ffffff; }
     @media (min-width: 48em) {
-      .usajobs-recruitment-home__section {
+      .usajobs-openopps-help-center--home__section {
         width: calc(50% - 4.5rem);
         float: left;
         margin-left: 3rem; } }
-  .usajobs-recruitment-home__figure {
+  .usajobs-openopps-help-center--home__figure {
     display: block;
     width: 40%;
     margin: 0 auto 1.5rem; }
-  .usajobs-recruitment-home__body {
+  .usajobs-openopps-help-center--home__body {
     text-align: center; }
-  .usajobs-recruitment-home__title {
+  .usajobs-openopps-help-center--home__title {
     color: #112e51; }
   @media (min-width: 48em) {
-    .usajobs-recruitment-home__desc {
+    .usajobs-openopps-help-center--home__desc {
       min-height: 5rem; } }
 
 .usajobs-recruitment-joa-playbook {
@@ -3974,6 +4043,75 @@ li.usa-footer-primary-content {
   padding: 1.5rem;
   background-color: #dce4ef; }
 
+.usajobs-openopps-help-center-article:after {
+  content: "";
+  display: table;
+  clear: both; }
+.usajobs-openopps-help-center-article ul,
+.usajobs-openopps-help-center-article ol {
+  margin-bottom: 1rem; }
+.usajobs-openopps-help-center-article blockquote {
+  padding: 0 1.5rem;
+  color: #5b616b;
+  border-left: 4px solid #aeb0b5; }
+.usajobs-openopps-help-center-article__container {
+  max-width: 60rem;
+  margin-top: 3rem; }
+.usajobs-openopps-help-center-article__title {
+  color: #205493; }
+.usajobs-openopps-help-center-article h3 {
+  color: #112e51; }
+@media only screen and (min-width: 62em) {
+  .usajobs-openopps-help-center-article .usajobs-content-well {
+    min-height: 50vh; } }
+.usajobs-openopps-help-center-article .usajobs-content-well ul {
+  list-style: none;
+  padding-left: 0;
+  display: table; }
+  .usajobs-openopps-help-center-article .usajobs-content-well ul > li {
+    display: table-row; }
+    .usajobs-openopps-help-center-article .usajobs-content-well ul > li:before {
+      content: "•";
+      display: table-cell;
+      padding-right: 0.4em; }
+    .usajobs-openopps-help-center-article .usajobs-content-well ul > li:after {
+      content: "";
+      display: block;
+      margin-bottom: 0.5em; }
+.usajobs-openopps-help-center-article .usajobs-content-well ol > li {
+  line-height: 1.5;
+  margin-bottom: 0.5em; }
+.usajobs-openopps-help-center-article .usajobs-content-well ul,
+.usajobs-openopps-help-center-article .usajobs-content-well ol {
+  margin-left: .9em;
+  margin-bottom: 1rem;
+  padding-left: 0; }
+  .usajobs-openopps-help-center-article .usajobs-content-well ul ul,
+  .usajobs-openopps-help-center-article .usajobs-content-well ul ol,
+  .usajobs-openopps-help-center-article .usajobs-content-well ol ul,
+  .usajobs-openopps-help-center-article .usajobs-content-well ol ol {
+    margin-left: 0.5rem; }
+.usajobs-openopps-help-center-article .usajobs-content-well a {
+  text-decoration: underline; }
+.usajobs-openopps-help-center-article__callout {
+  max-width: 17.7rem;
+  margin-left: auto;
+  margin-right: auto; }
+  @media (min-width: 37.5em) {
+    .usajobs-openopps-help-center-article__callout {
+      float: right;
+      padding: 3rem; } }
+.usajobs-openopps-help-center-article__callout-link {
+  display: block;
+  padding: 0.5rem;
+  color: #0071bc; }
+  .usajobs-openopps-help-center-article__callout-link svg {
+    fill: #0071bc;
+    height: 20px;
+    width: 20px;
+    padding-top: 0.5rem;
+    padding-right: 0.5rem; }
+
 </style>
 
 
@@ -3988,35 +4126,60 @@ li.usa-footer-primary-content {
   <div class="usa-banner">
     <div>
       <div class="usa-banner-header">
-        <div class="usajobs-grid usa-banner-inner usajobs-nav--full_bleed__banner-inner">
+        <div
+          class="usajobs-grid usa-banner-inner usajobs-nav--full_bleed__banner-inner"
+        >
           <div class="usajobs-width-one-half">
             <span class="usa-banner-header__img">
-              <amp-img src="/ATP-Support/assets/images/favicons/favicon-57.png" width="20" height="20" alt="U.S. flag"></amp-img>
+              <amp-img
+                src="/ATP-Support/assets/images/favicons/favicon-57.png"
+                width="20"
+                height="20"
+                alt="U.S. flag"
+              ></amp-img>
             </span>
             <p>An official website of the United States government</p>
           </div>
           <div class="usajobs-width-one-half">
-            <p>This site is a work in progress. If you find an error or have a concern reach out to <a href="mailto:recruiter-help@opm.gov" class="usajobs-nav--vATP__feedback">recruiter-help@opm.gov</a>.</p>
+            <p>
+              This site is a work in progress. If you find an error or have a
+              concern reach out to
+              <a
+                href="mailto:recruiter-help@opm.gov"
+                class="usajobs-nav--vATP__feedback"
+                >recruiter-help@opm.gov</a
+              >.
+            </p>
           </div>
         </div>
       </div>
     </div>
   </div>
   <!-- Gov banner END -->
-  <nav class="usajobs-nav usajobs-nav--vATP" role="navigation" aria-label="main navigation" data-object="nav">
+  <nav
+    class="usajobs-nav usajobs-nav--vATP"
+    role="navigation"
+    aria-label="main navigation"
+    data-object="nav"
+  >
     <div class="usajobs-nav__body usajobs-nav--vATP__body">
       <div class="usajobs-nav__header-container">
         <div class="usajobs-nav__header usajobs-nav--vATP__header">
           <div class="usajobs-nav__header">
             <div class="usajobs-nav__brand-container">
-              <a class="usajobs-nav__brand usajobs-nav--vATP__brand" href="/ATP-Support/">
-                <amp-img src="/ATP-Support/assets/images/logo/png/red-2x.png"
+              <a
+                class="usajobs-nav__brand usajobs-nav--vATP__brand"
+                href="/ATP-Support/"
+              >
+                <amp-img
+                  src="/ATP-Support/assets/images/logo/png/red-2x.png"
                   srcset="/ATP-Support/assets/images/logo/png/red-2x.png 768w,
                   /ATP-Support/assets/images/logo/png/red-2x-narrow.png 100w"
                   width="150"
                   height="36"
                   layout="responsive"
-                  alt="USAJOBS logo"></amp-img>
+                  alt="USAJOBS logo"
+                ></amp-img>
               </a>
             </div>
           </div>
