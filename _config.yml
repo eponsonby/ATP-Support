@@ -13,20 +13,20 @@ logo: "/assets/images/logo-2x.png"
 url: "http://usajobs.github.io/ATP-Support/" # the base hostname & protocol for your site
 
 exclude:
-- Gemfile
-- Gemfile.lock
-- Gruntfile.js
-- package.json
-- package-lock.json
-- README.md
-- LICENSE.md
-- CONTRIBUTING.md
-- ".sass-cache"
-- ".ruby-version"
-- npm-debug.log
-- node_modules
+  - Gemfile
+  - Gemfile.lock
+  - Gruntfile.js
+  - package.json
+  - package-lock.json
+  - README.md
+  - LICENSE.md
+  - CONTRIBUTING.md
+  - ".sass-cache"
+  - ".ruby-version"
+  - npm-debug.log
+  - node_modules
 
-baseurl: '/ATP-Support'
+baseurl: "/ATP-Support"
 destination: ./_dist
 
 author:

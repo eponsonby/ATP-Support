@@ -1,5 +1,4 @@
-
-.usajobs-help-center-article {
+.usajobs-openopps-help-center-article {
   @include clearfix();
 
   // Override of the US Standards on lists. It really does odd things inside of articles.
@@ -16,6 +15,15 @@
 
   &__container {
     max-width: $article-max-width;
+    margin-top: $size-M;
+  }
+
+  &__title {
+    color: $color-primary-darker;
+  }
+
+  h3 {
+    color: $color-primary-darkest;
   }
 
   // Fix for lack of design system lists in prod
@@ -28,121 +36,49 @@
       @include bulletList();
     }
 
+    ol {
+      @include orderedList();
+    }
+
     ul,
     ol {
-      margin-left: .9em;
+      margin-left: 0.9em;
       margin-bottom: $size-S;
+      padding-left: 0;
+
+      ul,
+      ol {
+        margin-left: $size-base;
+      }
     }
 
     a {
       text-decoration: underline;
     }
+  }
 
-    &.has-exposed-form {
-      margin-bottom: $size-default;
+  &__callout {
+    max-width: 17.7rem;
+    margin-left: auto;
+    margin-right: auto;
 
-      @include grid-media($L) {
-        min-height: inherit;
-      }
+    @include grid-media($M) {
+      float: right;
+      padding: $size-M;
     }
   }
 
-  .usajobs-content-well.usajobs-content-well--exposed-form {
-    @include grid-media($L) {
-      min-height: inherit;
-    }
-  }
+  &__callout-link {
+    display: block;
+    padding: $size-base;
+    color: $color-primary;
 
-  &__related {
-    margin-top: $size-L;
-  }
-
-  .usajobs-help-center-article__related-list {
-    @include unstyledList();
-    margin-bottom: $size-L;
-
-    > li {
-      margin-bottom: .75em;
-    }
-
-    > li > a {
-      text-decoration: none;
-    }
-  }
-
-  &__additional-container {
-    @include grid-column(12);
-    margin: $size-M 0;
-  }
-
-  &__additional-help {
-    padding: $size-default;
-    text-align: center;
-    background-color: $color-primary-alt-lightest;
-
-    p {
-      @include h4();
-      color: $color-primary-darkest;
-
-      a {
-        font-weight: normal;
-      }
-
-      a:visited {
-        color: $color-primary;
-      }
-    }
-  }
-
-  &__reveal-contact-us {
-    margin-top: $size-default;
-  }
-}
-
-.usajobs-help-center-article-contact {
-  @include clearfix();
-  margin-bottom: $size-XXL;
-
-  &__list {
-    @include unstyledList();
-  }
-
-  &__form-container {
-    max-width: $article-max-width;
-    padding: $size-default;
-
-    &[aria-hidden=true] {
-      display: none;
-    }
-
-    .usajobs-help-center__lead {
-      color: $color-black;
-    }
-  }
-
-  .usajobs-help-center-article-contact__button {
-    padding: $size-M $size-default;
-    background-color: $color-gray;
-    background-image: inherit;
-    color: $color-white;
-    font-size: $h3-font-size;
-    text-align: center;
-
-    &[aria-expanded=false] {
-      background-image: inherit;
-    }
-
-    &:hover {
-      background-color: $color-gray-dark;
-      color: $color-white;
-    }
-
-    .usa-button {
-      font-size: $base-font-size;
-
-      @include grid-media($SM) {
-        margin-left: $size-default;
-      }
+    svg {
+      fill: $color-primary;
+      height: 20px;
+      width: 20px;
+      padding-top: $size-base;
+      padding-right: $size-base;
     }
   }
 }

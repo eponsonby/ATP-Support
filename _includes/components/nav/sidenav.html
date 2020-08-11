@@ -1,0 +1,87 @@
+<!-- From Open Opps -->
+<div class="usajobs-openopps-help-center-article-sidenav">
+    {% if page.section == 'getting-started' %}
+      <h3 class="usajobs-openopps-help-center-article-sidenav__title">
+        Getting started
+      </h3>
+      <ul class="usa-sidenav-list">
+        <li>
+          <a {% if page.sidenav == 'getting-started' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/">
+            How do I use ATP?
+          </a>
+        </li>
+        <li>
+          <a {% if page.sidenav == 'getting-started-what-not-to-do' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/getting-started/what-not-to-do">
+            How should I not use ATP?
+          </a>
+        </li>
+        <li>
+          <a {% if page.sidenav == 'getting-started-what-is-the-aup' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/getting-started/what-is-the-aup">
+            What is the AUP?
+          </a>
+        </li>
+        <li>
+          <a {% if page.sidenav == 'getting-started-how-to-invite' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/getting-started/how-to-invite">
+            How do I invite my coworkers to use ATP?
+          </a>
+        </li>
+      </ul>
+    {% endif %}
+    {% if page.section == 'account' %}
+      <h3 class="usajobs-openopps-help-center-article-sidenav__title">
+        Account
+      </h3>
+      <ul class="usa-sidenav-list">
+        <li>
+          <a {% if page.sidenav == 'account' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/account/">
+            How to reset your password
+          </a>
+        </li>
+        <li>
+          <a {% if page.sidenav == 'account-locked' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/account/locked">
+            How to unlock your account
+          </a>
+        </li>
+      </ul>
+    {% endif %}
+    {% if page.section == 'campaigns' %}
+      <h3 class="usajobs-openopps-help-center-article-sidenav__title">
+        Campaigns
+      </h3>
+      <ul class="usa-sidenav-list">
+        <li>
+          <a {% if page.sidenav == 'campaigns' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/campaigns">
+            What is a campaign?
+          </a>
+        </li>
+        <li>
+          <a {% if page.sidenav == 'campaigns-setup' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/campaigns/setup">
+            How do I set up a campaign?
+          </a>
+        </li>
+        <li>
+          <a {% if page.sidenav == 'campaigns-save' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/campaigns/save">
+            How do I save job seekers to campaigns?
+          </a>
+        </li>
+        <li>
+          <a {% if page.sidenav == 'campaigns-list' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/campaigns/list">
+            What is a list?
+          </a>
+        </li>
+      </ul>
+    {% endif %}
+    {% if page.section == 'talent-networks' %}
+      <h3 class="usajobs-openopps-help-center-article-sidenav__title">
+        Talent networks
+      </h3>
+      <ul class="usa-sidenav-list">   
+        <li>
+          <a {% if page.sidenav == 'talent-networks' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/talent-networks">
+            Resume mining
+          </a>
+        </li>
+      </ul>
+    {% endif %}
+    </div>
+    

@@ -15,7 +15,11 @@
 @import 'footer';
 @import 'header-nav';
 @import 'sidenav';
+@import 'banner';
+@import 'nav-secondary';
+
 
 // Layouts
 @import 'layouts/home';
 @import 'layouts/joa-playbook';
+@import 'layouts/article';

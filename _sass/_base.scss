@@ -1,4 +1,4 @@
-// Grid
+// // Grid
 .usajobs-grid,
 .usajobs-grid-full {
   @include grid-container();
@@ -415,8 +415,8 @@ main {
   @include button-unstyled;
 }
 
-// ****************************************************************************
-// ATP Support
+// // ****************************************************************************
+// // ATP Support
 .usajobs-recruitment {
   &__page-title {
     margin-top: $size-M;

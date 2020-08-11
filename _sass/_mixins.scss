@@ -134,6 +134,13 @@ $duration-slow:   0.8s;
   }
 }
 
+@mixin orderedList() {
+  > li {
+    line-height: 1.5;
+    margin-bottom: 0.5em;
+  }
+}
+
 @mixin usa-sidenav-list {
   @include unstyledList();
 

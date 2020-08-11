@@ -1,6 +1,5 @@
 // Navigation
 
-
 .usajobs-site-header {
   position: relative;
 }
@@ -225,9 +224,25 @@ $nav_item_height: 17px + 26.5px;
     margin-right: auto;
   }
 
+  // &__brand {
+  //   @include grid-media($XXXXL) {
+  //     padding-left: 0;
+  // }
+  // }
+
   &__brand {
-    @include grid-media($XXXXL) {
-      padding-left: 0;
+    padding: $size-default 0 $size-default $size-default;
+
+    @include grid-media($SM) {
+      padding-bottom: $size-S;
+    }
+
+    @include grid-media($ML) {
+      padding-left: $size-M;
+    }
+
+    @include grid-media($L) {
+      padding-top: 1.2rem;
     }
   }
 
@@ -257,7 +272,7 @@ $nav_item_height: 17px + 26.5px;
     padding-left: 1rem;
 
     &:not(:last-child)::after {
-      content: '|';
+      content: "|";
       padding-left: 1rem;
     }
   }
