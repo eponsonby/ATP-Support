@@ -5,12 +5,12 @@
       </h3>
       <ul class="usa-sidenav-list">
         <li>
-          <a {% if page.sidenav == 'getting-started' %}class="usa-current"{% endif %} href="{{ site.baseurl }}">
+          <a {% if page.sidenav == 'getting-started' %}class="usa-current"{% endif %} href="{{ site.baseurl | relative_url }}">
             How do I use ATP?
           </a>
         </li>
         <li>
-          <a {% if page.sidenav == 'getting-started-what-not-to-do' %}class="usa-current"{% endif %} href="{{ site.url }}/getting-started/what-not-to-do">
+          <a {% if page.sidenav == 'getting-started-what-not-to-do' %}class="usa-current"{% endif %} href="{{ "/getting-started/what-not-to-do" | relative_url }}">
             How should I not use ATP?
           </a>
         </li>
