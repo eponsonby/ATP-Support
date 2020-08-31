@@ -11,6 +11,7 @@ email: matthew.dingee@opm.gov
 description: Get help with strategic recruitment.
 logo: "/assets/images/logo-2x.png"
 url: "http://usajobs.github.io/ATP-Support/" # the base hostname & protocol for your site
+baseurl: "/ATP-Support"
 
 exclude:
   - Gemfile
@@ -26,7 +27,6 @@ exclude:
   - npm-debug.log
   - node_modules
 
-baseurl: "/ATP-Support"
 destination: ./_dist
 
 author:
